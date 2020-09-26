@@ -4,11 +4,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation_graph"
-    app:startDestination="@id/blankFragment">
-
+    app:startDestination="@id/homeFragment">
     <fragment
-        android:id="@+id/blankFragment"
-        android:name="info.noahortega.bluecointracker.BlankFragment"
-        android:label="fragment_blank"
-        tools:layout="@layout/fragment_blank" />
+        android:id="@+id/homeFragment"
+        android:name="info.noahortega.bluecointracker.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
 </navigation>
