@@ -25,7 +25,7 @@ object Data {
     private fun populateLevelCoins(level: Level) {
         val bCoins = arrayOfNulls<BlueCoin>(level.bCoinCount)
         for (n in bCoins.indices) {
-                bCoins[n] = BlueCoin(false, "test description", null)
+                bCoins[n] = BlueCoin(false, "description coming soon", null)
             }
         level.blueCoins = bCoins.filterNotNull().toTypedArray()
     }

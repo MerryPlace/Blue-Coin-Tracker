@@ -73,10 +73,8 @@ class HomeFragment : Fragment() {
 
 
     fun levelClicked(code: LevelCode) {
-
-        Toast.makeText(this.getActivity(), code.toString(), Toast.LENGTH_SHORT).show() //TODO: remove
         Data.levelSelected = code;
-        //this.findNavController().navigate(R.id.action_homeFragment_to_testFragment)
+        this.findNavController().navigate(R.id.action_homeFragment_to_listFragment)
 
     }
 }
