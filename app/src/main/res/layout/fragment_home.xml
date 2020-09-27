@@ -55,7 +55,7 @@
         app:layout_constraintEnd_toStartOf="@+id/BH_image"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/BH_image"
-        app:srcCompat="@drawable/gbeach"
+        app:srcCompat="@drawable/dp_home"
         tools:src="@tools:sample/avatars" />
 
     <TextView
@@ -82,7 +82,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/DP_image"
         app:layout_constraintTop_toBottomOf="@+id/total_progressBar"
-        app:srcCompat="@drawable/gbeach"
+        app:srcCompat="@drawable/bh_home"
         tools:src="@tools:sample/avatars" />
 
     <TextView
@@ -105,7 +105,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/BH_image"
         app:layout_constraintTop_toTopOf="@+id/BH_image"
-        app:srcCompat="@drawable/gbeach"
+        app:srcCompat="@drawable/rh_home"
         tools:src="@tools:sample/avatars" />
 
     <TextView
@@ -129,7 +129,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/NB_image"
-        app:srcCompat="@drawable/gbeach"
+        app:srcCompat="@drawable/gb_home"
         tools:src="@tools:sample/avatars" />
 
     <TextView
@@ -154,7 +154,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/GB_image"
         app:layout_constraintTop_toBottomOf="@+id/BH_completed_text"
-        app:srcCompat="@drawable/gbeach"
+        app:srcCompat="@drawable/nb_home"
         tools:src="@tools:sample/avatars" />
 
     <TextView
@@ -177,7 +177,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/NB_image"
         app:layout_constraintTop_toTopOf="@+id/NB_image"
-        app:srcCompat="@drawable/gbeach"
+        app:srcCompat="@drawable/pp_home"
         tools:src="@tools:sample/avatars" />
 
     <TextView
@@ -200,7 +200,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/PV_image"
-        app:srcCompat="@drawable/gbeach"
+        app:srcCompat="@drawable/sb_home"
         tools:src="@tools:sample/avatars" />
 
     <TextView
@@ -226,7 +226,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/SB_image"
         app:layout_constraintTop_toBottomOf="@+id/NB_completed_text"
-        app:srcCompat="@drawable/gbeach"
+        app:srcCompat="@drawable/pv_home"
         tools:src="@tools:sample/avatars" />
 
     <TextView
@@ -252,7 +252,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/PV_image"
         app:layout_constraintTop_toTopOf="@+id/PV_image"
-        app:srcCompat="@drawable/gbeach"
+        app:srcCompat="@drawable/cm_home"
         tools:src="@tools:sample/avatars" />
 
     <TextView

@@ -25,15 +25,17 @@ class HomeFragment : Fragment() {
         // Inflate the layout for this fragment
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
 
-        binding.DPImage.setOnClickListener{levelClicked("DPImage")}
-        binding.BHImage.setOnClickListener{levelClicked("BHImage")}
-        binding.RHImage.setOnClickListener{levelClicked("RHImage")}
-        binding.GBImage.setOnClickListener{levelClicked("GBImage")}
-        binding.NBImage.setOnClickListener{levelClicked("NBImage")}
-        binding.PPImage.setOnClickListener{levelClicked("PPImage")}
-        binding.SBImage.setOnClickListener{levelClicked("SBImage")}
-        binding.PVImage.setOnClickListener{levelClicked("PVImage")}
-        binding.CMImage.setOnClickListener{levelClicked("CMImage")}
+
+
+        binding.DPImage.setOnClickListener{levelClicked(LevelCode.dp)}
+        binding.BHImage.setOnClickListener{levelClicked(LevelCode.bh)}
+        binding.RHImage.setOnClickListener{levelClicked(LevelCode.rh)}
+        binding.GBImage.setOnClickListener{levelClicked(LevelCode.gb)}
+        binding.NBImage.setOnClickListener{levelClicked(LevelCode.nb)}
+        binding.PPImage.setOnClickListener{levelClicked(LevelCode.pp)}
+        binding.SBImage.setOnClickListener{levelClicked(LevelCode.sb)}
+        binding.PVImage.setOnClickListener{levelClicked(LevelCode.pv)}
+        binding.CMImage.setOnClickListener{levelClicked(LevelCode.cm)}
 
         /*
         binding.DPCompletedText
@@ -47,9 +49,6 @@ class HomeFragment : Fragment() {
         binding.CMCompletedText
          */
 
-
-
-
         return binding.root
     }
 
@@ -62,16 +61,28 @@ class HomeFragment : Fragment() {
 
 
 
-    fun levelClicked(id: String) {
+    fun levelClicked(code: LevelCode) {
 
-        Toast.makeText(this.getActivity(), id, Toast.LENGTH_SHORT).show() //TODO: remove
+        Toast.makeText(this.getActivity(), code.toString(), Toast.LENGTH_SHORT).show() //TODO: remove
 
-//        when (id) {
-//            binding.DPImage.id -> {
+//        when (code) {
+//            LevelCode.dp -> {
 //            }
-//            R.id.button2 -> {
+//            LevelCode.bh -> {
 //            }
-//            R.id.button3 -> {
+//            LevelCode.rh -> {
+//            }
+//            LevelCode.gb -> {
+//            }
+//            LevelCode.nb -> {
+//            }
+//            LevelCode.pp -> {
+//            }
+//            LevelCode.sb -> {
+//            }
+//            LevelCode.pv -> {
+//            }
+//            LevelCode.cm -> {
 //            }
 //        }
     }

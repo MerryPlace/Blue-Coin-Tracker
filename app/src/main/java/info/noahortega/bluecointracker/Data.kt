@@ -3,6 +3,8 @@ package info.noahortega.bluecointracker
 import android.provider.ContactsContract
 
 object Data {
+    //state
+    var levelSelected: Int = 0;
 
     var levels = arrayOf<Level>(
         Level("Delfino Plaza","DP", 20),
@@ -52,4 +54,10 @@ data class Condition( val name: String) {
 }
 //TODO: icon
 
+enum class LevelCode(val code: Int){
+    dp(1),    bh(2),    rh(3),
+    gb(4),    nb(5),    pp(6),
+    sb(7),    pv(8),    cm(9)
+
+}
 
