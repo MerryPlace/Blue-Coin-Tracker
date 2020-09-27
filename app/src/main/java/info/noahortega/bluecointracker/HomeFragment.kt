@@ -1,6 +1,5 @@
 package info.noahortega.bluecointracker
 
-import android.R
 import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -61,7 +60,9 @@ class HomeFragment : Fragment() {
         _binding = null
     }
 
-    public fun levelClicked(id: String) {
+
+
+    fun levelClicked(id: String) {
 
         Toast.makeText(this.getActivity(), id, Toast.LENGTH_SHORT).show() //TODO: remove
 
