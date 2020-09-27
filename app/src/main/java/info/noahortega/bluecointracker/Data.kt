@@ -4,7 +4,7 @@ import android.provider.ContactsContract
 
 object Data {
     //state
-    var levelSelected: Int = 0;
+    var levelSelected: LevelCode = LevelCode.cm;
 
     var levels = arrayOf<Level>(
         Level("Delfino Plaza","DP", 20),
@@ -30,6 +30,33 @@ object Data {
         level.blueCoins = bCoins.filterNotNull().toTypedArray()
     }
 
+    public fun calcPercComplete(code: LevelCode): Int {
+        var completed = 0.0
+        var level: Level = levels[code.code]
+        for (coin in level.blueCoins) {
+            if(coin.checked) {
+                completed++
+            }
+        }
+
+        return (((completed)/level.bCoinCount)*100).toInt()
+    }
+
+    public fun calcTotalPercComplete(): Int {
+        var completed = 0.0
+        val totalCoins = 240
+        for (level in levels) {
+            for (coin in level.blueCoins) {
+                if(coin.checked) {
+                    completed++
+                }
+            }
+        }
+
+        return (((completed)/totalCoins)*100).toInt()
+    }
+
+
     fun printData() {
         for (level in levels) {
             println(level.title)
@@ -38,7 +65,6 @@ object Data {
 //            }
         }
     }
-
 }
 
 data class Level(val title: String, val nickname: String?, val bCoinCount: Int) {
@@ -55,9 +81,42 @@ data class Condition( val name: String) {
 //TODO: icon
 
 enum class LevelCode(val code: Int){
-    dp(1),    bh(2),    rh(3),
-    gb(4),    nb(5),    pp(6),
-    sb(7),    pv(8),    cm(9)
+    dp(0),    bh(1),    rh(2),
+    gb(3),    nb(4),    pp(5),
+    sb(6),    pv(7),    cm(8)
 
 }
+
+//        when (code) {
+//            LevelCode.dp -> {
+//            }
+//            LevelCode.bh -> {
+//            }
+//            LevelCode.rh -> {
+//            }
+//            LevelCode.gb -> {
+//            }
+//            LevelCode.nb -> {
+//            }
+//            LevelCode.pp -> {
+//            }
+//            LevelCode.sb -> {
+//            }
+//            LevelCode.pv -> {
+//            }
+//            LevelCode.cm -> {
+//            }
+//        }
+
+/*
+binding.DPCompletedText
+binding.BHCompletedText
+binding.RHCompletedText
+binding.GBCompletedText
+binding.NBCompletedText
+binding.PPCompletedText
+binding.SBCompletedText
+binding.PVCompletedText
+binding.CMCompletedText
+ */
 

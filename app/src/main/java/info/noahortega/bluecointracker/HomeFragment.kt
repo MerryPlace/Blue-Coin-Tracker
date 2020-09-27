@@ -1,5 +1,6 @@
 package info.noahortega.bluecointracker
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,6 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.navigation.NavController
+import androidx.navigation.fragment.findNavController
 import info.noahortega.bluecointracker.databinding.FragmentHomeBinding
 
 
@@ -37,26 +40,34 @@ class HomeFragment : Fragment() {
         binding.PVImage.setOnClickListener{levelClicked(LevelCode.pv)}
         binding.CMImage.setOnClickListener{levelClicked(LevelCode.cm)}
 
-        /*
-        binding.DPCompletedText
-        binding.BHCompletedText
-        binding.RHCompletedText
-        binding.GBCompletedText
-        binding.NBCompletedText
-        binding.PPCompletedText
-        binding.SBCompletedText
-        binding.PVCompletedText
-        binding.CMCompletedText
-         */
-
         return binding.root
     }
 
-    private var mContext: Context? = null
+    override fun onStart() {
+        super.onStart()
+        refreshPercentages()
+    }
 
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+    }
+
+    @SuppressLint("SetTextI18n")
+    fun refreshPercentages() {
+
+        binding.DPCompletedText.text = Data.calcPercComplete(LevelCode.dp).toString() + "%"
+        binding.BHCompletedText.text = Data.calcPercComplete(LevelCode.bh).toString() + "%"
+        binding.RHCompletedText.text = Data.calcPercComplete(LevelCode.rh).toString() + "%"
+        binding.GBCompletedText.text = Data.calcPercComplete(LevelCode.gb).toString() + "%"
+        binding.NBCompletedText.text = Data.calcPercComplete(LevelCode.nb).toString() + "%"
+        binding.PPCompletedText.text = Data.calcPercComplete(LevelCode.pp).toString() + "%"
+        binding.SBCompletedText.text = Data.calcPercComplete(LevelCode.sb).toString() + "%"
+        binding.PVCompletedText.text = Data.calcPercComplete(LevelCode.pv).toString() + "%"
+        binding.CMCompletedText.text = Data.calcPercComplete(LevelCode.cm).toString() + "%"
+        val totalPercentDone = Data.calcTotalPercComplete();
+        binding.totalCompletionText.text = "$totalPercentDone% to Completion"
+        binding.totalProgressBar.progress = totalPercentDone
     }
 
 
@@ -64,26 +75,8 @@ class HomeFragment : Fragment() {
     fun levelClicked(code: LevelCode) {
 
         Toast.makeText(this.getActivity(), code.toString(), Toast.LENGTH_SHORT).show() //TODO: remove
+        Data.levelSelected = code;
+        //this.findNavController().navigate(R.id.action_homeFragment_to_testFragment)
 
-//        when (code) {
-//            LevelCode.dp -> {
-//            }
-//            LevelCode.bh -> {
-//            }
-//            LevelCode.rh -> {
-//            }
-//            LevelCode.gb -> {
-//            }
-//            LevelCode.nb -> {
-//            }
-//            LevelCode.pp -> {
-//            }
-//            LevelCode.sb -> {
-//            }
-//            LevelCode.pv -> {
-//            }
-//            LevelCode.cm -> {
-//            }
-//        }
     }
 }
