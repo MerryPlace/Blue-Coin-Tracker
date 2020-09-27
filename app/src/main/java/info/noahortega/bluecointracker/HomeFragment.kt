@@ -1,27 +1,77 @@
 package info.noahortega.bluecointracker
 
+import android.R
+import android.content.Context
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
+import androidx.fragment.app.Fragment
+import info.noahortega.bluecointracker.databinding.FragmentHomeBinding
 
 
 class HomeFragment : Fragment() {
 
+    private var _binding: FragmentHomeBinding? = null
+    // This property is only valid between onCreateView and
+    // onDestroyView.
+    private val binding get() = _binding!!
 
-    //private lateinit var binding: HomeFragmentBinding
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the layout for this fragment
+        _binding = FragmentHomeBinding.inflate(inflater, container, false)
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        binding.DPImage.setOnClickListener{levelClicked("DPImage")}
+        binding.BHImage.setOnClickListener{levelClicked("BHImage")}
+        binding.RHImage.setOnClickListener{levelClicked("RHImage")}
+        binding.GBImage.setOnClickListener{levelClicked("GBImage")}
+        binding.NBImage.setOnClickListener{levelClicked("NBImage")}
+        binding.PPImage.setOnClickListener{levelClicked("PPImage")}
+        binding.SBImage.setOnClickListener{levelClicked("SBImage")}
+        binding.PVImage.setOnClickListener{levelClicked("PVImage")}
+        binding.CMImage.setOnClickListener{levelClicked("CMImage")}
 
-        //binding = HomeFragmentBinding.inflate(layoutInflater)
+        /*
+        binding.DPCompletedText
+        binding.BHCompletedText
+        binding.RHCompletedText
+        binding.GBCompletedText
+        binding.NBCompletedText
+        binding.PPCompletedText
+        binding.SBCompletedText
+        binding.PVCompletedText
+        binding.CMCompletedText
+         */
+
+
+
+
+        return binding.root
     }
 
-    override fun onCreateView(inflater: LayoutInflater,
-                              container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+    private var mContext: Context? = null
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+
+    public fun levelClicked(id: String) {
+
+        Toast.makeText(this.getActivity(), id, Toast.LENGTH_SHORT).show() //TODO: remove
+
+//        when (id) {
+//            binding.DPImage.id -> {
+//            }
+//            R.id.button2 -> {
+//            }
+//            R.id.button3 -> {
+//            }
+//        }
     }
 }

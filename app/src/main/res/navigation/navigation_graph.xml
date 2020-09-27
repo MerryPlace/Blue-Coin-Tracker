@@ -9,5 +9,14 @@
         android:id="@+id/homeFragment"
         android:name="info.noahortega.bluecointracker.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="info.noahortega.bluecointracker.ListFragment"
+        android:label="fragment_list_list"
+        tools:layout="@layout/fragment_list_list" />
 </navigation>

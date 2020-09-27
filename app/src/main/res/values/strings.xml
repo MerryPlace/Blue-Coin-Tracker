@@ -102,4 +102,16 @@
     <string name="corona_mountain">Corona Mountain</string>
     <string name="sirena_beach">Sirena Beach</string>
     <string name="pianta_village">Pianta Village</string>
+    <string-array name="Planets">
+        <item>Sun</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
 </resources>
