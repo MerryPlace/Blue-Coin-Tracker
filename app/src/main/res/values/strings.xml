@@ -102,16 +102,13 @@
     <string name="corona_mountain">Corona Mountain</string>
     <string name="sirena_beach">Sirena Beach</string>
     <string name="pianta_village">Pianta Village</string>
-    <string-array name="Planets">
-        <item>Sun</item>
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
-    </string-array>
+    <string name="youtube_link">Youtube Clip</string>
+    <string name="coin_conditions_header">Collection Conditions</string>
+    <string name="coin_description_header" >Description</string>
+    <string name="text_not_found">N/A</string>
+    <string name="default_coin_image_description">Default Image. There is not a custom image for this coin</string>
+    <string name="youtube_image_description">Youtube logo</string>
+    <string name="empty_percentage">XX%</string>
+    <string name="default_condition_name">Condition</string>
 
 </resources>

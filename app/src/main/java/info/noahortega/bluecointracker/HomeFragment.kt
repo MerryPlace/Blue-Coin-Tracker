@@ -28,8 +28,6 @@ class HomeFragment : Fragment() {
         // Inflate the layout for this fragment
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
 
-
-
         binding.DPImage.setOnClickListener{levelClicked(LevelCode.dp)}
         binding.BHImage.setOnClickListener{levelClicked(LevelCode.bh)}
         binding.RHImage.setOnClickListener{levelClicked(LevelCode.rh)}
@@ -65,7 +63,7 @@ class HomeFragment : Fragment() {
         binding.SBCompletedText.text = Data.calcPercComplete(LevelCode.sb).toString() + "%"
         binding.PVCompletedText.text = Data.calcPercComplete(LevelCode.pv).toString() + "%"
         binding.CMCompletedText.text = Data.calcPercComplete(LevelCode.cm).toString() + "%"
-        val totalPercentDone = Data.calcTotalPercComplete();
+        val totalPercentDone = Data.calcTotalPercComplete()
         binding.totalCompletionText.text = "$totalPercentDone% to Completion"
         binding.totalProgressBar.progress = totalPercentDone
     }
@@ -73,8 +71,7 @@ class HomeFragment : Fragment() {
 
 
     fun levelClicked(code: LevelCode) {
-        Data.levelSelected = code;
+        Data.levelSelected = code
         this.findNavController().navigate(R.id.action_homeFragment_to_listFragment)
-
     }
 }

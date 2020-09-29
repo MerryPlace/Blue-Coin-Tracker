@@ -1,3 +1,5 @@
 <resources>
     <dimen name="text_margin">16dp</dimen>
+    <dimen name="home_level_l_r_margin">8dp</dimen>
+    <dimen name="condition_bottom_margin">8dp</dimen>
 </resources>
