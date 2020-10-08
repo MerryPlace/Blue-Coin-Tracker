@@ -1,21 +1,21 @@
 package info.noahortega.bluecointracker
 
-import android.provider.ContactsContract
 
 object Data {
     //state
     var levelSelected: LevelCode = LevelCode.cm;
 
     var levels = arrayOf<Level>(
-        Level("Delfino Plaza","DP", 20),
-        Level("Bianco Hills", "BH", 30),
-        Level("Ricco Harbor","RH", 30),
-        Level("Gelato Beach","GB", 30),
-        Level("Noki Bay","NB", 30),
-        Level("Pinna Park","PP", 30),
-        Level("Sirena Beach","SB", 30),
-        Level("Pianta Village","PV", 30),
-        Level("Corona Mountain","CM", 10))
+        info.noahortega.bluecointracker.Level("Delfino Plaza", "DP", 20),
+        info.noahortega.bluecointracker.Level("Bianco Hills", "BH", 30),
+        info.noahortega.bluecointracker.Level("Ricco Harbor", "RH", 30),
+        info.noahortega.bluecointracker.Level("Gelato Beach", "GB", 30),
+        info.noahortega.bluecointracker.Level("Noki Bay", "NB", 30),
+        info.noahortega.bluecointracker.Level("Pinna Park", "PP", 30),
+        info.noahortega.bluecointracker.Level("Sirena Beach", "SB", 30),
+        info.noahortega.bluecointracker.Level("Pianta Village", "PV", 30),
+        info.noahortega.bluecointracker.Level("Corona Mountain", "CM", 10)
+    )
     init {
         for (n in levels.indices) {
             populateLevelCoins(levels[n])

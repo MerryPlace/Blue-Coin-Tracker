@@ -1,16 +1,17 @@
-package info.noahortega.bluecointracker
+package info.noahortega.bluecointracker.BCList
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
+import info.noahortega.bluecointracker.Data
+import info.noahortega.bluecointracker.R
 import kotlinx.android.synthetic.main.fragment_list.*
 
 
-class ListFragment : Fragment(), BCAdapter.OnItemClickListener {
+class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
 
     override fun onCreateView(
             inflater: LayoutInflater,
@@ -34,7 +35,8 @@ class ListFragment : Fragment(), BCAdapter.OnItemClickListener {
         val list = ArrayList<BCListItem>()
 
         for(n in coins.indices) {
-            val item = BCListItem(coins[n].checked,Data.levelSelected.toString().toUpperCase()+" "+(n+1), coins[n].description!!)
+            val item = BCListItem(coins[n].checked,
+                Data.levelSelected.toString().toUpperCase()+" "+(n+1), coins[n].description!!)
             list += item
         }
         return list

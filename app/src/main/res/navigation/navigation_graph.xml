@@ -7,16 +7,19 @@
     app:startDestination="@id/homeFragment">
     <fragment
         android:id="@+id/homeFragment"
-        android:name="info.noahortega.bluecointracker.HomeFragment"
+        android:name="info.noahortega.bluecointracker.BCHome.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_homeFragment_to_listFragment"
             app:destination="@id/listFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
     </fragment>
     <fragment
         android:id="@+id/listFragment"
-        android:name="info.noahortega.bluecointracker.ListFragment"
+        android:name="info.noahortega.bluecointracker.BCList.BCListFragment"
         android:label="fragment_list"
         tools:layout="@layout/fragment_list" >
         <action
@@ -25,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name="info.noahortega.bluecointracker.DetailFragment"
+        android:name="info.noahortega.bluecointracker.BCDetail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" />
 </navigation>

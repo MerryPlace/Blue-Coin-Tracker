@@ -1,4 +1,4 @@
-package info.noahortega.bluecointracker
+package info.noahortega.bluecointracker.BCList
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.CheckBox
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import info.noahortega.bluecointracker.R
 import kotlinx.android.synthetic.main.list_item.view.*
 
 class BCAdapter(
@@ -15,7 +16,7 @@ class BCAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BCViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate( //maybe get context another way
-                            R.layout.list_item, parent, false)
+            R.layout.list_item, parent, false)
         return BCViewHolder(itemView)
     }
 

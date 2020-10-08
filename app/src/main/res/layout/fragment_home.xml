@@ -6,9 +6,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment">
-
-    <TextView
+    tools:context=".BCHome.HomeFragment">
+   <TextView
         android:id="@+id/homeTitle_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -69,7 +68,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/GB_image"
             app:layout_constraintVertical_chainStyle="packed"
-            app:srcCompat="@drawable/sb_home"
+            app:srcCompat="@drawable/home_sb"
             tools:src="@tools:sample/avatars" />
 
         <ImageView
@@ -89,7 +88,7 @@
             app:layout_constraintStart_toEndOf="@+id/SB_image"
             app:layout_constraintTop_toBottomOf="@+id/NB_image"
             app:layout_constraintVertical_chainStyle="packed"
-            app:srcCompat="@drawable/pv_home"
+            app:srcCompat="@drawable/home_pv"
             tools:src="@tools:sample/avatars" />
 
         <TextView
@@ -145,7 +144,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/DP_image"
             app:layout_constraintVertical_chainStyle="packed"
-            app:srcCompat="@drawable/gb_home"
+            app:srcCompat="@drawable/home_gb"
             tools:src="@tools:sample/avatars" />
 
         <TextView
@@ -173,7 +172,7 @@
             app:layout_constraintStart_toEndOf="@+id/NB_image"
             app:layout_constraintTop_toBottomOf="@+id/RH_image"
             app:layout_constraintVertical_chainStyle="packed"
-            app:srcCompat="@drawable/pp_home"
+            app:srcCompat="@drawable/home_pp"
             tools:src="@tools:sample/avatars" />
 
         <TextView
@@ -202,7 +201,7 @@
             app:layout_constraintStart_toEndOf="@+id/DP_image"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_chainStyle="packed"
-            app:srcCompat="@drawable/bh_home"
+            app:srcCompat="@drawable/home_bh"
             tools:src="@tools:sample/avatars" />
 
         <TextView
@@ -229,7 +228,7 @@
             app:layout_constraintStart_toEndOf="@+id/PV_image"
             app:layout_constraintTop_toBottomOf="@+id/PP_image"
             app:layout_constraintVertical_chainStyle="packed"
-            app:srcCompat="@drawable/cm_home"
+            app:srcCompat="@drawable/home_cm"
             tools:src="@tools:sample/avatars" />
 
         <TextView
@@ -256,7 +255,7 @@
             app:layout_constraintStart_toEndOf="@+id/BH_image"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_chainStyle="packed"
-            app:srcCompat="@drawable/rh_home"
+            app:srcCompat="@drawable/home_rh"
             tools:src="@tools:sample/avatars" />
 
         <TextView
@@ -285,7 +284,7 @@
             app:layout_constraintStart_toEndOf="@+id/GB_image"
             app:layout_constraintTop_toBottomOf="@+id/BH_image"
             app:layout_constraintVertical_chainStyle="packed"
-            app:srcCompat="@drawable/nb_home"
+            app:srcCompat="@drawable/home_nb"
             tools:src="@tools:sample/avatars" />
 
         <ImageView
@@ -303,7 +302,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_chainStyle="packed"
-            app:srcCompat="@drawable/dp_home"
+            app:srcCompat="@drawable/home_dp"
             tools:src="@tools:sample/avatars" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 

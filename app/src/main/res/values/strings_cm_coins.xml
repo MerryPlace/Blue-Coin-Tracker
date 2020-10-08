@@ -1,0 +1,42 @@
+<resources>
+    <string name="coin_title_cm_01">Title</string>
+    <string name="coin_descr_cm_01">Description of Coin</string>
+    <string name="coin_video_cm_01">NA</string>
+
+    <string name="coin_title_cm_02">Title</string>
+    <string name="coin_descr_cm_02">Description of Coin</string>
+    <string name="coin_video_cm_02">NA</string>
+
+    <string name="coin_title_cm_03">Title</string>
+    <string name="coin_descr_cm_03">Description of Coin</string>
+    <string name="coin_video_cm_03">NA</string>
+
+    <string name="coin_title_cm_04">Title</string>
+    <string name="coin_descr_cm_04">Description of Coin</string>
+    <string name="coin_video_cm_04">NA</string>
+
+    <string name="coin_title_cm_05">Title</string>
+    <string name="coin_descr_cm_05">Description of Coin</string>
+    <string name="coin_video_cm_05">NA</string>
+
+    <string name="coin_title_cm_06">Title</string>
+    <string name="coin_descr_cm_06">Description of Coin</string>
+    <string name="coin_video_cm_06">NA</string>
+
+    <string name="coin_title_cm_07">Title</string>
+    <string name="coin_descr_cm_07">Description of Coin</string>
+    <string name="coin_video_cm_07">NA</string>
+
+    <string name="coin_title_cm_08">Title</string>
+    <string name="coin_descr_cm_08">Description of Coin</string>
+    <string name="coin_video_cm_08">NA</string>
+
+    <string name="coin_title_cm_09">Title</string>
+    <string name="coin_descr_cm_09">Description of Coin</string>
+    <string name="coin_video_cm_09">NA</string>
+
+    <string name="coin_title_cm_10">Title</string>
+    <string name="coin_descr_cm_10">Description of Coin</string>
+    <string name="coin_video_cm_10">NA</string>
+</resources>
+
