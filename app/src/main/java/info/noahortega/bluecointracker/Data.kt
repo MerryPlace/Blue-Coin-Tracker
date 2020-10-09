@@ -31,6 +31,7 @@ object Data {
     }
 
     public fun calcPercComplete(code: LevelCode): Int {
+
         var completed = 0.0
         var level: Level = levels[code.code]
         for (coin in level.blueCoins) {
