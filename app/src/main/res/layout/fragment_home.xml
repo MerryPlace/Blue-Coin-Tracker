@@ -7,7 +7,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BCHome.HomeFragment">
-   <TextView
+
+    <TextView
         android:id="@+id/homeTitle_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -93,36 +94,40 @@
 
         <TextView
             android:id="@+id/DP_completed_text"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/empty_percentage"
+            android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="@+id/DP_image"
             app:layout_constraintStart_toStartOf="@+id/DP_image"
             app:layout_constraintTop_toBottomOf="@+id/DP_image" />
 
         <TextView
             android:id="@+id/BH_completed_text"
-            android:layout_width="wrap_content"
-            android:layout_height="19dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:text="@string/empty_percentage"
+            android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="@+id/BH_image"
             app:layout_constraintStart_toStartOf="@+id/BH_image"
             app:layout_constraintTop_toBottomOf="@+id/BH_image" />
 
         <TextView
             android:id="@+id/GB_completed_text"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/empty_percentage"
+            android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="@+id/GB_image"
             app:layout_constraintStart_toStartOf="@+id/GB_image"
             app:layout_constraintTop_toBottomOf="@+id/GB_image" />
 
         <TextView
             android:id="@+id/PP_completed_text"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/empty_percentage"
+            android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="@+id/PP_image"
             app:layout_constraintStart_toStartOf="@+id/PP_image"
             app:layout_constraintTop_toBottomOf="@+id/PP_image" />
@@ -147,11 +152,11 @@
 
         <TextView
             android:id="@+id/PV__completed_text"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/empty_percentage"
+            android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="@+id/PV_image"
-            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="@+id/PV_image"
             app:layout_constraintTop_toBottomOf="@+id/PV_image" />
 
@@ -175,9 +180,10 @@
 
         <TextView
             android:id="@+id/RH_completed_text"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/empty_percentage"
+            android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="@+id/RH_image"
             app:layout_constraintStart_toStartOf="@+id/RH_image"
             app:layout_constraintTop_toBottomOf="@+id/RH_image" />
@@ -203,9 +209,10 @@
 
         <TextView
             android:id="@+id/NB_completed_text"
-            android:layout_width="wrap_content"
-            android:layout_height="19dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:text="@string/empty_percentage"
+            android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="@+id/NB_image"
             app:layout_constraintStart_toStartOf="@+id/NB_image"
             app:layout_constraintTop_toBottomOf="@+id/NB_image" />
@@ -230,9 +237,10 @@
 
         <TextView
             android:id="@+id/SB_completed_text"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/empty_percentage"
+            android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="@+id/SB_image"
             app:layout_constraintStart_toStartOf="@+id/SB_image"
             app:layout_constraintTop_toBottomOf="@+id/SB_image" />
@@ -257,11 +265,11 @@
 
         <TextView
             android:id="@+id/CM_completed_text"
-            android:layout_width="wrap_content"
-            android:layout_height="19dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:text="@string/empty_percentage"
+            android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="@+id/CM_image"
-            app:layout_constraintHorizontal_bias="0.514"
             app:layout_constraintStart_toStartOf="@+id/CM_image"
             app:layout_constraintTop_toBottomOf="@+id/CM_image" />
 

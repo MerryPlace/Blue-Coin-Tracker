@@ -1,42 +1,42 @@
 <resources>
-    <string name="coin_title_cm_01">Title</string>
-    <string name="coin_descr_cm_01">Description of Coin</string>
+    <string name="coin_title_cm_01">After the 1-Up</string>
+    <string name="coin_descr_cm_01">After the 1-Up mushroom placed on the broken sidewalk, there should be another broken sidewalk with the blue coin in plain sight.</string>
     <string name="coin_video_cm_01">NA</string>
 
-    <string name="coin_title_cm_02">Title</string>
-    <string name="coin_descr_cm_02">Description of Coin</string>
+    <string name="coin_title_cm_02">After Using The Boat (A)</string>
+    <string name="coin_descr_cm_02">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then hover back.</string>
     <string name="coin_video_cm_02">NA</string>
 
-    <string name="coin_title_cm_03">Title</string>
-    <string name="coin_descr_cm_03">Description of Coin</string>
+    <string name="coin_title_cm_03">After Using The Boat (B)</string>
+    <string name="coin_descr_cm_03">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then hover back.</string>
     <string name="coin_video_cm_03">NA</string>
 
-    <string name="coin_title_cm_04">Title</string>
-    <string name="coin_descr_cm_04">Description of Coin</string>
+    <string name="coin_title_cm_04">After Using The Boat (C)</string>
+    <string name="coin_descr_cm_04">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then hover back.</string>
     <string name="coin_video_cm_04">NA</string>
 
-    <string name="coin_title_cm_05">Title</string>
-    <string name="coin_descr_cm_05">Description of Coin</string>
+    <string name="coin_title_cm_05">After Using The Boat (D)</string>
+    <string name="coin_descr_cm_05">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then hover back.</string>
     <string name="coin_video_cm_05">NA</string>
 
-    <string name="coin_title_cm_06">Title</string>
-    <string name="coin_descr_cm_06">Description of Coin</string>
+    <string name="coin_title_cm_06">After Using The Boat (E)</string>
+    <string name="coin_descr_cm_06">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then hover back.</string>
     <string name="coin_video_cm_06">NA</string>
 
-    <string name="coin_title_cm_07">Title</string>
-    <string name="coin_descr_cm_07">Description of Coin</string>
+    <string name="coin_title_cm_07">After Using The Boat (F)</string>
+    <string name="coin_descr_cm_07">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then hover back.</string>
     <string name="coin_video_cm_07">NA</string>
 
-    <string name="coin_title_cm_08">Title</string>
-    <string name="coin_descr_cm_08">Description of Coin</string>
+    <string name="coin_title_cm_08">After Using The Boat (G)</string>
+    <string name="coin_descr_cm_08">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then hover back.</string>
     <string name="coin_video_cm_08">NA</string>
 
-    <string name="coin_title_cm_09">Title</string>
-    <string name="coin_descr_cm_09">Description of Coin</string>
+    <string name="coin_title_cm_09">After Using The Boat (H)</string>
+    <string name="coin_descr_cm_09">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then hover back.</string>
     <string name="coin_video_cm_09">NA</string>
 
-    <string name="coin_title_cm_10">Title</string>
-    <string name="coin_descr_cm_10">Description of Coin</string>
+    <string name="coin_title_cm_10">After Using The Boat (I)</string>
+    <string name="coin_descr_cm_10">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then hover back.</string>
     <string name="coin_video_cm_10">NA</string>
 </resources>
 
