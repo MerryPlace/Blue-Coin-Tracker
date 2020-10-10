@@ -11,6 +11,7 @@ import info.noahortega.bluecointracker.Data
 import info.noahortega.bluecointracker.R
 import info.noahortega.bluecointracker.database.CoinDatabase
 import info.noahortega.bluecointracker.database.CoinDatabaseDao
+import info.noahortega.bluecointracker.database.Level
 import kotlinx.android.synthetic.main.fragment_list.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -22,7 +23,7 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
 
     lateinit var database: CoinDatabaseDao
     private var viewJob = Job()
-    private val uiScope = CoroutineScope(Dispatchers.Main + viewJob)
+    private val ioScope = CoroutineScope(Dispatchers.IO + viewJob)
 
 
     override fun onCreateView(
@@ -49,12 +50,12 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
 
         val list = ArrayList<BCListItem>()
 
-        var coins = Data.queriedCoins
+        val coins = Data.queriedCoins
 
         if(coins != null) {
             for(n in coins.indices) {
                 val item = BCListItem(coins[n].checked,
-                    coins[n].shortTitle, coins[n].description!!)
+                    coins[n].shortTitle, coins[n].description)
                 list += item
             }
         }
@@ -68,8 +69,25 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
         //edit in data
         val coin = Data.queriedCoins!![position]
         coin.checked = !checked
-        uiScope.launch {
+        ioScope.launch {
             database.updateBlueCoin(coin)
+            updateLevelCompletion(Data.levelSelectedId)
         }
     }
+
+
+    suspend fun updateLevelCompletion(levelId: Int) {
+        var completed = 0.0
+        val checkList: List<Boolean> = database.getLevelCheckedList(levelId)
+        val level: Level = database.getLevelById(levelId)
+        for (checked in checkList) {
+            if (checked) {
+                completed++
+            }
+        }
+        val percent = (((completed) / checkList.size) * 100).toInt()
+        level.percentDone = percent
+        database.updateLevel(level)
+    }
+
 }

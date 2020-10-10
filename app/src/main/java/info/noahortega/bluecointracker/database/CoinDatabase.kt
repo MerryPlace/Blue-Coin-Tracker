@@ -14,16 +14,16 @@ import androidx.sqlite.db.SupportSQLiteDatabase
     version = 1,
     exportSchema = true
 )
-abstract class CoinDatabase: RoomDatabase() {
+abstract class CoinDatabase : RoomDatabase() {
 
     abstract val coinDao: CoinDatabaseDao
 
-    companion object{
+    companion object {
 
         @Volatile
         private var INSTANCE: CoinDatabase? = null
 
-        fun getInstance(context: Context) : CoinDatabase {
+        fun getInstance(context: Context): CoinDatabase {
             synchronized(this) {
                 var instance = INSTANCE
 
@@ -33,6 +33,7 @@ abstract class CoinDatabase: RoomDatabase() {
                         CoinDatabase::class.java,
                         "blue_coin_database"
                     )
+                        .createFromAsset("bc_empty.db")
                         .fallbackToDestructiveMigration() //TODO: bad. implement a migration methodology for upgrading between versions.
                         .build()
                     INSTANCE = instance

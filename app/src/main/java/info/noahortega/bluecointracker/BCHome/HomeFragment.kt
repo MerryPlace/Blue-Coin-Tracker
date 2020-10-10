@@ -35,21 +35,17 @@ class HomeFragment : Fragment() {
         database = CoinDatabase.getInstance(activity as Context).coinDao
 
         myScope.launch {
-            populateDatabase()
             refreshPercentages()
+            binding.DPImage.setOnClickListener { levelClicked(LevelCode.dp.code) }
+            binding.BHImage.setOnClickListener { levelClicked(LevelCode.bh.code) }
+            binding.RHImage.setOnClickListener { levelClicked(LevelCode.rh.code) }
+            binding.GBImage.setOnClickListener { levelClicked(LevelCode.gb.code) }
+            binding.NBImage.setOnClickListener { levelClicked(LevelCode.nb.code) }
+            binding.PPImage.setOnClickListener { levelClicked(LevelCode.pp.code) }
+            binding.SBImage.setOnClickListener { levelClicked(LevelCode.sb.code) }
+            binding.PVImage.setOnClickListener { levelClicked(LevelCode.pv.code) }
+            binding.CMImage.setOnClickListener { levelClicked(LevelCode.cm.code) }
         }
-
-
-
-        binding.DPImage.setOnClickListener { levelClicked(LevelCode.dp.code) }
-        binding.BHImage.setOnClickListener { levelClicked(LevelCode.bh.code) }
-        binding.RHImage.setOnClickListener { levelClicked(LevelCode.rh.code) }
-        binding.GBImage.setOnClickListener { levelClicked(LevelCode.gb.code) }
-        binding.NBImage.setOnClickListener { levelClicked(LevelCode.nb.code) }
-        binding.PPImage.setOnClickListener { levelClicked(LevelCode.pp.code) }
-        binding.SBImage.setOnClickListener { levelClicked(LevelCode.sb.code) }
-        binding.PVImage.setOnClickListener { levelClicked(LevelCode.pv.code) }
-        binding.CMImage.setOnClickListener { levelClicked(LevelCode.cm.code) }
 
         return binding.root
     }
@@ -65,8 +61,7 @@ class HomeFragment : Fragment() {
     }
 
     private suspend fun getLevels(): List<Level> {
-        var levels = database.getLevels()
-        return levels
+        return database.getLevels()
     }
 
     override fun onDestroyView() {
@@ -77,18 +72,7 @@ class HomeFragment : Fragment() {
     //TODO: flashing of UI
     @SuppressLint("SetTextI18n")
     suspend fun refreshPercentages() {
-
-        updateLevelCompletion(LevelCode.dp.code)
-        updateLevelCompletion(LevelCode.bh.code)
-        updateLevelCompletion(LevelCode.rh.code)
-        updateLevelCompletion(LevelCode.gb.code)
-        updateLevelCompletion(LevelCode.nb.code)
-        updateLevelCompletion(LevelCode.pp.code)
-        updateLevelCompletion(LevelCode.sb.code)
-        updateLevelCompletion(LevelCode.pv.code)
-        updateLevelCompletion(LevelCode.cm.code)
-
-        val levelPercentages = database.getLevelPercentages()
+        val levelPercentages = database.getOrderedLevelPercentages()
 
         binding.DPCompletedText.text = "${levelPercentages[0].toString()}%"
         binding.BHCompletedText.text = "${levelPercentages[1].toString()}%"
@@ -100,66 +84,16 @@ class HomeFragment : Fragment() {
         binding.PVCompletedText.text = "${levelPercentages[7].toString()}%"
         binding.CMCompletedText.text = "${levelPercentages[8].toString()}%"
 
-        //val totalPercentDone = calcTotalCompletion()
-        //binding.totalCompletionText.text = "$totalPercentDone% to Completion"
-        //binding.totalProgressBar.progress = totalPercentDone
-    }
+        val levelCoinCount = database.getOrderedLevelCoinCount()
 
-    suspend fun updateLevelCompletion(levelId: Int) {
-        var completed = 0.0
-
-        var checkList: List<Boolean> = database.getLevelCheckedList(levelId)
-        var level: Level = database.getLevelById(levelId)
-
-        for (checked in checkList) {
-            if (checked) {
-                completed++
-            }
+        var totalDone = 0
+        for (level in 0..8) {
+            totalDone += (levelCoinCount[level] * levelPercentages[level])
         }
 
-        val percent = (((completed) / checkList.size) * 100).toInt()
+        val totalPercentDone = ((totalDone)/240.0).toInt()
 
-        level.percentDone = percent
-        database.updateLevel(level)
-    }
-
-    //use when there is no database
-    private suspend fun populateDatabase() {
-        if (database.countCoins() < 240) {
-            database.insertLevel(Level(1, "Delfino Plaza", "dp", 20, 0, "home_dp"))
-            database.insertLevel(Level(2, "Bianco Hills", "bh", 30, 0, "home_bh"))
-            database.insertLevel(Level(3, "Ricco Harbor", "rh", 30, 0, "home_rh"))
-            database.insertLevel(Level(4, "Gelato Beach", "gb", 30, 0, "home_gb"))
-            database.insertLevel(Level(5, "Noki Bay", "nb", 30, 0, "home_nb"))
-            database.insertLevel(Level(6, "Pinna Park", "pp", 30, 0, "home_pp"))
-            database.insertLevel(Level(7, "Sirena Beach", "sb", 30, 0, "home_sb"))
-            database.insertLevel(Level(8, "Pianta Village", "pv", 30, 0, "home_pv"))
-            database.insertLevel(Level(9, "Corona Mountain", "cm", 10, 0, "home_cm"))
-
-            val levels: List<Level> = getLevels()
-            var addition = "0"
-            for (level in levels) {
-                val nickname = level.nickname
-                //println(nickname)
-                for (n in 1..level.bCoinCount) {
-                    if (n == 1) {
-                        addition = "0"
-                    } else if (n == 10) {
-                        addition = ""
-                    }
-
-                    database.insertCoin(
-                        BlueCoin(
-                            myLevelId = level.levelId, numInLevel = n, checked = false,
-                            imageAddress = "coin_" + nickname + "_" + addition + n,
-                            youtubeLink = "coin_video_" + nickname + "_" + addition + n,
-                            shortTitle = "coin_title_" + nickname + "_" + addition + n,
-                            description = "coin_descr_" + nickname + "_" + addition + n,
-                        )
-                    )
-                }
-            }
-            println("DATABASE POPULATED~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        }
+        binding.totalCompletionText.text = "You are $totalPercentDone% to completion"
+        binding.totalProgressBar.progress = totalPercentDone
     }
 }

@@ -25,16 +25,22 @@ interface CoinDatabaseDao {
     @Update
     suspend fun updateLevel(level: Level)
 
-    @Query("SELECT * from level_table")
+    @Query("SELECT * FROM level_table")
     suspend fun getLevels(): List<Level>
 
-    @Query("SELECT percentDone from level_table ORDER BY levelId ASC")
-    suspend fun getLevelPercentages(): List<Int>
+    @Query("SELECT * FROM level_table ORDER BY levelId ASC")
+    fun getLiveLevels(): LiveData<List<Level>>
 
-    @Query("SELECT * from level_table WHERE levelId = :id")
+    @Query("SELECT percentDone FROM level_table ORDER BY levelId ASC")
+    suspend fun getOrderedLevelPercentages(): List<Int>
+
+    @Query("SELECT bCoinCount FROM level_table ORDER BY levelId ASC")
+    suspend fun getOrderedLevelCoinCount(): List<Int>
+
+    @Query("SELECT * FROM level_table WHERE levelId = :id")
     suspend fun getLevelById(id: Int): Level
 
-    @Query("SELECT * from coin_table WHERE coinId = :key")
+    @Query("SELECT * FROM coin_table WHERE coinId = :key")
     suspend fun getCoinById(key: Long): BlueCoin
 
     @Query("SELECT * FROM coin_table WHERE myLevelID = :key ORDER BY numInLevel ASC")
