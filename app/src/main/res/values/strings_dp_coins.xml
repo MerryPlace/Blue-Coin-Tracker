@@ -1,80 +1,86 @@
 <resources>
-    <string name="coin_title_dp_01">Title</string>
-    <string name="coin_descr_dp_01">Description of Coin</string>
+    <string name="coin_title_dp_01">Jail</string>
+    <string name="coin_descr_dp_01">Locate the building with the bell tower in the southeast corner of the plaza, in other words at the opposite end of the beach from the lighthouse. On the south side, over the water, is an open window. Hop from the ledge nearby and hover into the window to land in a room with barred windows. Liberate the coin \'\'s doing time in there.</string>
     <string name="coin_video_dp_01">NA</string>
 
-    <string name="coin_title_dp_02">Title</string>
-    <string name="coin_descr_dp_02">Description of Coin</string>
+    <string name="coin_title_dp_02">Banana lady</string>
+    <string name="coin_descr_dp_02">Look for a Pianta lady standing near a wall just south of the central dock. Talk to her and she offers you work collecting fruit for her. Gather three bunches of bananas and place them in her basket, then talk to her again to be rewarded with a blue coin. Bananas can be found in one of the fruit stalls, on a rooftop in the southeast corner of the square, and in the top of a tree west of the Pianta statue. Can be repeated for a 1-up.</string>
     <string name="coin_video_dp_02">NA</string>
 
-    <string name="coin_title_dp_03">Title</string>
-    <string name="coin_descr_dp_03">Description of Coin</string>
+    <string name="coin_title_dp_03">Coconut lady</string>
+    <string name="coin_descr_dp_03">Go to the boathouse in Delfino Plaza (where the portal to Ricco Harbor is) and look out to sea and you\'ll notice a small island with a palm tree and a Pianta lady. Swim out there and talk to the lady. She\'ll ask you for 3 coconuts, and as luck would have it, there are 3 coconuts hanging in the tree right next to her. Spray them to knock them down and then put the in her basket one by one. Don\'t worry if some of them fall in the sea as they will grow back again straight away. Can be repeated for a 1-up.</string>
     <string name="coin_video_dp_03">NA</string>
 
-    <string name="coin_title_dp_04">Title</string>
-    <string name="coin_descr_dp_04">Description of Coin</string>
+    <string name="coin_title_dp_04">Pineapple lady</string>
+    <string name="coin_descr_dp_04">This woman is standing next to the giant Shine Gate north of the central dock area and she asks for pineapples. Her basket is high off the ground so you\'ll need to throw (jump + B) the fruits in. Finding the best place to throw from takes a bit of trial and error but isn\'t as hard as it seems. Alternatively, you can bounce on her head three times and if you land on the edge of the basket, you can then simply drop the fruit in. Can be repeated for a 1-up.</string>
     <string name="coin_video_dp_04">NA</string>
 
-    <string name="coin_title_dp_05">Title</string>
-    <string name="coin_descr_dp_05">Description of Coin</string>
+    <string name="coin_title_dp_05">Durian lady</string>
+    <string name="coin_descr_dp_05">There are a few ways to get the durians to the basket but this seems to be the simplest. Get a durian from under the awning near the boathouse. You can also get durians from the fruit market but it\'s farther away. Gently kick it north along the boardwalk, then when you get close to the end aim toward the tree in the distance (this is shown in the picture on the right). If you run at the durian and press B button just before you get to it, you will give it a mighty kick \' will send it far into the distance, then hover over and see where it landed. Hopefully it didn\'t bounce into the water (if it did, just keep trying), so from here kick the durian through the archway and then go left to the little hill.</string>
     <string name="coin_video_dp_05">NA</string>
 
-    <string name="coin_title_dp_06">Title</string>
-    <string name="coin_descr_dp_06">Description of Coin</string>
+    <string name="coin_title_dp_06">Shine gate M</string>
+    <string name="coin_descr_dp_06">Locate the large crate in front of the Shine Gate (on the right side). Ground-pound this crate to smash it and reveal a graffiti "M", then spray the wall clean for the coin to pop out.</string>
     <string name="coin_video_dp_06">NA</string>
 
-    <string name="coin_title_dp_07">Title</string>
-    <string name="coin_descr_dp_07">Description of Coin</string>
+    <string name="coin_title_dp_07">Rooftop M</string>
+    <string name="coin_descr_dp_07">Locate the large crate on the rooftop over the inlet between the central dock and the ocean. Ground-pound this crate to smash it and reveal a graffiti "M", then spray the wall clean for the coin to pop out.</string>
     <string name="coin_video_dp_07">NA</string>
 
-    <string name="coin_title_dp_08">Title</string>
-    <string name="coin_descr_dp_08">Description of Coin</string>
-    <string name="coin_video_dp_08">NA</string><string name="coin_title_dp_09">Title</string>
-    <string name="coin_descr_dp_09">Description of Coin</string>
+    <string name="coin_title_dp_08">Tower M</string>
+    <string name="coin_descr_dp_08">Go to the tower in the northwest corner of the plaza, near the red cannon \' fires you over to Pinna Park. Look on the north side about half way up to find a graffiti "M", then clean it off for the coin to appear.</string>
+    <string name="coin_video_dp_08">NA</string>
+
+    <string name="coin_title_dp_09">Paired crosses (A)</string>
+    <string name="coin_descr_dp_09">Locate a graffiti cross on the east side of the base of the Pianta statue (right of the Bianco Hills entrance). Locate a corresponding cross one the west side of the southwest tower (the one with the radio dish). Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. The slip-slide move is very useful here for covering the distance in time, or wait until you get the turbo nozzle and use it. Do both crosses to collect two coins.</string>
     <string name="coin_video_dp_09">NA</string>
 
-    <string name="coin_title_dp_10">Title</string>
-    <string name="coin_descr_dp_10">Description of Coin</string>
+    <string name="coin_title_dp_10">Paired crosses (B)</string>
+    <string name="coin_descr_dp_10">Locate a graffiti cross on the east side of the base of the Pianta statue (right of the Bianco Hills entrance). Locate a corresponding cross one the west side of the southwest tower (the one with the radio dish). Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. The slip-slide move is very useful here for covering the distance in time, or wait until you get the turbo nozzle and use it. Do both crosses to collect two coins.</string>
     <string name="coin_video_dp_10">NA</string>
 
-    <string name="coin_title_dp_11">Title</string>
-    <string name="coin_descr_dp_11">Description of Coin</string>
+    <string name="coin_title_dp_11">Flaming Pianta</string>
+    <string name="coin_descr_dp_11">This might sound like the name of a refreshing cocktail, but after you open Gelato beach there actually is a Pianta fellow running around wearing a backpack \'\'s on fire! He normally is found on the beach near the lighthouse but may also appear next to the central dock. You need to chase him around with FLUDD going to put out the fire, then talk to him to be rewarded with a blue coin. After collecting the coin, the same Pianta can be seen wandering around with his backpack full of red mushrooms.</string>
     <string name="coin_video_dp_11">NA</string>
 
-    <string name="coin_title_dp_12">Title</string>
-    <string name="coin_descr_dp_12">Description of Coin</string>
+    <string name="coin_title_dp_12">Blue parrots (A)</string>
+    <string name="coin_descr_dp_12">On the roof of the building to the left of the shine gate.</string>
     <string name="coin_video_dp_12">NA</string>
 
-    <string name="coin_title_dp_13">Title</string>
-    <string name="coin_descr_dp_13">Description of Coin</string>
+    <string name="coin_title_dp_13">Blue parrots (B)</string>
+    <string name="coin_descr_dp_13">On the roof of the building north of the Pianta statue.</string>
     <string name="coin_video_dp_13">NA</string>
 
-    <string name="coin_title_dp_14">Title</string>
-    <string name="coin_descr_dp_14">Description of Coin</string>
+    <string name="coin_title_dp_14">North</string>
+    <string name="coin_descr_dp_14">The north end of a tunnel under the shine gate.</string>
     <string name="coin_video_dp_14">NA</string>
 
-    <string name="coin_title_dp_15">Title</string>
-    <string name="coin_descr_dp_15">Description of Coin</string>
+    <string name="coin_title_dp_15">Center</string>
+    <string name="coin_descr_dp_15">A tunnel under the main dock.</string>
     <string name="coin_video_dp_15">NA</string>
 
-    <string name="coin_title_dp_16">Title</string>
-    <string name="coin_descr_dp_16">Description of Coin</string>
+    <string name="coin_title_dp_16">West</string>
+    <string name="coin_descr_dp_16">The underground passage \' leads to the island with the coconut lady.</string>
     <string name="coin_video_dp_16">NA</string>
 
-    <string name="coin_title_dp_17">Title</string>
-    <string name="coin_descr_dp_17">Description of Coin</string>
+    <string name="coin_title_dp_17">Northeast tower window</string>
+    <string name="coin_descr_dp_17">Go to the rooftops in the northeast section of the plaza, between the shine gate and the lighthouse. Look on the north side to find some orange goop covering a window. Get Yoshi and spray the goop with fruit juice and it melts away. You can now hop into the window and collect the coin there. When you re-enter the plaza the goop will be restored even though there is no coin behind it.</string>
     <string name="coin_video_dp_17">NA</string>
 
-    <string name="coin_title_dp_18">Title</string>
-    <string name="coin_descr_dp_18">Description of Coin</string>
+    <string name="coin_title_dp_18">Northwest tower window</string>
+    <string name="coin_descr_dp_18">Go to the rooftops in the northwest section of the plaza, near the red cannon, and look on the east side of the tower to find some orange goop covering a window near the top. Get Yoshi and spray the goop with fruit juice so it melts away. Yoshi\'s fruit juice range is pretty good so you can to this from the next building over. You can now do one of the following:
+
+Abandon Yoshi and climb the small ledge circling the tower. The sidestep move may come in handy here.
+More difficult, do a spin jump and float with Yoshi all the way up there.
+Collect the coin when you reach the window.</string>
     <string name="coin_video_dp_18">NA</string>
 
-    <string name="coin_title_dp_19">Title</string>
-    <string name="coin_descr_dp_19">Description of Coin</string>
+    <string name="coin_title_dp_19">Stone pillars in the sea</string>
+    <string name="coin_descr_dp_19">Locate the pillars a little out to sea from the lighthouse. One of the further-out pillars has a double door in the bottom of it, which hides a blue coin. Equip the Turbo Nozzle and smash through the double doors to get the coin.</string>
     <string name="coin_video_dp_19">NA</string>
 
-    <string name="coin_title_dp_20">Title</string>
-    <string name="coin_descr_dp_20">Description of Coin</string>
+    <string name="coin_title_dp_20">Waiting room ice</string>
+    <string name="coin_descr_dp_20">Note, even though this is in the airport, it shows up in coin count for the plaza. You can only get this coin after you have entered Corona Mountain at least once (whether you defeat Bowser or exit stage). Collect 10 gold coins in the plaza and talk to the Pianta by the boat at the southwest dock. Pay the fare to be taken back to the airport. You should see a turbo crate near the landing, so grab it and equip the turbo nozzle. Smash through the double doors of the building at the end of the landing to gain entrance to the airport waiting room. On the right find a block of ice. Switch to the squirt nozzle and spray the ice until it melts away leaving a blue coin.</string>
     <string name="coin_video_dp_20">NA</string>
 
 
