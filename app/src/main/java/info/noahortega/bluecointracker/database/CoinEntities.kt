@@ -10,7 +10,7 @@ import androidx.room.Junction
 @Entity(tableName = "level_table")
 data class Level(
     @PrimaryKey()
-    var levelId: Byte = 0,
+    var levelId: Int = 0,
     @ColumnInfo()
     var title: String = "NA",
     @ColumnInfo()
@@ -18,7 +18,7 @@ data class Level(
     @ColumnInfo()
     var bCoinCount: Int = -1,
     @ColumnInfo()
-    var percentDone: Byte = 0,
+    var percentDone: Int = 0,
     @ColumnInfo()
     var thumbnailAddress: String = "home_na",
 )
@@ -28,7 +28,7 @@ data class BlueCoin(
     @PrimaryKey(autoGenerate = true)
     var coinId: Long = 0L,
     @ColumnInfo()
-    var myLevelId: Byte = 0,
+    var myLevelId: Int = 0,
     @ColumnInfo()
     var numInLevel: Int = -1,
     @ColumnInfo()
