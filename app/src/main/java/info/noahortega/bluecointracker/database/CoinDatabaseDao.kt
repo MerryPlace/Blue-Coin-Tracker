@@ -26,26 +26,26 @@ interface CoinDatabaseDao {
     suspend fun updateLevel(level: Level)
 
     @Query("SELECT * from level_table")
-    fun getLiveLevels(): LiveData<List<Level>>
+    suspend fun getLevels(): List<Level>
 
-    @Query("SELECT * from level_table")
-    fun getLevels(): List<Level>
+    @Query("SELECT percentDone from level_table ORDER BY levelId ASC")
+    suspend fun getLevelPercentages(): List<Int>
 
-    @Query("SELECT * from coin_table WHERE myLevelId = :levelId")
-    fun getLiveCoins(levelId: Long): LiveData<List<BlueCoin>>
-
-    @Query("SELECT * from level_table WHERE nickname = :nn")
-    suspend fun getLevelByNickname(nn: String): Level
+    @Query("SELECT * from level_table WHERE levelId = :id")
+    suspend fun getLevelById(id: Int): Level
 
     @Query("SELECT * from coin_table WHERE coinId = :key")
     suspend fun getCoinById(key: Long): BlueCoin
 
     @Query("SELECT * FROM coin_table WHERE myLevelID = :key ORDER BY numInLevel ASC")
-    suspend fun getAllCoinsInLevelId(key: Long): List<BlueCoin>
+    suspend fun getAllCoinsInLevelId(key: Int): List<BlueCoin>
+
+    @Query("SELECT checked FROM coin_table WHERE myLevelID = :levelId")
+    suspend fun getLevelCheckedList(levelId: Int): List<Boolean>
 
     @Transaction
-    @Query("SELECT * FROM level_table WHERE nickname = :nickname")
-    suspend fun getLevelWithCoins(nickname: String): List<LevelWithCoins>
+    @Query("SELECT * FROM level_table WHERE levelId = :id")
+    suspend fun getLevelWithCoins(id: Int): LevelWithCoins
 
     @Transaction
     @Query("SELECT * FROM coin_table")
@@ -54,5 +54,8 @@ interface CoinDatabaseDao {
     @Transaction //probably shouldn't use
     @Query("SELECT * FROM level_table WHERE nickname = :nickname")
     suspend fun getLevelsWithCoinsWithSongs(nickname: String): List<LevelWithCoinsAndCond>
+
+    @Query("SELECT COUNT(coinId) FROM coin_table")
+    suspend fun countCoins() : Int
 
 }

@@ -98,8 +98,7 @@
             android:text="@string/empty_percentage"
             app:layout_constraintEnd_toEndOf="@+id/DP_image"
             app:layout_constraintStart_toStartOf="@+id/DP_image"
-            app:layout_constraintTop_toBottomOf="@+id/DP_image"
-            tools:text="dp%" />
+            app:layout_constraintTop_toBottomOf="@+id/DP_image" />
 
         <TextView
             android:id="@+id/BH_completed_text"
@@ -108,8 +107,7 @@
             android:text="@string/empty_percentage"
             app:layout_constraintEnd_toEndOf="@+id/BH_image"
             app:layout_constraintStart_toStartOf="@+id/BH_image"
-            app:layout_constraintTop_toBottomOf="@+id/BH_image"
-            tools:text="bh%" />
+            app:layout_constraintTop_toBottomOf="@+id/BH_image" />
 
         <TextView
             android:id="@+id/GB_completed_text"
@@ -182,8 +180,7 @@
             android:text="@string/empty_percentage"
             app:layout_constraintEnd_toEndOf="@+id/RH_image"
             app:layout_constraintStart_toStartOf="@+id/RH_image"
-            app:layout_constraintTop_toBottomOf="@+id/RH_image"
-            tools:text="rh%" />
+            app:layout_constraintTop_toBottomOf="@+id/RH_image" />
 
         <ImageView
             android:id="@+id/BH_image"

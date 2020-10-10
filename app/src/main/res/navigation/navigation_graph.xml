@@ -13,9 +13,6 @@
         <action
             android:id="@+id/action_homeFragment_to_listFragment"
             app:destination="@id/listFragment" />
-        <action
-            android:id="@+id/action_homeFragment_to_detailFragment"
-            app:destination="@id/detailFragment" />
     </fragment>
     <fragment
         android:id="@+id/listFragment"

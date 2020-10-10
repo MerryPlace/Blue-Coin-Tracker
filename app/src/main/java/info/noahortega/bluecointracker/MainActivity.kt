@@ -10,8 +10,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        Data.printData()
-
         setContentView(R.layout.activity_main)
     }
 
