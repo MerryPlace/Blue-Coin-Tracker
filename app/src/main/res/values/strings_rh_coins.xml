@@ -1,122 +1,124 @@
 <resources>
-    <string name="coin_title_rh_01">Title</string>
-    <string name="coin_descr_rh_01">Description of Coin</string>
+    <string name="coin_title_rh_01">Sea floor</string>
+    <string name="coin_descr_rh_01">Check the bottom of the ocean under the orange platform with an arrow, to the right of the ship with grates. There are four gold coins around a blue coin. Appears in all episodes.</string>
     <string name="coin_video_rh_01">NA</string>
 
-    <string name="coin_title_rh_02">Title</string>
-    <string name="coin_descr_rh_02">Description of Coin</string>
-    <string name="coin_video_rh_02">NA</string><string name="coin_title_rh_03">Title</string>
-    <string name="coin_descr_rh_03">Description of Coin</string>
+    <string name="coin_title_rh_02">Above the sea</string>
+    <string name="coin_descr_rh_02">Go to the open water near the red flags, away from the ships but not as far as the metal platforms. There is a blue coin along with a number of gold coins in the air above the water. Easiest to reach with the rocket nozzle but can also be reached by jumping with the turbo attachment or a racing blooper. Visible in all episodes but only reachable starting episode 2.</string>
+    <string name="coin_video_rh_02">NA</string>
+
+    <string name="coin_title_rh_03">Tower scaffolding</string>
+    <string name="coin_descr_rh_03">Check the lower level of scaffolding between the tower and the ledge with the buildings. There is a blue coin with gold coins on either side. Easy to reach with a rocket nozzle but you can also hover to it from the ledge nearby. Appears in all episodes.</string>
     <string name="coin_video_rh_03">NA</string>
 
-    <string name="coin_title_rh_04">Title</string>
-    <string name="coin_descr_rh_04">Description of Coin</string>
+    <string name="coin_title_rh_04">Tower coin stack</string>
+    <string name="coin_descr_rh_04">Go to the top of the tower and fire the rocket to collect gold coins and a blue coin at the top. You may have to hop just before the rocket goes off to get the extra few feet of altitude needed. Visible in all episodes but only reachable when you get the rocket nozzle starting episode 3.</string>
     <string name="coin_video_rh_04">NA</string>
 
-    <string name="coin_title_rh_05">Title</string>
-    <string name="coin_descr_rh_05">Description of Coin</string>
+    <string name="coin_title_rh_05">Above the fountain</string>
+    <string name="coin_descr_rh_05">Check above the fountain on the ledge with the buildings to find a blue coin floating in the air. Use back-flip + hover or some other combination to reach. Appears in all episodes.</string>
     <string name="coin_video_rh_05">NA</string>
 
-    <string name="coin_title_rh_06">Title</string>
-    <string name="coin_descr_rh_06">Description of Coin</string>
+    <string name="coin_title_rh_06">Blooper trail</string>
+    <string name="coin_descr_rh_06">Follow the trail of coins that leads to the blooper race track and hop when you get close to the blue coin near the end. Appears in episode 2 only.</string>
     <string name="coin_video_rh_06">NA</string>
 
-    <string name="coin_title_rh_07">Title</string>
-    <string name="coin_descr_rh_07">Description of Coin</string>
+    <string name="coin_title_rh_07">Crane top</string>
+    <string name="coin_descr_rh_07">Check the top of the first crane moving the platform next to the ship. There is a blue coin with two gold coins in either side. Easy to reach with the rocket nozzle but you can also get it by hovering from the top of the ship\'s smokestack. Appears in all episodes.</string>
     <string name="coin_video_rh_07">NA</string>
 
-    <string name="coin_title_rh_08">Title</string>
-    <string name="coin_descr_rh_08">Description of Coin</string>
+    <string name="coin_title_rh_08">Lower catwalk</string>
+    <string name="coin_descr_rh_08">Check lower level of catwalks to find a blue coin next to two gold coins almost directly above the crane at end of a beam. To reach with the rocket nozzle, fire from the grates on the ship to reach the pink grate structure above. Hop east (toward the buildings) to the scaffolding, go right and drop to land on the beam with the coins. Alternatively, try walking the beam connecting the ledge with buildings to the catwalks, then hovering to the beam with the coins. Appears in all episodes.</string>
     <string name="coin_video_rh_08">NA</string>
 
-    <string name="coin_title_rh_09">Title</string>
-    <string name="coin_descr_rh_09">Description of Coin</string>
+    <string name="coin_title_rh_09">Middle catwalk</string>
+    <string name="coin_descr_rh_09">Check the middle level of catwalks to find a blue coin next to two gold coins over the water next to the cement mixer area. To reach with the rocket nozzle, follow the same directions as with the lower catwalk coin, but instead of going right go straight and follow the beam to the end. This coin can be reached without the rocket nozzle but it\'s more difficult. Appears in all episodes.</string>
     <string name="coin_video_rh_09">NA</string>
 
-    <string name="coin_title_rh_10">Title</string>
-    <string name="coin_descr_rh_10">Description of Coin</string>
+    <string name="coin_title_rh_10">Catwalk drop</string>
+    <string name="coin_descr_rh_10">Check the southern part of the catwalks to find a column of coins below the end of a beam. To reach with the rocket nozzle, hop and fire at the base of the beam\'s support, you should get enough of a lift to get the blue coin but not all of the gold coins. Alternatively, walk the beam connecting the ledge with buildings to the catwalks, continue in the same direction and ride the lift to the next higher level. Continue, hovering around the crane and a beam, to reach the beam with the coins. When you reach the end of the beam just drop off to collect them. Appears in all episodes.</string>
     <string name="coin_video_rh_10">NA</string>
 
-    <string name="coin_title_rh_11">Title</string>
-    <string name="coin_descr_rh_11">Description of Coin</string>
+    <string name="coin_title_rh_11">Right of warehouse M</string>
+    <string name="coin_descr_rh_11">Check the right side of the building with three large doors at the start. Clean off the graffiti M for a coin. Appears in all episodes.</string>
     <string name="coin_video_rh_11">NA</string>
 
-    <string name="coin_title_rh_12">Title</string>
-    <string name="coin_descr_rh_12">Description of Coin</string>
+    <string name="coin_title_rh_12">Above warehouse M</string>
+    <string name="coin_descr_rh_12">Check the wall above the building with three large doors at the start for a graffiti M. This is much easier to reach in episodes 2 and 6 because there are large crates in front of the building, but in other episodes it can still be reached with back-flip/wall-jump combos. Appears in all episodes.</string>
     <string name="coin_video_rh_12">NA</string>
 
-    <string name="coin_title_rh_13">Title</string>
-    <string name="coin_descr_rh_13">Description of Coin</string>
+    <string name="coin_title_rh_13">Ship deck M</string>
+    <string name="coin_descr_rh_13">Check the deck inside the grates of the ship in front of the start. You may have to clean some blooper ink off first but you should be able to spot a graffiti M. Appears in episode 1 only.</string>
     <string name="coin_video_rh_13">NA</string>
 
-    <string name="coin_title_rh_14">Title</string>
-    <string name="coin_descr_rh_14">Description of Coin</string>
+    <string name="coin_title_rh_14">Ship side M</string>
+    <string name="coin_descr_rh_14">Check the left side of the same ship for a graffiti M in red. Appears in all episodes.</string>
     <string name="coin_video_rh_14">NA</string>
 
-    <string name="coin_title_rh_15">Title</string>
-    <string name="coin_descr_rh_15">Description of Coin</string>
+    <string name="coin_title_rh_15">Tower base M</string>
+    <string name="coin_descr_rh_15">Wash the squid ink off the ground between the tower and the ship to reveal a graffiti M. Appears in episode 1 only.</string>
     <string name="coin_video_rh_15">NA</string>
 
-    <string name="coin_title_rh_16">Title</string>
-    <string name="coin_descr_rh_16">Description of Coin</string>
+    <string name="coin_title_rh_16">Building front M</string>
+    <string name="coin_descr_rh_16">On a building just past the fountain, across from the crane, locate a graffiti M. Appears in all episodes.</string>
     <string name="coin_video_rh_16">NA</string>
 
-    <string name="coin_title_rh_17">Title</string>
-    <string name="coin_descr_rh_17">Description of Coin</string>
+    <string name="coin_title_rh_17">Above buildings M</string>
+    <string name="coin_descr_rh_17">Check for a graffiti M on the wall above the building at the end of the curved elevated path across from the helipad. Can be reached easily with the rocket or you can hover to it going from the fruit towers to the elevated path then to the top of the building. Appears in all episodes.</string>
     <string name="coin_video_rh_17">NA</string>
 
-    <string name="coin_title_rh_18">Title</string>
-    <string name="coin_descr_rh_18">Description of Coin</string>
+    <string name="coin_title_rh_18">Paired crosses (A)</string>
+    <string name="coin_descr_rh_18">Locate a graffiti cross on the side of the tower. Locate a corresponding cross on the front of one of the buildings near the fruit towers. Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. It seems to be impossible to get both of these without the turbo nozzle which can\'t be activated until episode 7, though once activated you can get it as early as episode 4. The crosses are visible in all episodes even though it\'s not always possible to get the coins.</string>
     <string name="coin_video_rh_18">NA</string>
 
-    <string name="coin_title_rh_19">Title</string>
-    <string name="coin_descr_rh_19">Description of Coin</string>
+    <string name="coin_title_rh_19">Paired crosses (B)</string>
+    <string name="coin_descr_rh_19">Locate a graffiti cross on the side of the tower. Locate a corresponding cross on the front of one of the buildings near the fruit towers. Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. It seems to be impossible to get both of these without the turbo nozzle which can\'t be activated until episode 7, though once activated you can get it as early as episode 4. The crosses are visible in all episodes even though it\'s not always possible to get the coins.</string>
     <string name="coin_video_rh_19">NA</string>
 
-    <string name="coin_title_rh_20">Title</string>
-    <string name="coin_descr_rh_20">Description of Coin</string>
+    <string name="coin_title_rh_20">Metal platform M</string>
+    <string name="coin_descr_rh_20">Check the top of the tall metal platforms in the area of the ocean farthest from the start for a graffiti M. To reach this with the rocket, first shoot to a lower platform nearby and then use the rocket to hop to the higher ones. Alternatively, do a series of hovers starting from the ledge with building and following the small ledges on the cliff to the platforms. Another alternative is to follow the walk-through for episode 8. Appears in all episodes.</string>
     <string name="coin_video_rh_20">NA</string>
 
-    <string name="coin_title_rh_21">Title</string>
-    <string name="coin_descr_rh_21">Description of Coin</string>
+    <string name="coin_title_rh_21">Far cliff M</string>
+    <string name="coin_descr_rh_21">Find the ledge on the rightmost cliff, almost as far as you can get from the start, and check the wall for a graffiti M. This can be reached easily with the rocket or you can do a series of hovers similar to those in the metal platform M. In episode 8, the Pianta on the platform by the yellow submarine will throw you there if you talk to him. Appears in all episodes.</string>
     <string name="coin_video_rh_21">NA</string>
 
-    <string name="coin_title_rh_22">Title</string>
-    <string name="coin_descr_rh_22">Description of Coin</string>
+    <string name="coin_title_rh_22">Wall icon</string>
+    <string name="coin_descr_rh_22">Go to the wall to the left of the cement mixing area that is to the left of the brown box. Spray around the middle right area of the wall. Gold coins pop out and a blue shine icon is gradually revealed. A blue coin pops out when the icon is completely visible. Appears in all episodes.</string>
     <string name="coin_video_rh_22">NA</string>
 
-    <string name="coin_title_rh_23">Title</string>
-    <string name="coin_descr_rh_23">Description of Coin</string>
+    <string name="coin_title_rh_23">Fish basket</string>
+    <string name="coin_descr_rh_23">Spray the baskets of fish in the middle of the market at the far end of the ledge with houses. Hover over the baskets for best results. Appears starting episode 6.</string>
     <string name="coin_video_rh_23">NA</string>
 
-    <string name="coin_title_rh_24">Title</string>
-    <string name="coin_descr_rh_24">Description of Coin</string>
+    <string name="coin_title_rh_24">Raise sub</string>
+    <string name="coin_descr_rh_24">Locate the white propeller with a red sun logo above the sub. Spray to raise the submarine all the way up out of the water and blue coin pops out. Appears in episode 1 only.</string>
     <string name="coin_video_rh_24">NA</string>
 
-    <string name="coin_title_rh_25">Title</string>
-    <string name="coin_descr_rh_25">Description of Coin</string>
+    <string name="coin_title_rh_25">Tower crate</string>
+    <string name="coin_descr_rh_25">Smash the crate sitting next to the tower to make a coin pop out. Appears in all episodes.</string>
     <string name="coin_video_rh_25">NA</string>
 
-    <string name="coin_title_rh_26">Title</string>
-    <string name="coin_descr_rh_26">Description of Coin</string>
+    <string name="coin_title_rh_26">Cage blooper</string>
+    <string name="coin_descr_rh_26">Enter the cage that held the shine in episode 3. Defeat the blooper there and it drops a blue coin. With the rocket you can enter the cage easily by launching from the platform below. Without the rocket you essentially have to re-do episode 3 to reach it. Appears starting episode 4.</string>
     <string name="coin_video_rh_26">NA</string>
 
-    <string name="coin_title_rh_27">Title</string>
-    <string name="coin_descr_rh_27">Description of Coin</string>
+    <string name="coin_title_rh_27">Ship spiders (A)</string>
+    <string name="coin_descr_rh_27">Defeat the spiders crawling on the ship near the entrance to get two blue coins. One spider is near the bow of the ship and climbing on a vertical grate, slam the grate from the other side to defeat it. The other spider is crawling under a grate in the middle of the ship. Ground pound the crate above to defeat it. In some episodes a third spider appears but it doesn\'t drop anything. Appears starting episode 3.</string>
     <string name="coin_video_rh_27">NA</string>
 
-    <string name="coin_title_rh_28">Title</string>
-    <string name="coin_descr_rh_28">Description of Coin</string>
+    <string name="coin_title_rh_28">Ship spiders (B)</string>
+    <string name="coin_descr_rh_28">Defeat the spiders crawling on the ship near the entrance to get two blue coins. One spider is near the bow of the ship and climbing on a vertical grate, slam the grate from the other side to defeat it. The other spider is crawling under a grate in the middle of the ship. Ground pound the crate above to defeat it. In some episodes a third spider appears but it doesn\'t drop anything. Appears starting episode 3.</string>
     <string name="coin_video_rh_28">NA</string>
 
-    <string name="coin_title_rh_29">Title</string>
-    <string name="coin_descr_rh_29">Description of Coin</string>
+    <string name="coin_title_rh_29">Wall spider</string>
+    <string name="coin_descr_rh_29">Spray the spider that\'s crawling on the wall near the cement area, then jump and press B button to hit it. Alternatively, you can use Yoshi to eat it. This spider appears starting episode 3.</string>
     <string name="coin_video_rh_29">NA</string>
 
-    <string name="coin_title_rh_30">Title</string>
-    <string name="coin_descr_rh_30">Description of Coin</string>
+    <string name="coin_title_rh_30">Butterfly</string>
+    <string name="coin_descr_rh_30">You need to get Yoshi before the Yoshi egg appears and you can get these coins. In this level Yoshi always needs a durian to wake up, so you need to keep pounding the fruit towers until you get one. Yoshi only appears in episode 8 in this level. Get Yoshi and hunt for butterflies in the market area. Have Yoshi eat the group of blue butterflies to get a blue coin.</string>
     <string name="coin_video_rh_30">NA</string>
-    >
+
 
 </resources>
 
