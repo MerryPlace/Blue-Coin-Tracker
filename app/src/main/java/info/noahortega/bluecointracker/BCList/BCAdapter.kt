@@ -15,7 +15,7 @@ class BCAdapter(
 ) : RecyclerView.Adapter<BCAdapter.BCViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BCViewHolder {
-        val itemView = LayoutInflater.from(parent.context).inflate( //maybe get context another way
+        val itemView = LayoutInflater.from(parent.context).inflate(
             R.layout.list_item, parent, false)
         return BCViewHolder(itemView)
     }
@@ -27,7 +27,7 @@ class BCAdapter(
         holder.title.text = currentItem.title_text_1
         holder.description.text = currentItem.description_text_2
 
-        // DONT DO: holder.itemView.title_text.text = currentItem.title_text
+        // DON'T DO: holder.itemView.title_text.text = currentItem.title_text
     }
 
     override fun getItemCount() = bcList.size
@@ -38,19 +38,20 @@ class BCAdapter(
         val description: TextView = itemView.description_text
 
         init {
+            checkBox.setOnClickListener(this)
             itemView.setOnClickListener(this)
         }
 
         override fun onClick(v: View?) {
             val position:Int = adapterPosition
             val checked = checkBox.isChecked
-            if (position != RecyclerView.NO_POSITION) {
-                listener.onItemClick(position, checked)
+            if (position != RecyclerView.NO_POSITION && v != null) {
+                listener.onItemClick(position, checked, v::class.simpleName!!)
             }
         }
     }
 
     interface OnItemClickListener {
-        fun onItemClick(position: Int, checked: Boolean)
+        fun onItemClick(position: Int, checked: Boolean, viewType: String)
     }
 }

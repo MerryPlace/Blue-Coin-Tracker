@@ -22,7 +22,7 @@ class HomeFragment : Fragment() {
 
     lateinit var database: CoinDatabaseDao
     private var viewJob = Job()
-    private val myScope = CoroutineScope(Dispatchers.Main + viewJob)
+    private val uiScope = CoroutineScope(Dispatchers.Main + viewJob)
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -34,7 +34,7 @@ class HomeFragment : Fragment() {
 
         database = CoinDatabase.getInstance(activity as Context).coinDao
 
-        myScope.launch {
+        uiScope.launch {
             refreshPercentages()
             binding.DPImage.setOnClickListener { levelClicked(LevelCode.dp.code) }
             binding.BHImage.setOnClickListener { levelClicked(LevelCode.bh.code) }
@@ -53,15 +53,11 @@ class HomeFragment : Fragment() {
     private fun levelClicked(code: Int) {
         val navController = this.findNavController()
 
-        myScope.launch {
+        uiScope.launch {
             Data.levelSelectedId = code
             Data.queriedCoins = database.getAllCoinsInLevelId(code)
             navController.navigate(R.id.action_homeFragment_to_listFragment)
         }
-    }
-
-    private suspend fun getLevels(): List<Level> {
-        return database.getLevels()
     }
 
     override fun onDestroyView() {
@@ -69,7 +65,6 @@ class HomeFragment : Fragment() {
         _binding = null
     }
 
-    //TODO: flashing of UI
     @SuppressLint("SetTextI18n")
     suspend fun refreshPercentages() {
         val levelPercentages = database.getOrderedLevelPercentages()
