@@ -7,6 +7,7 @@ object Data {
     var levelSelectedId: Int = LevelCode.na.code
     var queriedCoins: List<BlueCoin>? = null
     var coinSelected: BlueCoin? = null
+    var coinSelectedIndex: Int = 0
 }
 
 enum class LevelCode(val code: Int) {

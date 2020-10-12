@@ -6,7 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
 import info.noahortega.bluecointracker.Data
+import info.noahortega.bluecointracker.SharedViewModel
 import info.noahortega.bluecointracker.database.BlueCoin
 import info.noahortega.bluecointracker.database.CoinDatabase
 import info.noahortega.bluecointracker.database.CoinDatabaseDao
@@ -24,6 +26,8 @@ class DetailFragment : Fragment() {
     lateinit var database: CoinDatabaseDao
     private var viewJob = Job()
     private val ioScope = CoroutineScope(Dispatchers.IO + viewJob)
+
+    private val model: SharedViewModel by activityViewModels()
 
     var coin: BlueCoin = Data.coinSelected!!
 
