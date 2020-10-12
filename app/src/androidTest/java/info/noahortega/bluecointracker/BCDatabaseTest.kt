@@ -25,7 +25,7 @@ class BCDatabaseTest {
 
     @Before
     fun createDb() {
-        println("starting")
+        println("starting database")
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         // Using an in-memory database because the information stored here disappears when the
         // process is killed.

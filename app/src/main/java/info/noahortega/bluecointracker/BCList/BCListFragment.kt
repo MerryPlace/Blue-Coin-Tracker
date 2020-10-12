@@ -1,6 +1,5 @@
 package info.noahortega.bluecointracker.BCList
 
-import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -9,46 +8,34 @@ import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import info.noahortega.bluecointracker.Data
+
+import kotlinx.android.synthetic.main.fragment_list.*
+
 import info.noahortega.bluecointracker.R
 import info.noahortega.bluecointracker.SharedViewModel
-import info.noahortega.bluecointracker.database.CoinDatabase
-import info.noahortega.bluecointracker.database.CoinDatabaseDao
-import info.noahortega.bluecointracker.database.Level
-import kotlinx.android.synthetic.main.fragment_list.*
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.Job
-import kotlinx.coroutines.launch
-
 
 
 class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
 
-    lateinit var database: CoinDatabaseDao
-    private var viewJob = Job()
-    private val ioScope = CoroutineScope(Dispatchers.IO + viewJob)
-    private val uiScope = CoroutineScope(Dispatchers.Main + viewJob)
-
     private val model: SharedViewModel by activityViewModels()
+
+    private lateinit var blueCoinList: List<BCListItem>
+    private lateinit var adapter: BCAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        blueCoinList = generateBCList()
+        adapter = BCAdapter(blueCoinList, this)
+
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_list, container, false)
     }
 
 
-
-    private val blueCoinList = generateBCList()
-    private val adapter = BCAdapter(blueCoinList, this)
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        database = CoinDatabase.getInstance(activity as Context).coinDao
-
         my_recycler_view.adapter = adapter
         my_recycler_view.layoutManager = LinearLayoutManager(getContext())
         my_recycler_view.setHasFixedSize(true)
@@ -56,8 +43,7 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
 
     private fun generateBCList(): List<BCListItem> {
         val list = ArrayList<BCListItem>()
-        val coins = Data.queriedCoins
-
+        val coins = model.getQueriedCoins()
         if (coins != null) {
             for (n in coins.indices) {
                 val item = BCListItem(
@@ -72,7 +58,7 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
 
     override fun onItemClick(position: Int, checked: Boolean, viewType: String) {
 
-        val coin = Data.queriedCoins!![position]
+        val coin = model.getQueriedCoins()!![position]
 
         if (viewType == "AppCompatCheckBox") { //checkbox //TODO: probably a better way to do this
             //edit in display
@@ -81,33 +67,10 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
 
             //edit in data
             coin.checked = checked
-            ioScope.launch {
-                database.updateBlueCoin(coin)
-                updateLevelCompletion(Data.levelSelectedId)
-            }
-        }
-        else {//any other part of the list item
+            model.updateCoin(coin)
+        } else {//any other part of the list item
             val navController = this.findNavController()
-            ioScope.launch {
-                Data.coinSelected = database.getCoinById(coin.coinId)
-                Data.coinSelectedIndex = position
-                navController.navigate(R.id.action_listFragment_to_detailFragment)
-            }
+            model.navToDetailWithCoin(navController, coin.coinId)
         }
     }
-
-    private suspend fun updateLevelCompletion(levelId: Int) {
-//        var completed = 0.0
-//        val checkList: List<Boolean> = database.getLevelCheckedList(levelId)
-//        val level: Level = database.getLevelById(levelId)
-//        for (checked in checkList) {
-//            if (checked) {
-//                completed++
-//            }
-//        }
-//        val percent = (((completed) / checkList.size) * 100).toInt()
-//        level.percentDone = percent
-//        database.updateLevel(level)
-    }
-
 }
