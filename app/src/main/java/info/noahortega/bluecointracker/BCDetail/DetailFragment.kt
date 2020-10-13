@@ -45,12 +45,12 @@ class DetailFragment : Fragment() {
 
         binding.checkBox.isChecked = coin.checked
 
-        binding.checkBox.isEnabled = false //TODO: remove when checkClicked() is implemented
         binding.checkBox.setOnClickListener { checkClicked() }
     }
 
     private fun checkClicked() {
-        //TODO: implement
+        //in database
+        model.updateCoin(coin.coinId,binding.checkBox.isChecked, true)
     }
 
     override fun onDestroyView() {

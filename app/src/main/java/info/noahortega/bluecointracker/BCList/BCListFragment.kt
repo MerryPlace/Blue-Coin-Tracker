@@ -34,11 +34,11 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
         return inflater.inflate(R.layout.fragment_list, container, false)
     }
 
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         my_recycler_view.adapter = adapter
-        my_recycler_view.layoutManager = LinearLayoutManager(getContext())
+        my_recycler_view.layoutManager = LinearLayoutManager(context)
         my_recycler_view.setHasFixedSize(true)
+
     }
 
     private fun generateBCList(): List<BCListItem> {
@@ -66,8 +66,7 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
             adapter.notifyItemChanged(position)
 
             //edit in data
-            coin.checked = checked
-            model.updateCoin(coin)
+            model.updateCoin(coin.coinId, checked, false)
         } else {//any other part of the list item
             val navController = this.findNavController()
             model.navToDetailWithCoin(navController, coin.coinId)
