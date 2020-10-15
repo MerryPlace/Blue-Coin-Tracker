@@ -1,4 +1,7 @@
 <resources>
+    <string name="corona_mountain">Corona Mountain</string>
+    <string name="guide_link_cm">https://strategywiki.org/wiki/Super_Mario_Sunshine/Corona_Mountain_blue_coins</string>
+
     <string name="coin_title_cm_01">After the 1-Up</string>
     <string name="coin_descr_cm_01">After the 1-Up mushroom placed on the broken sidewalk, there should be another broken sidewalk with the blue coin in plain sight.</string>
     <string name="coin_video_cm_01">NA</string>

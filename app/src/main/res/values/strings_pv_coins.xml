@@ -1,4 +1,7 @@
 <resources>
+    <string name="pianta_village">Pianta Village</string>
+    <string name="guide_link_pv">https://strategywiki.org/wiki/Super_Mario_Sunshine/Pianta_Village_blue_coins</string>
+
     <string name="coin_title_pv_01">Title</string>
     <string name="coin_descr_pv_01">Description of Coin</string>
     <string name="coin_video_pv_01">NA</string>

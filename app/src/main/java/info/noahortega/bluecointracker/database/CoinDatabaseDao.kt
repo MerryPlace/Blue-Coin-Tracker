@@ -30,8 +30,11 @@ interface CoinDatabaseDao {
     @Query("SELECT * FROM level_table ORDER BY levelId ASC")
     fun getLiveOrderedLevels(): LiveData<List<Level>>
 
+    @Query("SELECT * FROM level_table ORDER BY levelId ASC")
+    fun getOrderedLevels(): List<Level>
+
     @Query("SELECT * FROM level_table WHERE levelId = :levelId ORDER BY levelId ASC")
-    suspend fun getLevelbyId(levelId: Int): Level
+    suspend fun getLevelById(levelId: Int): Level
 
     @Query("SELECT * FROM coin_table WHERE myLevelID = :levelId ORDER BY numInLevel ASC")
     suspend fun getCoinsByLevelId(levelId: Int): List<BlueCoin>

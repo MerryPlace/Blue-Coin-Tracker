@@ -36,18 +36,19 @@ class SharedViewModel(application: Application) : AndroidViewModel(application) 
             updateLevelCompletion(coin.myLevelId)
 
             if(updateList) {
-                listViewCoins = database.getCoinsByLevelId(listViewCoins!![0].myLevelId)
+                queriedCoins = database.getCoinsByLevelId(queriedCoins!![0].myLevelId)
             }
         }
     }
 
-    private var listViewCoins: List<BlueCoin>? = null
+
+    private var queriedCoins: List<BlueCoin>? = null
     fun getQueriedCoins() : List<BlueCoin>? { //getter
-        return listViewCoins
+        return queriedCoins
     }
     fun navToListWithLevel(navCon: NavController, levelId: Int) {
         ioScope.launch {
-            listViewCoins = database.getCoinsByLevelId(levelId)
+            queriedCoins = database.getCoinsByLevelId(levelId)
             navCon.navigate(R.id.action_homeFragment_to_listFragment)
         }
     }
@@ -56,9 +57,14 @@ class SharedViewModel(application: Application) : AndroidViewModel(application) 
     fun getSelectedCoin() : BlueCoin? { //getter
         return detailViewCoin
     }
+    private var coinLevel: Level? = null
+    fun getSelectedCoinLevel() : Level? { //getter
+        return coinLevel
+    }
     fun navToDetailWithCoin(navCon: NavController, coinId: Long) {
         ioScope.launch {
             detailViewCoin = database.getCoinById(coinId)
+            coinLevel = database.getLevelById(detailViewCoin!!.myLevelId)
             navCon.navigate(R.id.action_listFragment_to_detailFragment)
         }
     }
@@ -67,7 +73,7 @@ class SharedViewModel(application: Application) : AndroidViewModel(application) 
         ioScope.launch {
             var completed = 0.0
             val checkList: List<Boolean> = database.getLevelCheckedList(levelId)
-            val level: Level = database.getLevelbyId(levelId)
+            val level: Level = database.getLevelById(levelId)
             for (checked in checkList) {
                 if (checked) {
                     completed++
@@ -78,6 +84,47 @@ class SharedViewModel(application: Application) : AndroidViewModel(application) 
             database.updateLevel(level)
         }
     }
+
+    /*public fun initDatabase() {
+        ioScope.launch {
+            database.insertLevel(Level(1, "Delfino Plaza", "dp", 20, 0,"guide_link_dp"))
+            database.insertLevel(Level(2, "Bianco Hills", "bh", 30, 0,"guide_link_bh"))
+            database.insertLevel(Level(3, "Ricco Harbor", "rh", 30, 0,"guide_link_rh"))
+            database.insertLevel(Level(4, "Gelato Beach", "gb", 30, 0,"guide_link_gb"))
+            database.insertLevel(Level(5, "Noki Bay", "nb", 30, 0,"guide_link_nb"))
+            database.insertLevel(Level(6, "Pinna Park", "pp", 30, 0,"guide_link_pp"))
+            database.insertLevel(Level(7, "Sirena Beach", "sb", 30, 0,"guide_link_sb"))
+            database.insertLevel(Level(8, "Pianta Village", "pv", 30, 0,"guide_link_pv"))
+            database.insertLevel(Level(9, "Corona Mountain", "cm", 10, 0,"guide_link_cm"))
+
+            val levels: List<Level> = database.getOrderedLevels()
+            var addition = "0"
+            for (level in levels) {
+                val nickname = level.nickname
+                println(nickname)
+                for (n in 1..level.bCoinCount) {
+                    if(n == 1) {
+                        addition = "0"
+                    }
+                    else if(n == 10) {
+                        addition = ""
+                    }
+
+                    database.insertCoin(
+                        BlueCoin(
+                            myLevelId = level.levelId,
+                            numInLevel = n,
+                            imageAddress = "coin_" + nickname + "_" + addition + n,
+                            youtubeLink = "coin_video_"+ nickname + "_" + addition + n,
+                            shortTitle = "coin_title_"+ nickname + "_" + addition + n,
+                            description = "coin_descr_"+ nickname + "_" + addition + n,
+                        )
+                    )
+                }
+            }
+        }
+        println("init??~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    }*/
 }
 
 

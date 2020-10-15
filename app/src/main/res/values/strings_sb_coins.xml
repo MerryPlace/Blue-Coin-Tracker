@@ -1,4 +1,7 @@
 <resources>
+    <string name="sirena_beach">Sirena Beach</string>
+    <string name="guide_link_sb">https://strategywiki.org/wiki/Super_Mario_Sunshine/Sirena_Beach_blue_coins</string>
+
     <string name="coin_title_sb_01">Title</string>
     <string name="coin_descr_sb_01">Description of Coin</string>
     <string name="coin_video_sb_01">NA</string>
@@ -33,7 +36,9 @@
 
     <string name="coin_title_sb_09">Title</string>
     <string name="coin_descr_sb_09">Description of Coin</string>
-    <string name="coin_video_sb_09">NA</string><string name="coin_title_sb_10">Title</string>
+    <string name="coin_video_sb_09">NA</string>
+
+    <string name="coin_title_sb_10">Title</string>
     <string name="coin_descr_sb_10">Description of Coin</string>
     <string name="coin_video_sb_10">NA</string>
 

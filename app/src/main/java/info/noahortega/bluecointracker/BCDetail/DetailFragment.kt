@@ -46,6 +46,10 @@ class DetailFragment : Fragment() {
         binding.checkBox.isChecked = coin.checked
 
         binding.checkBox.setOnClickListener { checkClicked() }
+
+        binding.creditFullText.text = resources.getString(
+            resources.getIdentifier(model.getSelectedCoinLevel()!!.guideAddress,"string", requireContext().packageName)
+        )
     }
 
     private fun checkClicked() {

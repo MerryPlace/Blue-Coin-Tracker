@@ -44,16 +44,7 @@
     </string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="app_title">Blue Coin Tracker</string>
-    <string name="home_total_percentage_done_dummy">You are to completion</string>
-    <string name="delfino_plaza">Delfino Plaza</string>
-    <string name="bianco_hills">Bianco Hills</string>
-    <string name="gelato_beach">Gelato Beach</string>
-    <string name="ricco_harbor">Ricco Harbor</string>
-    <string name="noki_bay">Noki_Bay</string>
-    <string name="pinna_park">Pinna Park</string>
-    <string name="corona_mountain">Corona Mountain</string>
-    <string name="sirena_beach">Sirena Beach</string>
-    <string name="pianta_village">Pianta Village</string>
+    <string name="home_total_percentage_done_dummy">You are   to completion</string>
     <string name="youtube_link">Youtube Clip</string>
     <string name="coin_conditions_header">Collection Conditions</string>
     <string name="coin_description_header" >Description</string>
@@ -62,4 +53,9 @@
     <string name="youtube_image_description">Youtube logo</string>
     <string name="empty_percentage">XX%</string>
     <string name="default_condition_name">Condition</string>
+    <string name="coin_credit_text">
+        "credit to\n"
+        "StrategyWiki.org"
+    </string>
+    <string name="empty_credits">https://strategywiki.org/wiki/Super_Mario_Sunshine</string>
 </resources>

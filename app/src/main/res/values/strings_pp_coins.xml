@@ -1,4 +1,7 @@
 <resources>
+    <string name="pinna_park">Pinna Park</string>
+    <string name="guide_link_pp">https://strategywiki.org/wiki/Super_Mario_Sunshine/Pinna_Park_blue_coins</string>
+
     <string name="coin_title_pp_01">Title</string>
     <string name="coin_descr_pp_01">Description of Coin</string>
     <string name="coin_video_pp_01">NA</string>

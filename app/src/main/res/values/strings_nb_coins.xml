@@ -1,4 +1,7 @@
 <resources>
+    <string name="noki_bay">Noki_Bay</string>
+    <string name="guide_link_nb">https://strategywiki.org/wiki/Super_Mario_Sunshine/Noki_Bay_blue_coins</string>
+
     <string name="coin_title_nb_01">Under the falls</string>
     <string name="coin_descr_nb_01">Look underwater to the left of where the water fall lands. Follow the trail of gold coins to find a blue coin at the end. There is a bubba swimming around down here who should be avoided. Also, don\'t collect all the gold coins on the swim down as you may need them for air on the swim back up. There is a 1-up below the coins but it\'s very difficult to get it and get back to the surface without drowning. Available all episodes except 3.</string>
     <string name="coin_video_nb_01">NA</string>
