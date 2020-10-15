@@ -1,4 +1,7 @@
 <resources>
+    <string name="gelato_beach">Gelato Beach</string>
+    <string name="guide_link_gb">https://strategywiki.org/wiki/Super_Mario_Sunshine/Gelato_Beach_blue_coins</string>
+
     <string name="coin_title_gb_01">Sea floor (A)</string>
     <string name="coin_descr_gb_01">First go to the small island with three palm trees that\'s behind you when you start. Climb the middle and, while facing out to sea, look down and to the left so spot a coin.</string>
     <string name="coin_video_gb_01">NA</string>

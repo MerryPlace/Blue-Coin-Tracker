@@ -54,6 +54,16 @@
             app:layout_constraintStart_toEndOf="@+id/yt_icon"
             app:layout_constraintTop_toTopOf="@+id/yt_icon" />
 
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="38dp"
+            android:layout_height="40dp"
+            android:scaleX="1.20"
+            android:scaleY="1.20"
+            app:layout_constraintBottom_toBottomOf="@+id/yt_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/yt_icon" />
+
         <View
             android:id="@+id/divider_2"
             android:layout_width="match_parent"
@@ -259,12 +269,24 @@
             android:id="@+id/description_header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:text="@string/coin_description_header"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/divider_3" />
+
+        <TextView
+            android:id="@+id/credit_top_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="@string/coin_credit_text"
+            android:textAlignment="textEnd"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/description_header"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/description_header" />
 
         <TextView
             android:id="@+id/description_text"
@@ -273,23 +295,25 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/large_text"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/description_header"
-            tools:text="@string/large_text" />
+            tools:text="@string/appbar_scrolling_view_behavior" />
 
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/credit_full_text"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:scaleX="1.20"
-            android:scaleY="1.20"
-            app:layout_constraintBottom_toBottomOf="@+id/yt_icon"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/empty_credits"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/yt_icon" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description_text" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

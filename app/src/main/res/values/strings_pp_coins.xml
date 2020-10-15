@@ -1,4 +1,8 @@
 <resources>
+
+    <string name="pinna_park">Pinna Park</string>
+    <string name="guide_link_pp">https://strategywiki.org/wiki/Super_Mario_Sunshine/Pinna_Park_blue_coins</string>
+
     <string name="coin_title_pp_01">Baskets (A)</string>
     <string name="coin_descr_pp_01">There are six baskets scattered around the beach, all are upside-down and have a coin visible inside. The only time you can get at them is in episode 2. Stand on top and wait until one of the purple Bullet Bills starts to track you. Hop out of the way just before the bullet hits the basket (to avoid getting hurt). The bullet blows up the basket and you can get the coin. The black and gold bullets also blow up baskets but since they don\'t track you it\'s impossible to control where they land. With a couple of the harder to reach baskets you may have to stand nearby and then get the bullet to chase you to the basket. Visible in all episodes but only reachable in episode 2.</string>
     <string name="coin_video_pp_01">NA</string>

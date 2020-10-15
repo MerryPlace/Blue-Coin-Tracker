@@ -20,7 +20,7 @@ data class Level(
     @ColumnInfo()
     var percentDone: Int = 0,
     @ColumnInfo()
-    var thumbnailAddress: String = "home_na",
+    var guideAddress: String = "home_na",
 )
 
 @Entity(tableName = "coin_table")

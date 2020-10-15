@@ -1,4 +1,8 @@
 <resources>
+
+    <string name="sirena_beach">Sirena Beach</string>
+    <string name="guide_link_sb">https://strategywiki.org/wiki/Super_Mario_Sunshine/Sirena_Beach_blue_coins</string>
+
     <string name="coin_title_sb_01">Ocean floor</string>
     <string name="coin_descr_sb_01">Go to the left end of the beach and keep following the cliff to the left until the water starts to get deep. Dive and look around for the coin that\'s on the ocean floor. Available every episode.</string>
     <string name="coin_video_sb_01">NA</string>

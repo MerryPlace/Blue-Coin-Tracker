@@ -1,4 +1,7 @@
 <resources>
+    <string name="bianco_hills">Bianco Hills</string>
+    <string name="guide_link_bh">https://strategywiki.org/wiki/Super_Mario_Sunshine/Bianco_Hills_blue_coins</string>
+
     <string name="coin_title_bh_01">Stream</string>
     <string name="coin_descr_bh_01">Go down the path from the start and follow the stream left when you reach it. There is a blue coin in the water by the gate at the end. Appears in all episodes.</string>
     <string name="coin_video_bh_01">NA</string>

@@ -1,4 +1,8 @@
 <resources>
+
+    <string name="ricco_harbor">Ricco Harbor</string>
+    <string name="guide_link_rh">https://strategywiki.org/wiki/Super_Mario_Sunshine/Ricco_Harbor_blue_coins</string>
+
     <string name="coin_title_rh_01">Sea floor</string>
     <string name="coin_descr_rh_01">Check the bottom of the ocean under the orange platform with an arrow, to the right of the ship with grates. There are four gold coins around a blue coin. Appears in all episodes.</string>
     <string name="coin_video_rh_01">NA</string>

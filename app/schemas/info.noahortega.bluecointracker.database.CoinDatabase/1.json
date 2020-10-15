@@ -2,11 +2,11 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "7ca7610504d12fe26d8278d3f518496e",
+    "identityHash": "a6ae5ab6edee63e990949cedf2ed1c7b",
     "entities": [
       {
         "tableName": "level_table",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`levelId` INTEGER NOT NULL, `title` TEXT NOT NULL, `nickname` TEXT NOT NULL, `bCoinCount` INTEGER NOT NULL, `percentDone` INTEGER NOT NULL, `thumbnailAddress` TEXT NOT NULL, PRIMARY KEY(`levelId`))",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`levelId` INTEGER NOT NULL, `title` TEXT NOT NULL, `nickname` TEXT NOT NULL, `bCoinCount` INTEGER NOT NULL, `percentDone` INTEGER NOT NULL, `guideAddress` TEXT NOT NULL, PRIMARY KEY(`levelId`))",
         "fields": [
           {
             "fieldPath": "levelId",
@@ -39,8 +39,8 @@
             "notNull": true
           },
           {
-            "fieldPath": "thumbnailAddress",
-            "columnName": "thumbnailAddress",
+            "fieldPath": "guideAddress",
+            "columnName": "guideAddress",
             "affinity": "TEXT",
             "notNull": true
           }
@@ -56,7 +56,7 @@
       },
       {
         "tableName": "coin_table",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`coinId` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `myLevelId` INTEGER NOT NULL, `numInLevel` INTEGER NOT NULL, `checked` INTEGER NOT NULL, `youtubeLink` TEXT NOT NULL, `imageAddress` TEXT NOT NULL, `shortTitle` TEXT NOT NULL, `description` TEXT NOT NULL)",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`coinId` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `myLevelId` INTEGER NOT NULL, `numInLevel` INTEGER NOT NULL, `checked` INTEGER NOT NULL, `imageAddress` TEXT NOT NULL, `youtubeLink` TEXT NOT NULL, `shortTitle` TEXT NOT NULL, `description` TEXT NOT NULL)",
         "fields": [
           {
             "fieldPath": "coinId",
@@ -83,14 +83,14 @@
             "notNull": true
           },
           {
-            "fieldPath": "youtubeLink",
-            "columnName": "youtubeLink",
+            "fieldPath": "imageAddress",
+            "columnName": "imageAddress",
             "affinity": "TEXT",
             "notNull": true
           },
           {
-            "fieldPath": "imageAddress",
-            "columnName": "imageAddress",
+            "fieldPath": "youtubeLink",
+            "columnName": "youtubeLink",
             "affinity": "TEXT",
             "notNull": true
           },
@@ -179,7 +179,7 @@
     "views": [],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '7ca7610504d12fe26d8278d3f518496e')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'a6ae5ab6edee63e990949cedf2ed1c7b')"
     ]
   }
 }

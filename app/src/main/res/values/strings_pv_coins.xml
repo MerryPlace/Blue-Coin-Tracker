@@ -1,4 +1,8 @@
 <resources>
+
+    <string name="pianta_village">Pianta Village</string>
+    <string name="guide_link_pv">https://strategywiki.org/wiki/Super_Mario_Sunshine/Pianta_Village_blue_coins</string>
+
     <string name="coin_title_pv_01">West lawn</string>
     <string name="coin_descr_pv_01">Go left from bridge at the start and follow the path around the corner. There is a grassy area on the left with five wells that take you to the village underside. Check the edge, behind a small tree, to find a coin. Appears all episodes.</string>
     <string name="coin_video_pv_01">NA</string>
