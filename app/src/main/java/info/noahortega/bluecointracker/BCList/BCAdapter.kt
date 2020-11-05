@@ -1,22 +1,28 @@
 package info.noahortega.bluecointracker.BCList
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.CheckBox
 import android.widget.TextView
+import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.RecyclerView
 import info.noahortega.bluecointracker.R
 import kotlinx.android.synthetic.main.list_item.view.*
 
 class BCAdapter(
     private val bcList: List<BCListItem>,
-    private val listener: OnItemClickListener
+    private val listener: OnItemClickListener,
+    private val context:Context
 ) : RecyclerView.Adapter<BCAdapter.BCViewHolder>() {
+
+
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BCViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(
-            R.layout.list_item, parent, false)
+            R.layout.list_item, parent, false
+        )
         return BCViewHolder(itemView)
     }
 
@@ -24,7 +30,9 @@ class BCAdapter(
         val currentItem = bcList[position]
 
         holder.checkBox.isChecked = currentItem.collected
-        holder.title.text = currentItem.title_text_1
+        holder.title.text = context.resources.getString(
+            context.resources.getIdentifier(currentItem.title_text_1, "string", context.packageName)
+        )
         holder.description.text = currentItem.description_text_2
 
         // DON'T DO: holder.itemView.title_text.text = currentItem.title_text
