@@ -1,5 +1,4 @@
 <resources>
-
     <string name="pianta_village">Pianta Village</string>
     <string name="guide_link_pv">https://strategywiki.org/wiki/Super_Mario_Sunshine/Pianta_Village_blue_coins</string>
 
@@ -72,35 +71,35 @@
     <string name="coin_video_pv_17">NA</string>
 
     <string name="coin_title_pv_18">Rescue villager (A)</string>
-    <string name="coin_descr_pv_18">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. Appears episode 6 only.</string>
+    <string name="coin_descr_pv_18">Appears episode 6 only. After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward.</string>
     <string name="coin_video_pv_18">NA</string>
 
     <string name="coin_title_pv_19">Rescue villager (B)</string>
-    <string name="coin_descr_pv_19">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. Appears episode 6 only.</string>
+    <string name="coin_descr_pv_19">Appears episode 6 only. After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward.</string>
     <string name="coin_video_pv_19">NA</string>
 
     <string name="coin_title_pv_20">Rescue villager (C)</string>
-    <string name="coin_descr_pv_20">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. Appears episode 6 only.</string>
+    <string name="coin_descr_pv_20">Appears episode 6 only. After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward.</string>
     <string name="coin_video_pv_20">NA</string>
 
     <string name="coin_title_pv_21">Rescue villager (D)</string>
-    <string name="coin_descr_pv_21">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. Appears episode 6 only.</string>
+    <string name="coin_descr_pv_21">Appears episode 6 only. After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward.</string>
     <string name="coin_video_pv_21">NA</string>
 
     <string name="coin_title_pv_22">Rescue villager (E)</string>
-    <string name="coin_descr_pv_22">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. Appears episode 6 only.</string>
+    <string name="coin_descr_pv_22">Appears episode 6 only. After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward.</string>
     <string name="coin_video_pv_22">NA</string>
 
     <string name="coin_title_pv_23">Rescue villager (F)</string>
-    <string name="coin_descr_pv_23">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. Appears episode 6 only.</string>
+    <string name="coin_descr_pv_23">Appears episode 6 only. After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward.</string>
     <string name="coin_video_pv_23">NA</string>
 
     <string name="coin_title_pv_24">Rescue villager (G)</string>
-    <string name="coin_descr_pv_24">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. Appears episode 6 only.</string>
+    <string name="coin_descr_pv_24">Appears episode 6 only. After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward.</string>
     <string name="coin_video_pv_24">NA</string>
 
     <string name="coin_title_pv_25">Rescue villager (H)</string>
-    <string name="coin_descr_pv_25">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. Appears episode 6 only.</string>
+    <string name="coin_descr_pv_25">Appears episode 6 only. After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward.</string>
     <string name="coin_video_pv_25">NA</string>
 
     <string name="coin_title_pv_26">Blue parrot</string>
@@ -112,15 +111,15 @@
     <string name="coin_video_pv_27">NA</string>
 
     <string name="coin_title_pv_28">Beehive (A)</string>
-    <string name="coin_descr_pv_28">Yoshi only appears in episode 5. Fruit of all types is found growing in a tree on a plateau across the path from the hot spring. There are two beehives on this level, deal with them just like the beehives in Bianco Hills and Gelato beach. One is located over the end of the bridge as you come in and the other is behind the giant tree to the left of the hot spring. These have more bees than the hives in the other levels.</string>
+    <string name="coin_descr_pv_28">There are two beehives on this level, deal with them just like the beehives in Bianco Hills and Gelato beach. One is located over the end of the bridge as you come in and the other is behind the giant tree to the left of the hot spring. These have more bees than the hives in the other levels. Yoshi only appears in episode 5. Fruit of all types is found growing in a tree on a plateau across the path from the hot spring.</string>
     <string name="coin_video_pv_28">NA</string>
 
     <string name="coin_title_pv_29">Beehive (B)</string>
-    <string name="coin_descr_pv_29">There are two beehives on this level, deal with them just like the beehives in Bianco Hills and Gelato beach. One is located over the end of the bridge as you come in and the other is behind the giant tree to the left of the hot spring. These have more bees than the hives in the other levels.</string>
+    <string name="coin_descr_pv_29">There are two beehives on this level, deal with them just like the beehives in Bianco Hills and Gelato beach. One is located over the end of the bridge as you come in and the other is behind the giant tree to the left of the hot spring. These have more bees than the hives in the other levels. Yoshi only appears in episode 5. Fruit of all types is found growing in a tree on a plateau across the path from the hot spring.</string>
     <string name="coin_video_pv_29">NA</string>
 
     <string name="coin_title_pv_30">Butterflies</string>
-    <string name="coin_descr_pv_30">Get Yoshi and go back to the fruit tree, hop on top and from there to the top of the red mushroom next to it. Have Yoshi eat all the blue butterflies and a blue coin appears.</string>
+    <string name="coin_descr_pv_30">Get Yoshi and go back to the fruit tree, hop on top and from there to the top of the red mushroom next to it. Have Yoshi eat all the blue butterflies and a blue coin appears. Yoshi only appears in episode 5. Fruit of all types is found growing in a tree on a plateau across the path from the hot spring.</string>
     <string name="coin_video_pv_30">NA</string>
 </resources>
 

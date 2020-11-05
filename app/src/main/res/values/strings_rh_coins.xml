@@ -1,5 +1,4 @@
 <resources>
-
     <string name="ricco_harbor">Ricco Harbor</string>
     <string name="guide_link_rh">https://strategywiki.org/wiki/Super_Mario_Sunshine/Ricco_Harbor_blue_coins</string>
 
@@ -120,9 +119,7 @@
     <string name="coin_video_rh_29">NA</string>
 
     <string name="coin_title_rh_30">Butterfly</string>
-    <string name="coin_descr_rh_30">You need to get Yoshi before the Yoshi egg appears and you can get these coins. In this level Yoshi always needs a durian to wake up, so you need to keep pounding the fruit towers until you get one. Yoshi only appears in episode 8 in this level. Get Yoshi and hunt for butterflies in the market area. Have Yoshi eat the group of blue butterflies to get a blue coin.</string>
+    <string name="coin_descr_rh_30">Get Yoshi and hunt for butterflies in the market area. Have Yoshi eat the group of blue butterflies to get a blue coin. You need to get Yoshi before the Yoshi egg appears and you can get these coins. In this level Yoshi always needs a durian to wake up, so you need to keep pounding the fruit towers until you get one. Yoshi only appears in episode 8 in this level.</string>
     <string name="coin_video_rh_30">NA</string>
-
-
 </resources>
 

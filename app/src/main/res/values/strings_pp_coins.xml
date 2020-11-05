@@ -1,5 +1,4 @@
 <resources>
-
     <string name="pinna_park">Pinna Park</string>
     <string name="guide_link_pp">https://strategywiki.org/wiki/Super_Mario_Sunshine/Pinna_Park_blue_coins</string>
 
@@ -80,14 +79,15 @@
     <string name="coin_video_pp_19">NA</string>
 
     <string name="coin_title_pp_20">Paired circles (A)</string>
-    <string name="coin_descr_pp_20">There are two spots on the beach where washing the sand reveals a blue shine icon. Keep washing and a blue coin pops out when the icon is complete. Keep watching for sparks in the sand to find these, since you will be spraying the sand to find fruit and coins anyway. Both are located in front of the sunflower area. Available all episodes.</string>
+    <string name="coin_descr_pp_20">Get to the top of the Ferris wheel, see the episode 5 walk-through and locate the graffiti circles on the left and right. Wash and get to the other location for a coin each. This time the symbols are fairly close together so it\'s more a matter of not falling off here. Available all episodes except 2 and 4.</string>
     <string name="coin_video_pp_20">NA</string>
 
     <string name="coin_title_pp_21">Paired circles (B)</string>
-    <string name="coin_descr_pp_21">There are two spots on the beach where washing the sand reveals a blue shine icon. Keep washing and a blue coin pops out when the icon is complete. Keep watching for sparks in the sand to find these, since you will be spraying the sand to find fruit and coins anyway. Both are located in front of the sunflower area. Available all episodes.n</string>
+    <string name="coin_descr_pp_21">Get to the top of the Ferris wheel, see the episode 5 walk-through and locate the graffiti circles on the left and right. Wash and get to the other location for a coin each. This time the symbols are fairly close together so it\'s more a matter of not falling off here. Available all episodes except 2 and 4.</string>
     <string name="coin_video_pp_21">NA</string>
 
-    <string name="coin_title_pp_22">There are two spots on the beach where washing the sand reveals a blue shine icon. Keep washing and a blue coin pops out when the icon is complete. Keep watching for sparks in the sand to find these, since you will be spraying the sand to find fruit and coins anyway. Both are located in front of the sunflower area. Available all episodes.</string>
+    <string name="coin_title_pp_22">Sand icon (A)</string>
+    <string name="coin_descr_pp_22">There are two spots on the beach where washing the sand reveals a blue shine icon. Keep washing and a blue coin pops out when the icon is complete. Keep watching for sparks in the sand to find these, since you will be spraying the sand to find fruit and coins anyway. Both are located in front of the sunflower area. Available all episodes.</string>
     <string name="coin_video_pp_22">NA</string>
 
     <string name="coin_title_pp_23">Sand icon (B)</string>
@@ -107,19 +107,19 @@
     <string name="coin_video_pp_26">NA</string>
 
     <string name="coin_title_pp_27">Tower of Stus</string>
-    <string name="coin_descr_pp_27">Enter the park and go past the merry-go-round to the reflecting pool. Check to the right to find a stack of Stus (round creatures with short legs). Spray off the ones on the big one, then hop on top of the big one to defeat it and get a coin. Available all episodes except 2 and 4.</string>
+    <string name="coin_descr_pp_27">Enter the park and go past the merry-go-round to the reflecting pool. Check to the right to find a stack of Stus (round creatures with short legs). Spray off the ones on the big one, then hop on top of the big one to defeat it and get a coin. Or ground pound the whole stack :P. Available all episodes except 2 and 4.</string>
     <string name="coin_video_pp_27">NA</string>
 
-    <string name="coin_title_pp_28">Butterfly (A)</string>
-    <string name="coin_descr_pp_28">You need to get Yoshi before the Yoshi egg appears and you can get these coins. Yoshi appears in all episodes here, but only after clearing episode 5. So you can return to episodes 1 through 4 and find Yoshi after completing episode 5, but Yoshi will not appear the first time you go through these episodes. Get Yoshi and hunt for butterflies in the sunflower area. Fruit can be had by spraying the sand, but it may take a while to find the type of fruit needed to wake up the egg. Have Yoshi eat two of blue butterflies to get a blue coin for each.</string>
+    <string name="coin_title_pp_28">Beach Butterfly (A)</string>
+    <string name="coin_descr_pp_28">Get Yoshi and hunt for butterflies in the sunflower area. Fruit can be had by spraying the sand, but it may take a while to find the type of fruit needed to wake up the egg. Have Yoshi eat two of blue butterflies to get a blue coin for each. Yoshi appears in all episodes here, but only after clearing episode 5. </string>
     <string name="coin_video_pp_28">NA</string>
 
-    <string name="coin_title_pp_29">Butterfly (B)</string>
-    <string name="coin_descr_pp_29">You need to get Yoshi before the Yoshi egg appears and you can get these coins. Yoshi appears in all episodes here, but only after clearing episode 5. So you can return to episodes 1 through 4 and find Yoshi after completing episode 5, but Yoshi will not appear the first time you go through these episodes. Get Yoshi and hunt for butterflies in the sunflower area. Fruit can be had by spraying the sand, but it may take a while to find the type of fruit needed to wake up the egg. Have Yoshi eat two of blue butterflies to get a blue coin for each.</string>
+    <string name="coin_title_pp_29">Beach Butterfly (B)</string>
+    <string name="coin_descr_pp_29">Get Yoshi and hunt for butterflies in the sunflower area. Fruit can be had by spraying the sand, but it may take a while to find the type of fruit needed to wake up the egg. Have Yoshi eat two of blue butterflies to get a blue coin for each. Yoshi appears in all episodes here, but only after clearing episode 5. </string>
     <string name="coin_video_pp_29">NA</string>
 
-    <string name="coin_title_pp_30">Butterfly (C)</string>
-    <string name="coin_descr_pp_30">Yoshi is only found in episode 6 here. (For some reason Yoshi doesn\'t come with you when you enter the park. Yoshi is behind the Pianta shaped tree. Fruit is scattered around so unless you know where to look it may take a while to find the one needed to wake up the egg. Coconuts are in and under a tree next to the pirate ride. A papaya is hanging under the nose of the Pianta tree. A bunch of bananas is on the small ledge behind the pirate ride. A pineapple inside the gazebo. Finally, a durian is at the edge of the reflecting pool but is seldom, if ever, needed to wake up the egg. Get Yoshi and hunt for butterflies on the beach to the left of the merry-go-round.</string>
+    <string name="coin_title_pp_30">Park Butterfly</string>
+    <string name="coin_descr_pp_30">Get Yoshi and hunt for butterflies on the beach to the left of the merry-go-round. Yoshi is only found in episode 6 here. (For some reason Yoshi doesn\'t come with you when you enter the park. Yoshi is behind the Pianta shaped tree.  </string>
     <string name="coin_video_pp_30">NA</string>
 </resources>
 

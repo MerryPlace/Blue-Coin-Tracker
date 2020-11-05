@@ -28,7 +28,7 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
         savedInstanceState: Bundle?
     ): View? {
         blueCoinList = generateBCList()
-        adapter = BCAdapter(blueCoinList, this)
+        adapter = BCAdapter(blueCoinList, this, requireContext())
 
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_list, container, false)
