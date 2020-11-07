@@ -25,7 +25,7 @@ class SharedViewModel(app: Application) : AndroidViewModel(app) {
     private var uiJob = Job()
     private val uiScope = CoroutineScope(Dispatchers.Main + uiJob)
 
-    val levelNamesMap = mapOf(
+    val levelIDToNamesMap = mapOf(
         1 to app.getString(R.string.delfino_plaza), 2 to app.getString(R.string.bianco_hills), 3 to app.getString(R.string.ricco_harbor),
         4 to app.getString(R.string.gelato_beach), 5 to app.getString(R.string.noki_bay), 6 to app.getString(R.string.pinna_park),
         7 to app.getString(R.string.sirena_beach), 8 to app.getString(R.string.pianta_village), 9 to app.getString(R.string.corona_mountain))
