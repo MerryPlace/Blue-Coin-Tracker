@@ -38,7 +38,7 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
         my_recycler_view.adapter = adapter
         my_recycler_view.layoutManager = LinearLayoutManager(context)
         my_recycler_view.setHasFixedSize(true)
-
+        activity?.title = model.levelNamesMap[model.curLevelId]
     }
 
     private fun generateBCList(): List<BCListItem> {

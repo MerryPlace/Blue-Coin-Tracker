@@ -38,6 +38,8 @@ class HomeFragment : Fragment() {
             refreshPercentages(newLevels)
         })
 
+        activity?.title = "Blue Coin Tracker"
+
         binding.DPImage.setOnClickListener { levelClicked(LevelCode.dp.code) }
         binding.BHImage.setOnClickListener { levelClicked(LevelCode.bh.code) }
         binding.RHImage.setOnClickListener { levelClicked(LevelCode.rh.code) }

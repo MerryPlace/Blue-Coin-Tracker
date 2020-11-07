@@ -35,6 +35,10 @@ class DetailFragment : Fragment() {
 
         coin = model.getSelectedCoin()!!
 
+        activity?.title = requireContext().resources.getString(
+            context?.resources!!.getIdentifier(coin.shortTitle, "string", context?.packageName)
+        )
+
         binding.topMedia.setImageResource(
             resources.getIdentifier(coin.imageAddress, "drawable", requireContext().packageName)
         )

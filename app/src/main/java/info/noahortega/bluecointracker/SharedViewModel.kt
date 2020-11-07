@@ -16,15 +16,19 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 
 
-class SharedViewModel(application: Application) : AndroidViewModel(application) {
+class SharedViewModel(app: Application) : AndroidViewModel(app) {
 
-    private var database: CoinDatabaseDao = CoinDatabase.getInstance(application).coinDao
+    private var database: CoinDatabaseDao = CoinDatabase.getInstance(app).coinDao
 
     private var ioJob = Job()
     private val ioScope = CoroutineScope(Dispatchers.IO + ioJob)
     private var uiJob = Job()
     private val uiScope = CoroutineScope(Dispatchers.Main + uiJob)
 
+    val levelNamesMap = mapOf(
+        1 to app.getString(R.string.delfino_plaza), 2 to app.getString(R.string.bianco_hills), 3 to app.getString(R.string.ricco_harbor),
+        4 to app.getString(R.string.gelato_beach), 5 to app.getString(R.string.noki_bay), 6 to app.getString(R.string.pinna_park),
+        7 to app.getString(R.string.sirena_beach), 8 to app.getString(R.string.pianta_village), 9 to app.getString(R.string.corona_mountain))
 
     val liveLevels: LiveData<List<Level>> = database.getLiveOrderedLevels()
 
@@ -41,13 +45,14 @@ class SharedViewModel(application: Application) : AndroidViewModel(application) 
         }
     }
 
-
+    var curLevelId = -1
     private var queriedCoins: List<BlueCoin>? = null
     fun getQueriedCoins() : List<BlueCoin>? { //getter
         return queriedCoins
     }
     fun navToListWithLevel(navCon: NavController, levelId: Int) {
         ioScope.launch {
+            curLevelId = levelId
             queriedCoins = database.getCoinsByLevelId(levelId)
             navCon.navigate(R.id.action_homeFragment_to_listFragment)
         }
@@ -84,6 +89,9 @@ class SharedViewModel(application: Application) : AndroidViewModel(application) 
             database.updateLevel(level)
         }
     }
+
+
+
 
     /*public fun initDatabase() {
         ioScope.launch {
