@@ -4,123 +4,123 @@
     <string name="guide_link_sb">https://strategywiki.org/wiki/Super_Mario_Sunshine/Sirena_Beach_blue_coins</string>
 
     <string name="coin_title_sb_01">Ocean floor</string>
-    <string name="coin_descr_sb_01">Go to the left end of the beach and keep following the cliff to the left until the water starts to get deep. Dive and look around for the coin that\'s on the ocean floor. Available every episode.</string>
+    <string name="coin_descr_sb_01">Go to the left end of the beach and keep following the cliff to the left until the water starts to get deep. Dive and look around for the coin that\'s on the ocean floor. <p><b>Appears in all episodes.</b></p></string>
     <string name="coin_video_sb_01">NA</string>
 
     <string name="coin_title_sb_02">Cabana ceiling</string>
-    <string name="coin_descr_sb_02">Head toward the hotel and look under the roof of the cabana on the right to find a blue coin and a gold coin. Hop on the bar and hop again to get the coins. Available starting episode 2.</string>
+    <string name="coin_descr_sb_02">Head toward the hotel and look under the roof of the cabana on the right to find a blue coin and a gold coin. Hop on the bar and hop again to get the coins. <p>Available starting <b>episode 2</b>.</p></string>
     <string name="coin_video_sb_02">NA</string>
 
     <string name="coin_title_sb_03">Hotel ledge</string>
-    <string name="coin_descr_sb_03">Go around to the back of the hotel. There will be a blue coin sitting on a ledge one floor up. To reach it, back-flip into the wall behind the hotel and wall jump toward the hotel, then hover to the ledge. Available starting episode 2.</string>
+    <string name="coin_descr_sb_03">Go around to the back of the hotel. There will be a blue coin sitting on a ledge one floor up. To reach it, back-flip into the wall behind the hotel and wall jump toward the hotel, then <i>hover</i> to the ledge. <p>Available starting <b>episode 2</b>.</p></string>
     <string name="coin_video_sb_03">NA</string>
 
     <string name="coin_title_sb_04">Room A</string>
-    <string name="coin_descr_sb_04">Find a blue coin in a row with two gold coins in the bedroom. Available all episodes except 1, 2 and 6.</string>
+    <string name="coin_descr_sb_04">Find a blue coin in a row with two gold coins in the bedroom. <p>Available <b>all episodes except 1, 2 and 6</b>.</p></string>
     <string name="coin_video_sb_04">NA</string>
 
     <string name="coin_title_sb_05">Room B</string>
-    <string name="coin_descr_sb_05">Find a blue coin in a square with three gold coins. Available all episodes except 1, 2 and 6.</string>
+    <string name="coin_descr_sb_05">Find a blue coin in a square with three gold coins. <p>Available <b>all episodes except 1, 2 and 6</b>.</p></string>
     <string name="coin_video_sb_05">NA</string>
 
     <string name="coin_title_sb_06">Room H</string>
-    <string name="coin_descr_sb_06">Find a blue coin in a rectangle with five gold coins. Available all episodes except 1, 2 and 6.</string>
+    <string name="coin_descr_sb_06">Find a blue coin in a rectangle with five gold coins. <p>Available <b>all episodes except 1, 2 and 6</b>.</p></string>
     <string name="coin_video_sb_06">NA</string>
 
     <string name="coin_title_sb_07">Attic cul-de-sac</string>
-    <string name="coin_descr_sb_07">Get up to the attic by bouncing on the bed in room K. Go clockwise to the next corner and get to the second passage in from the outer edge. Find a coin in the cul-de-sac where the passage ends. Available all episodes except 1, 2, 6.</string>
+    <string name="coin_descr_sb_07">Get up to the attic by bouncing on the bed in room K. Go clockwise to the next corner and get to the second passage in from the outer edge. Find a coin in the cul-de-sac where the passage ends. <p>Available <b>all episodes except 1, 2 and 6</b>.</p></string>
     <string name="coin_video_sb_07">NA</string>
 
     <string name="coin_title_sb_08">Cabana M</string>
-    <string name="coin_descr_sb_08">Go toward the hotel to the cabana on the right. Check the wall behind and to the right of this to find a graffiti M. Wash it off go get a coin. Available starting episode 7.</string>
+    <string name="coin_descr_sb_08">Go toward the hotel to the cabana on the right. Check the wall behind and to the right of this to find a graffiti M. Wash it off go get a coin. <p>Available starting <b>episode 7</b>.</p></string>
     <string name="coin_video_sb_08">NA</string>
 
     <string name="coin_title_sb_09">Stairwell M</string>
-    <string name="coin_descr_sb_09">Go to the top floor and check the wall between the pool and the stairwell for a graffiti M. Wash it off go get a coin. Available starting episode 7.</string>
+    <string name="coin_descr_sb_09">Go to the top floor and check the wall between the pool and the stairwell for a graffiti M. Wash it off go get a coin. <p>Available starting <b>episode 7</b>.</p></string>
     <string name="coin_video_sb_09">NA</string>
 
     <string name="coin_title_sb_10">Attic M</string>
-    <string name="coin_descr_sb_10">Get up to the attic by bouncing on the bed in room K. Get around to the other side of the skylight and find the small room next to it. Check the wall behind four gold coins for a graffiti M. Wash it off go get a blue coin. Available starting episode 7.</string>
+    <string name="coin_descr_sb_10">Get up to the attic by bouncing on the bed in room K. Get around to the other side of the skylight and find the small room next to it. Check the wall behind four gold coins for a graffiti M. Wash it off go get a blue coin. <p>Available starting <b>episode 7</b>.</p></string>
     <string name="coin_video_sb_10">NA</string>
 
     <string name="coin_title_sb_11">Paired crosses (A)</string>
-    <string name="coin_descr_sb_11">Locate the graffiti cross on the hallway wall left of room F. Then locate a corresponding cross on the hallway wall between rooms G and H. Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. The crosses are on different floors but they are both close enough to the stairwell that you can rush up or down it to get to the other location in time. To save time and avoid confusion caused by changing camera angle, stand next to the stairs when you do the washing. Available starting episode 7.</string>
+    <string name="coin_descr_sb_11">Locate the graffiti cross on the hallway wall left of room F. Then locate a corresponding cross on the hallway wall between rooms G and H. Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. The crosses are on different floors but they are both close enough to the stairwell that you can rush up or down it to get to the other location in time. To save time and avoid confusion caused by changing camera angle, stand next to the stairs when you do the washing. <p>Available starting <b>episode 7</b>.</p></string>
     <string name="coin_video_sb_11">NA</string>
 
     <string name="coin_title_sb_12">Paired crosses (B)</string>
-    <string name="coin_descr_sb_12">Locate the graffiti cross on the hallway wall left of room F. Then locate a corresponding cross on the hallway wall between rooms G and H. Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. The crosses are on different floors but they are both close enough to the stairwell that you can rush up or down it to get to the other location in time. To save time and avoid confusion caused by changing camera angle, stand next to the stairs when you do the washing. Available starting episode 7.</string>
+    <string name="coin_descr_sb_12">Locate the graffiti cross on the hallway wall left of room F. Then locate a corresponding cross on the hallway wall between rooms G and H. Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. The crosses are on different floors but they are both close enough to the stairwell that you can rush up or down it to get to the other location in time. To save time and avoid confusion caused by changing camera angle, stand next to the stairs when you do the washing. <p>Available starting <b>episode 7</b>.</p></string>
     <string name="coin_video_sb_12">NA</string>
 
     <string name="coin_title_sb_13">Paired triangles (A)</string>
-    <string name="coin_descr_sb_13">Locate the graffiti triangle on the wall on the lobby opposite the front desk. It\'s in a lounge area with a fruit stand at one end. Then locate the corresponding triangle on the hallway wall between rooms C and D. Wash the graffiti and rush to get the coins. This time the symbols are far enough away from the stairwell that it\'s probably impossible to get from one location to the other using it. To get from the upper location to the lower one just drop over the balcony, being careful not to land on one of the burning torches below. To get from the lower location to the upper one, stand next to the totem pole when you wash the triangle, this takes longer but it doesn\'t matter. Then when the coin pops out quickly switch to hover, do a back-flip into the totem pole, wall kick up, and hover to the balcony. This is tricky and may take a few tries. Available starting episode 7.</string>
+    <string name="coin_descr_sb_13">Locate the graffiti triangle on the wall on the lobby opposite the front desk. It\'s in a lounge area with a fruit stand at one end. Then locate the corresponding triangle on the hallway wall between rooms C and D. Wash the graffiti and rush to get the coins. This time the symbols are far enough away from the stairwell that it\'s probably impossible to get from one location to the other using it. To get from the upper location to the lower one just drop over the balcony, being careful not to land on one of the burning torches below. To get from the lower location to the upper one, stand next to the totem pole when you wash the triangle, this takes longer but it doesn\'t matter. Then when the coin pops out quickly switch to <i>hover</i>, do a back-flip into the totem pole, wall kick up, and <i>hover</i> to the balcony. This is tricky and may take a few tries. <p>Available starting <b>episode 7</b>.</p></string>
     <string name="coin_video_sb_13">NA</string>
 
     <string name="coin_title_sb_14">Paired triangles (B)</string>
-    <string name="coin_descr_sb_14">Locate the graffiti triangle on the wall on the lobby opposite the front desk. It\'s in a lounge area with a fruit stand at one end. Then locate the corresponding triangle on the hallway wall between rooms C and D. Wash the graffiti and rush to get the coins. This time the symbols are far enough away from the stairwell that it\'s probably impossible to get from one location to the other using it. To get from the upper location to the lower one just drop over the balcony, being careful not to land on one of the burning torches below. To get from the lower location to the upper one, stand next to the totem pole when you wash the triangle, this takes longer but it doesn\'t matter. Then when the coin pops out quickly switch to hover, do a back-flip into the totem pole, wall kick up, and hover to the balcony. This is tricky and may take a few tries. Available starting episode 7.</string>
+    <string name="coin_descr_sb_14">Locate the graffiti triangle on the wall on the lobby opposite the front desk. It\'s in a lounge area with a fruit stand at one end. Then locate the corresponding triangle on the hallway wall between rooms C and D. Wash the graffiti and rush to get the coins. This time the symbols are far enough away from the stairwell that it\'s probably impossible to get from one location to the other using it. To get from the upper location to the lower one just drop over the balcony, being careful not to land on one of the burning torches below. To get from the lower location to the upper one, stand next to the totem pole when you wash the triangle, this takes longer but it doesn\'t matter. Then when the coin pops out quickly switch to <i>hover</i>, do a back-flip into the totem pole, wall kick up, and <i>hover</i> to the balcony. This is tricky and may take a few tries. <p>Available starting <b>episode 7</b>.</p></string>
     <string name="coin_video_sb_14">NA</string>
 
     <string name="coin_title_sb_15">Casino M</string>
-    <string name="coin_descr_sb_15">Enter the casino and immediately turn around and look up to spot a graffiti M over the entrance. Wash it off go get a coin. You might think this would be visible in episode 4 since you go through the casino then, but no. Available episode 5 only.</string>
+    <string name="coin_descr_sb_15">Enter the casino and immediately turn around and look up to spot a graffiti M over the entrance. Wash it off go get a coin. You might think this would be visible in <b>episode 4</b> since you go through the casino then, but no. <p>Available <b>episode 5 only</b>.</p></string>
     <string name="coin_video_sb_15">NA</string>
 
     <string name="coin_title_sb_16">Unlucky Noki (A)</string>
-    <string name="coin_descr_sb_16">In episode 1, starting from the beach, hop up the ledge to the right to a tree with a fountain moat around it. Wash the goop off the ground between the moat and the cabana to rescue a Noki couple. In episode 6 the same couple needs rescuing again, wash the ground behind the lawn chairs to the left of the same tree. Wash them clean and talk to them to get a blue coin from each as a reward. Available episodes 1 and 6 only. Can be repeated for 1-ups.</string>
+    <string name="coin_descr_sb_16">In <b>episode 1</b>, starting from the beach, hop up the ledge to the right to a tree with a fountain moat around it. Wash the goop off the ground between the moat and the cabana to rescue a Noki couple. In <b>episode 6</b> the same couple needs rescuing again, wash the ground behind the lawn chairs to the left of the same tree. Wash them clean and talk to them to get a blue coin from each as a reward. Can be repeated for 1-ups. <p>Available <b>episodes 1 and 6 only</b>.</p></string>
     <string name="coin_video_sb_16">NA</string>
 
     <string name="coin_title_sb_17">Unlucky Noki (B)</string>
-    <string name="coin_descr_sb_17">In episode 1, starting from the beach, hop up the ledge to the right to a tree with a fountain moat around it. Wash the goop off the ground between the moat and the cabana to rescue a Noki couple. In episode 6 the same couple needs rescuing again, wash the ground behind the lawn chairs to the left of the same tree. Wash them clean and talk to them to get a blue coin from each as a reward. Available episodes 1 and 6 only. Can be repeated for 1-ups.</string>
+    <string name="coin_descr_sb_17">In <b>episode 1</b>, starting from the beach, hop up the ledge to the right to a tree with a fountain moat around it. Wash the goop off the ground between the moat and the cabana to rescue a Noki couple. In <b>episode 6</b> the same couple needs rescuing again, wash the ground behind the lawn chairs to the left of the same tree. Wash them clean and talk to them to get a blue coin from each as a reward. Can be repeated for 1-ups. <p>Available <b>episodes 1 and 6 only</b>.</p></string>
     <string name="coin_video_sb_17">NA</string>
 
     <string name="coin_title_sb_18">Slightly Lucky Noki (A)</string>
-    <string name="coin_descr_sb_18">Starting from the beach, hop up the ledge to the left to a tree with a fountain moat around it. Wash the goop off the ground between the moat and the cabana to rescue a Noki couple. This couple escaped the goop from episode 1, making them slightly luckier than the unlucky Noki couple. Wash them clean and talk to them to get a blue coin from each as a reward. Available episode 6 only. Can be repeated for 1-ups.</string>
+    <string name="coin_descr_sb_18">Starting from the beach, hop up the ledge to the left to a tree with a fountain moat around it. Wash the goop off the ground between the moat and the cabana to rescue a Noki couple. This couple escaped the goop from <b>episode 1</b>, making them slightly luckier than the unlucky Noki couple. Wash them clean and talk to them to get a blue coin from each as a reward. Can be repeated for 1-ups. <p>Available <b>episodes 6 only</b>.</p></string>
     <string name="coin_video_sb_18">NA</string>
 
     <string name="coin_title_sb_19">Slightly Lucky Noki (B)</string>
-    <string name="coin_descr_sb_19">Starting from the beach, hop up the ledge to the left to a tree with a fountain moat around it. Wash the goop off the ground between the moat and the cabana to rescue a Noki couple. This couple escaped the goop from episode 1, making them slightly luckier than the unlucky Noki couple. Wash them clean and talk to them to get a blue coin from each as a reward. Available episode 6 only. Can be repeated for 1-ups.</string>
+    <string name="coin_descr_sb_19">Starting from the beach, hop up the ledge to the left to a tree with a fountain moat around it. Wash the goop off the ground between the moat and the cabana to rescue a Noki couple. This couple escaped the goop from <b>episode 1</b>, making them slightly luckier than the unlucky Noki couple. Wash them clean and talk to them to get a blue coin from each as a reward. Can be repeated for 1-ups. <p>Available <b>episodes 6 only</b>.</p></string>
     <string name="coin_video_sb_19">NA</string>
 
     <string name="coin_title_sb_20">Hotel sign</string>
-    <string name="coin_descr_sb_20">Starting from the beach, hop up the ledge and spray a small, square sign in front of the lawn chairs to make a coin pop out. Available starting episode 2.</string>
+    <string name="coin_descr_sb_20">Starting from the beach, hop up the ledge and spray a small, square sign in front of the lawn chairs to make a coin pop out. <p>Available starting <b>episode 2</b>.</p></string>
     <string name="coin_video_sb_20">NA</string>
 
     <string name="coin_title_sb_21">Douse the flame</string>
-    <string name="coin_descr_sb_21">Notice the eight flames burning in braziers in front of the hotel. Spray the second one from the left to get a blue coin. You get a gold coin if you spray one of the other seven or one of the two flames on the ledge above. Available starting episode 2.</string>
+    <string name="coin_descr_sb_21">Notice the eight flames burning in braziers in front of the hotel. Spray the second one from the left to get a blue coin. You get a gold coin if you spray one of the other seven or one of the two flames on the ledge above. <p>Available starting <b>episode 2</b>.</p></string>
     <string name="coin_video_sb_21">NA</string>
 
     <string name="coin_title_sb_22">Water the flowers</string>
-    <string name="coin_descr_sb_22">Go to the corner on the right behind the hotel. There is a round bed of flowers in front of a small fountain. Spray the flowers and a coin will pop out. Available starting episode 2.</string>
+    <string name="coin_descr_sb_22">Go to the corner on the right behind the hotel. There is a round bed of flowers in front of a small fountain. Spray the flowers and a coin will pop out. <p>Available starting <b>episode 2</b>.</p></string>
     <string name="coin_video_sb_22">NA</string>
 
     <string name="coin_title_sb_23">Room G</string>
-    <string name="coin_descr_sb_23">Spray the mirror over the bed to make a blue shine logo appear. When the logo is fully formed a blue coin pops out. Available all episodes except 1, 2 and 6.</string>
+    <string name="coin_descr_sb_23">Spray the mirror over the bed to make a blue shine logo appear. When the logo is fully formed a blue coin pops out. <p>Available <b>all episodes except 1, 2 and 6</b>.</p></string>
     <string name="coin_video_sb_23">NA</string>
 
     <string name="coin_title_sb_24">Room I</string>
-    <string name="coin_descr_sb_24">Spray the empty shelves on the right in the room with the Boo poster to make a coin pop out. Available all episodes except 1, 2 and 6.</string>
+    <string name="coin_descr_sb_24">Spray the empty shelves on the right in the room with the Boo poster to make a coin pop out. <p>Available <b>all episodes except 1, 2 and 6</b>.</p></string>
     <string name="coin_video_sb_24">NA</string>
 
     <string name="coin_title_sb_25">Pool lamp</string>
-    <string name="coin_descr_sb_25">Spray the lamp in the corner to the left of the pool. A coin will pop out. Available all episodes except 1 and 6.</string>
+    <string name="coin_descr_sb_25">Spray the lamp in the corner to the left of the pool. A coin will pop out. <p>Available <b>all episodes except 1 and 6</b>.</p></string>
     <string name="coin_video_sb_25">NA</string>
 
     <string name="coin_title_sb_26">Skylight</string>
-    <string name="coin_descr_sb_26">Wash the skylight on the upper floor and a coin pops out to land on top of the totem pole. Available all episodes except 1, 2 and 6.</string>
+    <string name="coin_descr_sb_26">Wash the skylight on the upper floor and a coin pops out to land on top of the totem pole. <p>Available <b>all episodes except 1, 2 and 6</b>.</p></string>
     <string name="coin_video_sb_26">NA</string>
 
     <string name="coin_title_sb_27">Fountain flame</string>
-    <string name="coin_descr_sb_27">On the far wall there are two small pools, each with a flame coming out of a jar. Spray the one on the right for a coin. Available episodes 4 and 5 only.</string>
+    <string name="coin_descr_sb_27">On the far wall there are two small pools, each with a flame coming out of a jar. Spray the one on the right for a coin. <p>Available <b>episodes 4 and 5 only</b>.</p></string>
     <string name="coin_video_sb_27">NA</string>
 
     <string name="coin_title_sb_28">Hotel: Room C</string>
-    <string name="coin_descr_sb_28">Break the box closest to the doorway leading to room B to get a coin. Available all episodes except 1, 2, 3 and 6.</string>
+    <string name="coin_descr_sb_28">Break the box closest to the doorway leading to room B to get a coin. <p>Available <b>all episodes except 1, 2, 3 and 6</b>.</p></string>
     <string name="coin_video_sb_28">NA</string>
 
     <string name="coin_title_sb_29">Casino: play slots</string>
-    <string name="coin_descr_sb_29">There are two sets of normal size slot machines in the casino. To play, hop onto a stool and do a ground pound. Sometimes you win gold coins and one machine, left set second from the right, gives you a blue coin. In episode 4 there are other slot players, but in episode 5 you have the all the machines to yourself. Available episodes 4 and 5 only.</string>
+    <string name="coin_descr_sb_29">There are two sets of normal size slot machines in the casino. To play, hop onto a stool and do a ground pound. Sometimes you win gold coins and one machine, left set second from the right, gives you a blue coin. In <b>episode 4</b> there are other slot players, but in <b>episode 5</b> you have the all the machines to yourself. <p>Available <b>episodes 4 and 5 only</b>.</p></string>
     <string name="coin_video_sb_29">NA</string>
 
     <string name="coin_title_sb_30">Boo in the attic</string>
-    <string name="coin_descr_sb_30">Get up to the attic by bouncing on the bed in room K, then defeat the lone boo that\'s wandering around there to get a blue coin. Available all episodes except 1, 2, 3 and 6.</string>
+    <string name="coin_descr_sb_30">Get up to the attic by bouncing on the bed in room K, then defeat the lone boo that\'s wandering around there to get a blue coin. <p>Available <b>all episodes except 1, 2, 3 and 6</b>.</p></string>
     <string name="coin_video_sb_30">NA</string>
 </resources>
 
