@@ -3,131 +3,131 @@
     <string name="guide_link_bh">https://strategywiki.org/wiki/Super_Mario_Sunshine/Bianco_Hills_blue_coins</string>
 
     <string name="coin_title_bh_01">Stream</string>
-    <string name="coin_descr_bh_01">Go down the path from the start and follow the stream left when you reach it. There is a blue coin in the water by the gate at the end. <p><b>Appears in all episodes.</b></p></string>
+    <string name="coin_descr_bh_01">Go down the path from the start and follow the stream left when you reach it. There is a blue coin in the water by the gate at the end. &lt;p>&lt;b>Appears in all episodes.&lt;/b>&lt;/p></string>
     <string name="coin_video_bh_01">NA</string>
 
     <string name="coin_title_bh_02">North lake</string>
-    <string name="coin_descr_bh_02">As you cross the bridge leading to big windmill, look to the right and you may spot this coin under the water. This coin actually shifts position from episode to episode if you don\'t collect it, so in <b>episode 1</b> it\'s next to the series of platforms that crosses under the bridge and by <b>episode 6</b> it\'s close to cave entrance behind the big windmill. Then it moves back a bit for <b>episodes 7 and 8</b>. <p><b>Appears in all episodes</b> though in <b>episode 6</b> you must brave poisonous water to reach it.</p></string>
+    <string name="coin_descr_bh_02">As you cross the bridge leading to big windmill, look to the right and you may spot this coin under the water. This coin actually shifts position from episode to episode if you don\'t collect it, so in &lt;b>episode 1&lt;/b> it\'s next to the series of platforms that crosses under the bridge and by &lt;b>episode 6&lt;/b> it\'s close to cave entrance behind the big windmill. Then it moves back a bit for &lt;b>episodes 7 and 8&lt;/b>. &lt;p>&lt;b>Appears in all episodes&lt;/b> though in &lt;b>episode 6&lt;/b> you must brave poisonous water to reach it.&lt;/p></string>
     <string name="coin_video_bh_02">NA</string>
 
     <string name="coin_title_bh_03">South lake</string>
-    <string name="coin_descr_bh_03">Cross the bridge leading to the big windmill and look into the water on the left. This coin appears in <b>episode 6</b> with a trail of gold coins leading up to it, but you have to swim in poisonous water to reach it. <p>Appears without the gold coins in <b>episodes 7 and 8</b>, making it harder to find but easier to reach.</p></string>
+    <string name="coin_descr_bh_03">Cross the bridge leading to the big windmill and look into the water on the left. This coin appears in &lt;b>episode 6&lt;/b> with a trail of gold coins leading up to it, but you have to swim in poisonous water to reach it. &lt;p>Appears without the gold coins in &lt;b>episodes 7 and 8&lt;/b>, making it harder to find but easier to reach.&lt;/p></string>
     <string name="coin_video_bh_03">NA</string>
 
     <string name="coin_title_bh_04">Windmill ledge</string>
-    <string name="coin_descr_bh_04">Find the windmill near the end of the stream, then look for a coin floating in the air next to it. To reach it, get to the roof of one of the buildings, then <i>hover</i> to a ledge attached to the windmill next to it. You can then spray the windmill to move the ledge into a better position, or <i>hover</i> to the a closer ledge. When you reach the windmill with the coin next to it you can <i>hover</i> to the coin or move the ledge to it. Collecting the coin is easy though once you get the <i>rocket nozzle</i>, simply stand on the coin\'s shadow and fire the rocket. <p><b>Appears in all episodes.</b></p></string>
+    <string name="coin_descr_bh_04">Find the windmill near the end of the stream, then look for a coin floating in the air next to it. To reach it, get to the roof of one of the buildings, then &lt;i>hover&lt;/i> to a ledge attached to the windmill next to it. You can then spray the windmill to move the ledge into a better position, or &lt;i>hover&lt;/i> to the a closer ledge. When you reach the windmill with the coin next to it you can &lt;i>hover&lt;/i> to the coin or move the ledge to it. Collecting the coin is easy though once you get the &lt;i>rocket nozzle&lt;/i>, simply stand on the coin\'s shadow and fire the rocket. &lt;p>&lt;b>Appears in all episodes.&lt;/b>&lt;/p></string>
     <string name="coin_video_bh_04">NA</string>
 
     <string name="coin_title_bh_05">The two towers</string>
-    <string name="coin_descr_bh_05">Find the building on the far side of the village with two towers (and no windmills) on top. Look in the belfry on the right tower to find a coin. This can be reached easily with the <i>rocket nozzle</i>, or you can <i>hover</i> between ledges as in the windmill ledge coin, or you can use the building\'s unique shape with a triple jump, spin jump, back-flip and/or wall-jump. <p><b>Appears in all episodes.</b></p></string>
+    <string name="coin_descr_bh_05">Find the building on the far side of the village with two towers (and no windmills) on top. Look in the belfry on the right tower to find a coin. This can be reached easily with the &lt;i>rocket nozzle&lt;/i>, or you can &lt;i>hover&lt;/i> between ledges as in the windmill ledge coin, or you can use the building\'s unique shape with a triple jump, spin jump, back-flip and/or wall-jump. &lt;p>&lt;b>Appears in all episodes.&lt;/b>&lt;/p></string>
     <string name="coin_video_bh_05">NA</string>
 
     <string name="coin_title_bh_06">West cliff</string>
-    <string name="coin_descr_bh_06">To the right of the gated end of the stream is high ledge set into a cliff and a coin sits on the ledge. This can be reached easily with the <i>rocket nozzle</i>, but it\'s also possible to get there by <i>hover</i>ing from the house with two towers. <p>Appears starting <b>episode 3</b>.</p></string>
+    <string name="coin_descr_bh_06">To the right of the gated end of the stream is high ledge set into a cliff and a coin sits on the ledge. This can be reached easily with the &lt;i>rocket nozzle&lt;/i>, but it\'s also possible to get there by &lt;i>hover&lt;/i>ing from the house with two towers. &lt;p>Appears starting &lt;b>episode 3&lt;/b>.&lt;/p></string>
     <string name="coin_video_bh_06">NA</string>
 
     <string name="coin_title_bh_07">Cliff platform</string>
-    <string name="coin_descr_bh_07">On top of the cliff behind the town are five platforms with a blue coin on top. Can be reached easily with the <i>rocket nozzle</i>, or without it by following wires from the house with two towers and <i>hover</i>ing from the highest mini-windmill near the cliff. <p>Appears starting <b>episode 5</b>.</p></string>
+    <string name="coin_descr_bh_07">On top of the cliff behind the town are five platforms with a blue coin on top. Can be reached easily with the &lt;i>rocket nozzle&lt;/i>, or without it by following wires from the house with two towers and &lt;i>hover&lt;/i>ing from the highest mini-windmill near the cliff. &lt;p>Appears starting &lt;b>episode 5&lt;/b>.&lt;/p></string>
     <string name="coin_video_bh_07">NA</string>
 
     <string name="coin_title_bh_08">Under bridge</string>
-    <string name="coin_descr_bh_08">There\'s a blue coin under the bridge leading to the big windmill. You can get to it by trampoline-jumping from the rope under it. <p>Appears starting <b>episode 4</b>.</p></string>
+    <string name="coin_descr_bh_08">There\'s a blue coin under the bridge leading to the big windmill. You can get to it by trampoline-jumping from the rope under it. &lt;p>Appears starting &lt;b>episode 4&lt;/b>.&lt;/p></string>
     <string name="coin_video_bh_08">NA</string>
 
     <string name="coin_title_bh_09">Village mini-windmill</string>
-    <string name="coin_descr_bh_09">Locate the mini-windmill between the house with two towers and cliff behind it. Next to it, not quite at the top, is a floating blue coin. Use the <i>rocket nozzle</i> or jump on wires to reach. <p>Appears starting <b>episode 6</b>.</p></string>
+    <string name="coin_descr_bh_09">Locate the mini-windmill between the house with two towers and cliff behind it. Next to it, not quite at the top, is a floating blue coin. Use the &lt;i>rocket nozzle&lt;/i> or jump on wires to reach. &lt;p>Appears starting &lt;b>episode 6&lt;/b>.&lt;/p></string>
     <string name="coin_video_bh_09">NA</string>
 
     <string name="coin_title_bh_10">Lake mini-windmill</string>
-    <string name="coin_descr_bh_10">There is a blue coin above the mini-windmill to the left of the big windmill when facing it from the front. The mini windmill has two flags hanging from the side of it. To reach it, ride one of the big windmill vanes half-way up, then jump and <i>hover</i>. More wires and the <i>rocket nozzle</i> appear in later episodes giving alternatives. <p>Appears starting <b>episode 3</b>.</p></string>
+    <string name="coin_descr_bh_10">There is a blue coin above the mini-windmill to the left of the big windmill when facing it from the front. The mini windmill has two flags hanging from the side of it. To reach it, ride one of the big windmill vanes half-way up, then jump and &lt;i>hover&lt;/i>. More wires and the &lt;i>rocket nozzle&lt;/i> appear in later episodes giving alternatives. &lt;p>Appears starting &lt;b>episode 3&lt;/b>.&lt;/p></string>
     <string name="coin_video_bh_10">NA</string>
 
     <string name="coin_title_bh_11">Wall M</string>
-    <string name="coin_descr_bh_11">There is a graffiti M painted on the wall by the water wheel on the village side. Wash the wall clean to make a blue coin pop out. <p><b>Appears in all episodes.</b></p></string>
+    <string name="coin_descr_bh_11">There is a graffiti M painted on the wall by the water wheel on the village side. Wash the wall clean to make a blue coin pop out. &lt;p>&lt;b>Appears in all episodes.&lt;/b>&lt;/p></string>
     <string name="coin_video_bh_11">NA</string>
 
     <string name="coin_title_bh_12">Wall top M</string>
-    <string name="coin_descr_bh_12">Check the top of the wall, also near the water wheel. <i>hover</i> over it to wash it clean. <p><b>Appears in all episodes.</b></p></string>
+    <string name="coin_descr_bh_12">Check the top of the wall, also near the water wheel. &lt;i>hover&lt;/i> over it to wash it clean. &lt;p>&lt;b>Appears in all episodes.&lt;/b>&lt;/p></string>
     <string name="coin_video_bh_12">NA</string>
 
     <string name="coin_title_bh_13">House M</string>
-    <string name="coin_descr_bh_13">There is graffiti M painted on the back wall of the building with two towers. Wash the wall clean to make a blue coin pop out. <p><b>Appears in all episodes.</b></p></string>
+    <string name="coin_descr_bh_13">There is graffiti M painted on the back wall of the building with two towers. Wash the wall clean to make a blue coin pop out. &lt;p>&lt;b>Appears in all episodes.&lt;/b>&lt;/p></string>
     <string name="coin_video_bh_13">NA</string>
 
     <string name="coin_title_bh_14">Paired crosses (A)</string>
-    <string name="coin_descr_bh_14">Locate a graffiti cross on the tree side of the wall. Locate a corresponding cross inside the well formed between two branches of the wall. Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. It helps to be standing on the wall when washing so you can quickly get to the other location. Do both crosses to collect two coins. <p><b>Appears in all episodes.</b></p></string>
+    <string name="coin_descr_bh_14">Locate a graffiti cross on the tree side of the wall. Locate a corresponding cross inside the well formed between two branches of the wall. Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. It helps to be standing on the wall when washing so you can quickly get to the other location. Do both crosses to collect two coins. &lt;p>&lt;b>Appears in all episodes.&lt;/b>&lt;/p></string>
     <string name="coin_video_bh_14">NA</string>
 
     <string name="coin_title_bh_15">Paired crosses (B)</string>
-    <string name="coin_descr_bh_15">Locate a graffiti cross on the tree side of the wall. Locate a corresponding cross inside the well formed between two branches of the wall. Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. It helps to be standing on the wall when washing so you can quickly get to the other location. Do both crosses to collect two coins. <p><b>Appears in all episodes.</b></p></string>
+    <string name="coin_descr_bh_15">Locate a graffiti cross on the tree side of the wall. Locate a corresponding cross inside the well formed between two branches of the wall. Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. It helps to be standing on the wall when washing so you can quickly get to the other location. Do both crosses to collect two coins. &lt;p>&lt;b>Appears in all episodes.&lt;/b>&lt;/p></string>
     <string name="coin_video_bh_15">NA</string>
 
     <string name="coin_title_bh_16">Windmill M</string>
-    <string name="coin_descr_bh_16">Go all the way up the ramp to the base of the big windmill to find a graffiti M. Wash it off for a coin. <p><b>Appears in all episodes.</b></p></string>
+    <string name="coin_descr_bh_16">Go all the way up the ramp to the base of the big windmill to find a graffiti M. Wash it off for a coin. &lt;p>&lt;b>Appears in all episodes.&lt;/b>&lt;/p></string>
     <string name="coin_video_bh_16">NA</string>
 
     <string name="coin_title_bh_17">Paired circles (A)</string>
-    <string name="coin_descr_bh_17">Locate a graffiti circle on the back of the building with two towers. Locate a corresponding circle on the back of the building with the tall mini-windmill on top. Wash one circle off to make a blue coin appear at the other circle, then quickly get to the other circle to collect the coin before it disappears. The slip-slide move is very useful here for covering the distance in time, or get the <i>turbo nozzle</i> and use it. Do both circles to collect two coins. <p>Appears starting <b>episode 7</b>.</p></string>
+    <string name="coin_descr_bh_17">Locate a graffiti circle on the back of the building with two towers. Locate a corresponding circle on the back of the building with the tall mini-windmill on top. Wash one circle off to make a blue coin appear at the other circle, then quickly get to the other circle to collect the coin before it disappears. The slip-slide move is very useful here for covering the distance in time, or get the &lt;i>turbo nozzle&lt;/i> and use it. Do both circles to collect two coins. &lt;p>Appears starting &lt;b>episode 7&lt;/b>.&lt;/p></string>
     <string name="coin_video_bh_17">NA</string>
 
     <string name="coin_title_bh_18">Paired circles (B)</string>
-    <string name="coin_descr_bh_18">Locate a graffiti circle on the back of the building with two towers. Locate a corresponding circle on the back of the building with the tall mini-windmill on top. Wash one circle off to make a blue coin appear at the other circle, then quickly get to the other circle to collect the coin before it disappears. The slip-slide move is very useful here for covering the distance in time, or get the <i>turbo nozzle</i> and use it. Do both circles to collect two coins. Appears starting <b>episode 7</b>.</string>
+    <string name="coin_descr_bh_18">Locate a graffiti circle on the back of the building with two towers. Locate a corresponding circle on the back of the building with the tall mini-windmill on top. Wash one circle off to make a blue coin appear at the other circle, then quickly get to the other circle to collect the coin before it disappears. The slip-slide move is very useful here for covering the distance in time, or get the &lt;i>turbo nozzle&lt;/i> and use it. Do both circles to collect two coins. Appears starting &lt;b>episode 7&lt;/b>.</string>
     <string name="coin_video_bh_18">NA</string>
 
     <string name="coin_title_bh_19">Balcony</string>
-    <string name="coin_descr_bh_19">Go down the path from the start and <i>hover</i> over the river to find two buildings connected by a pair of wires. Wall jump to the lower wire, the bounce up to the second and hop over the roof of the left building. This building has two section connected by an arch. The taller section has a balcony on one side. Hop and <i>hover</i> into the balcony and notice two door-like openings there. Spray one of these doorways for a gold coin and the other for a blue coin. Note, the side the blue coin is on changes depending on the episode, left in episodes 1, 3, 4, and 5 and right in episodes 2, 6, 7 and 8.</string>
+    <string name="coin_descr_bh_19">Go down the path from the start and &lt;i>hover&lt;/i> over the river to find two buildings connected by a pair of wires. Wall jump to the lower wire, the bounce up to the second and hop over the roof of the left building. This building has two section connected by an arch. The taller section has a balcony on one side. Hop and &lt;i>hover&lt;/i> into the balcony and notice two door-like openings there. Spray one of these doorways for a gold coin and the other for a blue coin. Note, the side the blue coin is on changes depending on the episode, left in episodes 1, 3, 4, and 5 and right in episodes 2, 6, 7 and 8.</string>
     <string name="coin_video_bh_19">NA</string>
 
     <string name="coin_title_bh_20">Tree</string>
-    <string name="coin_descr_bh_20">Get to the top of the wall and hop over to the tree tops. Go to the one closest to the water wheel, then <i>hover</i> over it or wash the top so the crown is well drenched. A coin will pop out. Appears starting <b>episode 3</b>.</string>
+    <string name="coin_descr_bh_20">Get to the top of the wall and hop over to the tree tops. Go to the one closest to the water wheel, then &lt;i>hover&lt;/i> over it or wash the top so the crown is well drenched. A coin will pop out. Appears starting &lt;b>episode 3&lt;/b>.</string>
     <string name="coin_video_bh_20">NA</string>
 
     <string name="coin_title_bh_21">River mini-windmill</string>
-    <string name="coin_descr_bh_21">Locate the mini-windmill standing in the river on the tree side of the wall. You need to spin the windmill blades, so stand on the wall in front of the blades until they turn fast and a coin will pop out. Another way, which is useful for getting gold coins from the remaining mini-windmills, is to stand on the windmill platform and walk toward the blades until you hang off the edge. Then use the <i>hover nozzle </i> to spray the blades from above. <p><b>Appears in all episodes.</b></p></string>
+    <string name="coin_descr_bh_21">Locate the mini-windmill standing in the river on the tree side of the wall. You need to spin the windmill blades, so stand on the wall in front of the blades until they turn fast and a coin will pop out. Another way, which is useful for getting gold coins from the remaining mini-windmills, is to stand on the windmill platform and walk toward the blades until you hang off the edge. Then use the &lt;i>hover nozzle &lt;/i> to spray the blades from above. &lt;p>&lt;b>Appears in all episodes.&lt;/b>&lt;/p></string>
     <string name="coin_video_bh_21">NA</string>
 
     <string name="coin_title_bh_22">Lake spire</string>
-    <string name="coin_descr_bh_22">Follow the ledge around the base of the big windmill and find the spire sticking up out of the lake behind it. Spray the top of it with water and a blue coin pops out. <i>hover</i> over to reach it.</string>
+    <string name="coin_descr_bh_22">Follow the ledge around the base of the big windmill and find the spire sticking up out of the lake behind it. Spray the top of it with water and a blue coin pops out. &lt;i>hover&lt;/i> over to reach it.</string>
     <string name="coin_video_bh_22">NA</string>
 
     <string name="coin_title_bh_23">Gorge spire</string>
-    <string name="coin_descr_bh_23">Go to the top of the cliff behind the village and find a spire sticking out of the gorge. (This is where Petey Piranha was sleeping in <b>episode 5</b>.) There are two clouds floating around between the fence and this spire. Spray the nearest cloud so it grows, then <i>hover</i> over to it, making sure that after you land you get to the center before the cloud shrinks again. Spray the top of the spire to make a blue coin appear, then use the second cloud to reach the coin. Use the same cloud hopping technique to get back to safety. <p>Appears starting <b>episode 6</b>.</p></string>
+    <string name="coin_descr_bh_23">Go to the top of the cliff behind the village and find a spire sticking out of the gorge. (This is where Petey Piranha was sleeping in &lt;b>episode 5&lt;/b>.) There are two clouds floating around between the fence and this spire. Spray the nearest cloud so it grows, then &lt;i>hover&lt;/i> over to it, making sure that after you land you get to the center before the cloud shrinks again. Spray the top of the spire to make a blue coin appear, then use the second cloud to reach the coin. Use the same cloud hopping technique to get back to safety. &lt;p>Appears starting &lt;b>episode 6&lt;/b>.&lt;/p></string>
     <string name="coin_video_bh_23">NA</string>
 
     <string name="coin_title_bh_24">Blue parrot</string>
-    <string name="coin_descr_bh_24">Locate the building with the tall mini-windmill on top. There is a blue parrot which, if left alone, will perch either on this windmill on the wire that connects it to the house with two towers. Follow the wire or use the rocket to get to the top of the windmill, then wait for the parrot to fly near and squirt it in mid-air. A few good hits should turn it into a blue coin. <p>Appears starting <b>episode 6</b>.</p></string>
+    <string name="coin_descr_bh_24">Locate the building with the tall mini-windmill on top. There is a blue parrot which, if left alone, will perch either on this windmill on the wire that connects it to the house with two towers. Follow the wire or use the rocket to get to the top of the windmill, then wait for the parrot to fly near and squirt it in mid-air. A few good hits should turn it into a blue coin. &lt;p>Appears starting &lt;b>episode 6&lt;/b>.&lt;/p></string>
     <string name="coin_video_bh_24">NA</string>
 
     <string name="coin_title_bh_25">Pianta in brown</string>
     <string name="coin_descr_bh_25">Locate a Pianta in a brown shirt and wash the goop off him. Talk to him to get a blue coin as a reward. The location of this Pianta varies from episode to episode. The locations are:
-<ul>
-  <li><b>Episode 3</b> - on the road to the big windmill</li>
-  <li><b>Episode 4</b> - on the ledge below and to the left of Hillside Cave.</li>
-  <li><b>Episode 5</b> - on the river bank across from the trees.</li>
-  <li><b>Episode 6</b> - on top of the cliff behind the village.</li>
-  <li><b>Episode 7</b> - on top of the big windmill</li>
-  <li><b>Episode 8</b> - inside the well formed by two branches of the wall.</li>
-</ul></string>
+&lt;ul>
+  &lt;li>&lt;b>Episode 3&lt;/b> - on the road to the big windmill&lt;/li>
+  &lt;li>&lt;b>Episode 4&lt;/b> - on the ledge below and to the left of Hillside Cave.&lt;/li>
+  &lt;li>&lt;b>Episode 5&lt;/b> - on the river bank across from the trees.&lt;/li>
+  &lt;li>&lt;b>Episode 6&lt;/b> - on top of the cliff behind the village.&lt;/li>
+  &lt;li>&lt;b>Episode 7&lt;/b> - on top of the big windmill&lt;/li>
+  &lt;li>&lt;b>Episode 8&lt;/b> - inside the well formed by two branches of the wall.&lt;/li>
+&lt;/ul></string>
     <string name="coin_video_bh_25">NA</string>
 
     <string name="coin_title_bh_26">Pianta in black</string>
-    <string name="coin_descr_bh_26">Locate a Pianta in a black shirt standing on a circular platform at on end of the wall. Wash the goop off of him and talk to him to get a blue coin as a reward. <p>Appears starting <b>episode 5</b>.</p></string>
+    <string name="coin_descr_bh_26">Locate a Pianta in a black shirt standing on a circular platform at on end of the wall. Wash the goop off of him and talk to him to get a blue coin as a reward. &lt;p>Appears starting &lt;b>episode 5&lt;/b>.&lt;/p></string>
     <string name="coin_video_bh_26">NA</string>
 
     <string name="coin_title_bh_27">Windmill pokey</string>
-    <string name="coin_descr_bh_27">Get to the top of the big windmill as in <b>episode 2</b> and defeat the pokey there. A blue coin appears in its place. <p>Appears starting <b>episode 3</b>.</p></string>
+    <string name="coin_descr_bh_27">Get to the top of the big windmill as in &lt;b>episode 2&lt;/b> and defeat the pokey there. A blue coin appears in its place. &lt;p>Appears starting &lt;b>episode 3&lt;/b>.&lt;/p></string>
     <string name="coin_video_bh_27">NA</string>
 
     <string name="coin_title_bh_28">Ledge pokey</string>
-    <string name="coin_descr_bh_28">Locate the three reddish ledges sticking out over where the lake feeds into the river. Defeat the pokey on the left ledge to win a blue coin. <p>Appears starting <b>episode 4</b>.</p></string>
+    <string name="coin_descr_bh_28">Locate the three reddish ledges sticking out over where the lake feeds into the river. Defeat the pokey on the left ledge to win a blue coin. &lt;p>Appears starting &lt;b>episode 4&lt;/b>.&lt;/p></string>
     <string name="coin_video_bh_28">NA</string>
 
     <string name="coin_title_bh_29">Butterfly</string>
-    <string name="coin_descr_bh_29">You can reach this episode in the game without getting Yoshi, in this case the Yoshi egg does not appear and you won\'t be able to collect these coins. If you do have Yoshi then the egg still does not appear except in <b>episode 8</b>. To wake up Yoshi, notice the fruit that appears in Yoshi\'s thought bubble as you pass his egg at the start. Then head for the tree area to collect the fruit and bring it back to Yoshi. Banana, pineapple, papaya and durian can be found under the trees, and banana and coconut can be found on the bank opposite the river. (It is possible, though difficult, to get a durian to Yoshi\'s egg, but it appears that it\'s never needed since Yoshi always wants some other fruit.) Get Yoshi and hunt for butterflies in the village area. Have Yoshi eat the blue butterfly to get a blue coin.</string>
+    <string name="coin_descr_bh_29">You can reach this episode in the game without getting Yoshi, in this case the Yoshi egg does not appear and you won\'t be able to collect these coins. If you do have Yoshi then the egg still does not appear except in &lt;b>episode 8&lt;/b>. To wake up Yoshi, notice the fruit that appears in Yoshi\'s thought bubble as you pass his egg at the start. Then head for the tree area to collect the fruit and bring it back to Yoshi. Banana, pineapple, papaya and durian can be found under the trees, and banana and coconut can be found on the bank opposite the river. (It is possible, though difficult, to get a durian to Yoshi\'s egg, but it appears that it\'s never needed since Yoshi always wants some other fruit.) Get Yoshi and hunt for butterflies in the village area. Have Yoshi eat the blue butterfly to get a blue coin.</string>
     <string name="coin_video_bh_29">NA</string>
 
     <string name="coin_title_bh_30">2 Beehives</string>
-    <string name="coin_descr_bh_30">You can reach this episode in the game without getting Yoshi, in this case the Yoshi egg does not appear and you won\'t be able to collect these coins. If you do have Yoshi then the egg still does not appear except in <b>episode 8</b>. To wake up Yoshi, notice the fruit that appears in Yoshi\'s thought bubble as you pass his egg at the start. Then head for the tree area to collect the fruit and bring it back to Yoshi. Banana, pineapple, papaya and durian can be found under the trees, and banana and coconut can be found on the bank opposite the river. (It is possible, though difficult, to get a durian to Yoshi\'s egg, but it appears that it\'s never needed since Yoshi always wants some other fruit.) Get Yoshi and go to the tree area. There are two beehives there which only appear in <b>episode 8</b>. Spray the beehive closer to the lake until it falls down, then have Yoshi eat the bees. Each bee turns into a gold coin except the last one which turns into a blue coin.</string>
+    <string name="coin_descr_bh_30">You can reach this episode in the game without getting Yoshi, in this case the Yoshi egg does not appear and you won\'t be able to collect these coins. If you do have Yoshi then the egg still does not appear except in &lt;b>episode 8&lt;/b>. To wake up Yoshi, notice the fruit that appears in Yoshi\'s thought bubble as you pass his egg at the start. Then head for the tree area to collect the fruit and bring it back to Yoshi. Banana, pineapple, papaya and durian can be found under the trees, and banana and coconut can be found on the bank opposite the river. (It is possible, though difficult, to get a durian to Yoshi\'s egg, but it appears that it\'s never needed since Yoshi always wants some other fruit.) Get Yoshi and go to the tree area. There are two beehives there which only appear in &lt;b>episode 8&lt;/b>. Spray the beehive closer to the lake until it falls down, then have Yoshi eat the bees. Each bee turns into a gold coin except the last one which turns into a blue coin.</string>
     <string name="coin_video_bh_30">NA</string>
 </resources>
 

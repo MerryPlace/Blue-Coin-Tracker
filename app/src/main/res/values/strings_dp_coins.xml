@@ -3,7 +3,7 @@
     <string name="guide_link_dp">https://strategywiki.org/wiki/Super_Mario_Sunshine/Delfino_Plaza_blue_coins</string>
 
     <string name="coin_title_dp_01">Jail Cell</string>
-    <string name="coin_descr_dp_01">Locate the building with the bell tower in the southeast corner of the plaza, in other words at the opposite end of the beach from the lighthouse. On the south side, over the water, is an open window. Hop from the ledge nearby and <i>hover</i> into the window to land in a room with barred windows. Liberate the coin that\'s doing time in there.</string>
+    <string name="coin_descr_dp_01">Locate the building with the bell tower in the southeast corner of the plaza, in other words at the opposite end of the beach from the lighthouse. On the south side, over the water, is an open window. Hop from the ledge nearby and &lt;i>hover&lt;/i> into the window to land in a room with barred windows. Liberate the coin that\'s doing time in there.</string>
     <string name="coin_video_dp_01">NA</string>
 
     <string name="coin_title_dp_02">Banana lady</string>
@@ -19,7 +19,7 @@
     <string name="coin_video_dp_04">NA</string>
 
     <string name="coin_title_dp_05">Durian lady</string>
-    <string name="coin_descr_dp_05">There are a few ways to get the durians to the basket but this seems to be the simplest. Get a durian from under the awning near the boathouse. You can also get durians from the fruit market but it\'s farther away. Gently kick it north along the boardwalk, then when you get close to the end aim toward the tree in the distance (this is shown in the picture on the right). If you run at the durian and press B button just before you get to it, you will give it a mighty kick that will send it far into the distance, then <i>hover</i> over and see where it landed. Hopefully it didn\'t bounce into the water (if it did, just keep trying), so from here kick the durian through the archway and then go left to the little hill.</string>
+    <string name="coin_descr_dp_05">There are a few ways to get the durians to the basket but this seems to be the simplest. Get a durian from under the awning near the boathouse. You can also get durians from the fruit market but it\'s farther away. Gently kick it north along the boardwalk, then when you get close to the end aim toward the tree in the distance (this is shown in the picture on the right). If you run at the durian and press B button just before you get to it, you will give it a mighty kick that will send it far into the distance, then &lt;i>hover&lt;/i> over and see where it landed. Hopefully it didn\'t bounce into the water (if it did, just keep trying), so from here kick the durian through the archway and then go left to the little hill.</string>
     <string name="coin_video_dp_05">NA</string>
 
     <string name="coin_title_dp_06">Shine gate M</string>
@@ -35,11 +35,11 @@
     <string name="coin_video_dp_08">NA</string>
 
     <string name="coin_title_dp_09">Paired crosses (A)</string>
-    <string name="coin_descr_dp_09">Locate a graffiti cross on the east side of the base of the Pianta statue (right of the Bianco Hills entrance). Locate a corresponding cross one the west side of the southwest tower (the one with the radio dish). Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. The slip-slide move is very useful here for covering the distance in time, or wait until you get the <i>turbo nozzle</i> and use it. Do both crosses to collect two coins.</string>
+    <string name="coin_descr_dp_09">Locate a graffiti cross on the east side of the base of the Pianta statue (right of the Bianco Hills entrance). Locate a corresponding cross one the west side of the southwest tower (the one with the radio dish). Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. The slip-slide move is very useful here for covering the distance in time, or wait until you get the &lt;i>turbo nozzle&lt;/i> and use it. Do both crosses to collect two coins.</string>
     <string name="coin_video_dp_09">NA</string>
 
     <string name="coin_title_dp_10">Paired crosses (B)</string>
-    <string name="coin_descr_dp_10">Locate a graffiti cross on the east side of the base of the Pianta statue (right of the Bianco Hills entrance). Locate a corresponding cross one the west side of the southwest tower (the one with the radio dish). Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. The slip-slide move is very useful here for covering the distance in time, or wait until you get the <i>turbo nozzle</i> and use it. Do both crosses to collect two coins.</string>
+    <string name="coin_descr_dp_10">Locate a graffiti cross on the east side of the base of the Pianta statue (right of the Bianco Hills entrance). Locate a corresponding cross one the west side of the southwest tower (the one with the radio dish). Wash one cross off to make a blue coin appear at the other cross, then quickly get to the other cross to collect the coin before it disappears. The slip-slide move is very useful here for covering the distance in time, or wait until you get the &lt;i>turbo nozzle&lt;/i> and use it. Do both crosses to collect two coins.</string>
     <string name="coin_video_dp_10">NA</string>
 
     <string name="coin_title_dp_11">Flaming Pianta</string>
@@ -83,7 +83,7 @@ Collect the coin when you reach the window.</string>
     <string name="coin_video_dp_19">NA</string>
 
     <string name="coin_title_dp_20">Waiting room ice</string>
-    <string name="coin_descr_dp_20">Note, even though this is in the airport, it shows up in coin count for the plaza. You can only get this coin after you have entered Corona Mountain at least once (whether you defeat Bowser or exit stage). Collect 10 gold coins in the plaza and talk to the Pianta by the boat at the southwest dock. Pay the fare to be taken back to the airport. You should see a turbo crate near the landing, so grab it and equip the <i>turbo nozzle</i>. Smash through the double doors of the building at the end of the landing to gain entrance to the airport waiting room. On the right find a block of ice. Switch to the squirt nozzle and spray the ice until it melts away leaving a blue coin.</string>
+    <string name="coin_descr_dp_20">Note, even though this is in the airport, it shows up in coin count for the plaza. You can only get this coin after you have entered Corona Mountain at least once (whether you defeat Bowser or exit stage). Collect 10 gold coins in the plaza and talk to the Pianta by the boat at the southwest dock. Pay the fare to be taken back to the airport. You should see a turbo crate near the landing, so grab it and equip the &lt;i>turbo nozzle&lt;/i>. Smash through the double doors of the building at the end of the landing to gain entrance to the airport waiting room. On the right find a block of ice. Switch to the squirt nozzle and spray the ice until it melts away leaving a blue coin.</string>
     <string name="coin_video_dp_20">NA</string>
 
 
