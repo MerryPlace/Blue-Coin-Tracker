@@ -1,6 +1,10 @@
 package info.noahortega.bluecointracker.BCDetail
 
+import android.os.Build
 import android.os.Bundle
+import android.text.Html
+import android.text.Html.FROM_HTML_MODE_LEGACY
+import android.text.Spanned
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -43,9 +47,19 @@ class DetailFragment : Fragment() {
             resources.getIdentifier(coin.imageAddress, "drawable", requireContext().packageName)
         )
 
-        binding.descriptionText.text = resources.getString(
-            resources.getIdentifier(coin.description,"string", requireContext().packageName)
-        )
+
+        val text: String = getString(resources.getIdentifier(coin.description,"string", requireContext().packageName))
+
+        if (Build.VERSION.SDK_INT < 24) {
+            binding.descriptionText.text = Html.fromHtml(text)
+        }
+        else {
+            val styledText: Spanned = Html.fromHtml(text, FROM_HTML_MODE_LEGACY)
+            binding.descriptionText.text = styledText
+        }
+
+
+
 
         binding.checkBox.isChecked = coin.checked
 
