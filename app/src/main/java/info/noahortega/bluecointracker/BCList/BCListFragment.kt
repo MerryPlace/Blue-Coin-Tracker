@@ -38,7 +38,7 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
         my_recycler_view.adapter = adapter
         my_recycler_view.layoutManager = LinearLayoutManager(context)
         my_recycler_view.setHasFixedSize(true)
-
+        activity?.title = model.levelIDToNamesMap[model.curLevelId]
     }
 
     private fun generateBCList(): List<BCListItem> {
@@ -48,7 +48,8 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
             for (n in coins.indices) {
                 val item = BCListItem(
                     coins[n].checked,
-                    coins[n].shortTitle, coins[n].description
+                    getString(resources.getIdentifier(coins[n].shortTitle, "string",  activity?.packageName)!!),
+                    model.levelIDToNamesMap[coins[n].myLevelId] + " " + coins[n].numInLevel
                 )
                 list += item
             }

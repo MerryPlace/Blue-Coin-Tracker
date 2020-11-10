@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.CheckBox
 import android.widget.TextView
-import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.RecyclerView
 import info.noahortega.bluecointracker.R
 import kotlinx.android.synthetic.main.list_item.view.*
@@ -30,10 +29,8 @@ class BCAdapter(
         val currentItem = bcList[position]
 
         holder.checkBox.isChecked = currentItem.collected
-        holder.title.text = context.resources.getString(
-            context.resources.getIdentifier(currentItem.title_text_1, "string", context.packageName)
-        )
-        holder.description.text = currentItem.description_text_2
+        holder.title.text = currentItem.title_text
+        holder.level.text = currentItem.level_text
 
         // DON'T DO: holder.itemView.title_text.text = currentItem.title_text
     }
@@ -43,7 +40,7 @@ class BCAdapter(
     inner class BCViewHolder(itemView: View): RecyclerView.ViewHolder(itemView), View.OnClickListener {
         val checkBox: CheckBox = itemView.checkbox_view
         val title: TextView = itemView.title_text
-        val description: TextView = itemView.description_text
+        val level: TextView = itemView.level_text
 
         init {
             checkBox.setOnClickListener(this)
