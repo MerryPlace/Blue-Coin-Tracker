@@ -48,8 +48,7 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
             for (n in coins.indices) {
                 val item = BCListItem(
                     coins[n].checked,
-                    activity?.resources?.getString(
-                        activity?.resources?.getIdentifier(coins[n].shortTitle, "string",  activity?.packageName)!!)!!,
+                    getString(resources.getIdentifier(coins[n].shortTitle, "string",  activity?.packageName)!!),
                     model.levelIDToNamesMap[coins[n].myLevelId] + " " + coins[n].numInLevel
                 )
                 list += item

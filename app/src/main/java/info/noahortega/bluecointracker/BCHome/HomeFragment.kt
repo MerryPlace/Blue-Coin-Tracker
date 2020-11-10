@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
+import info.noahortega.bluecointracker.R
 
 import info.noahortega.bluecointracker.SharedViewModel
 import info.noahortega.bluecointracker.database.Level
@@ -38,7 +39,7 @@ class HomeFragment : Fragment() {
             refreshPercentages(newLevels)
         })
 
-        activity?.title = "Blue Coin Tracker"
+        activity?.title = getString(R.string.app_name)
 
         binding.DPImage.setOnClickListener { levelClicked(LevelCode.dp.code) }
         binding.BHImage.setOnClickListener { levelClicked(LevelCode.bh.code) }
@@ -79,7 +80,7 @@ class HomeFragment : Fragment() {
             }
 
             val totalPercentDone = ((totalDone) / 240.0).toInt()
-            binding.totalCompletionText.text = "You are $totalPercentDone% to completion"
+            binding.totalCompletionText.text = getString(R.string.home_total_percentage_done, totalPercentDone)
             binding.totalProgressBar.progress = totalPercentDone
         }
     }
