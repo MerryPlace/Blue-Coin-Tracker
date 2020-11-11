@@ -26,9 +26,16 @@ class SharedViewModel(app: Application) : AndroidViewModel(app) {
     private val uiScope = CoroutineScope(Dispatchers.Main + uiJob)
 
     val levelIDToNamesMap = mapOf(
-        1 to app.getString(R.string.delfino_plaza), 2 to app.getString(R.string.bianco_hills), 3 to app.getString(R.string.ricco_harbor),
-        4 to app.getString(R.string.gelato_beach), 5 to app.getString(R.string.noki_bay), 6 to app.getString(R.string.pinna_park),
-        7 to app.getString(R.string.sirena_beach), 8 to app.getString(R.string.pianta_village), 9 to app.getString(R.string.corona_mountain))
+        1 to app.getString(R.string.delfino_plaza),
+        2 to app.getString(R.string.bianco_hills),
+        3 to app.getString(R.string.ricco_harbor),
+        4 to app.getString(R.string.gelato_beach),
+        5 to app.getString(R.string.noki_bay),
+        6 to app.getString(R.string.pinna_park),
+        7 to app.getString(R.string.sirena_beach),
+        8 to app.getString(R.string.pianta_village),
+        9 to app.getString(R.string.corona_mountain)
+    )
 
     val liveLevels: LiveData<List<Level>> = database.getLiveOrderedLevels()
 
@@ -39,7 +46,7 @@ class SharedViewModel(app: Application) : AndroidViewModel(app) {
             database.updateBlueCoin(coin)
             updateLevelCompletion(coin.myLevelId)
 
-            if(updateList) {
+            if (updateList) {
                 queriedCoins = database.getCoinsByLevelId(queriedCoins!![0].myLevelId)
             }
         }
@@ -47,9 +54,10 @@ class SharedViewModel(app: Application) : AndroidViewModel(app) {
 
     var curLevelId = -1
     private var queriedCoins: List<BlueCoin>? = null
-    fun getQueriedCoins() : List<BlueCoin>? { //getter
+    fun getQueriedCoins(): List<BlueCoin>? { //getter
         return queriedCoins
     }
+
     fun navToListWithLevel(navCon: NavController, levelId: Int) {
         ioScope.launch {
             curLevelId = levelId
@@ -59,13 +67,15 @@ class SharedViewModel(app: Application) : AndroidViewModel(app) {
     }
 
     private var detailViewCoin: BlueCoin? = null
-    fun getSelectedCoin() : BlueCoin? { //getter
+    fun getSelectedCoin(): BlueCoin? { //getter
         return detailViewCoin
     }
+
     private var coinLevel: Level? = null
-    fun getSelectedCoinLevel() : Level? { //getter
+    fun getSelectedCoinLevel(): Level? { //getter
         return coinLevel
     }
+
     fun navToDetailWithCoin(navCon: NavController, coinId: Long) {
         ioScope.launch {
             detailViewCoin = database.getCoinById(coinId)
@@ -90,7 +100,11 @@ class SharedViewModel(app: Application) : AndroidViewModel(app) {
         }
     }
 
-
+    var imageID = -1
+    fun navToImageZoom(navCon: NavController, resourceID: Int) {
+        imageID = resourceID
+        navCon.navigate(R.id.action_detailFragment_to_imageZoomFragment)
+    }
 
 
     /*public fun initDatabase() {

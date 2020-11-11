@@ -8,12 +8,16 @@ import android.text.Spanned
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.WindowManager
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import androidx.navigation.fragment.findNavController
+import info.noahortega.bluecointracker.R
 
 import info.noahortega.bluecointracker.SharedViewModel
 import info.noahortega.bluecointracker.database.BlueCoin
 import info.noahortega.bluecointracker.databinding.FragmentDetailBinding
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 class DetailFragment : Fragment() {
@@ -30,7 +34,6 @@ class DetailFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         _binding = FragmentDetailBinding.inflate(inflater, container, false)
-
         return binding.root
     }
 
@@ -43,9 +46,11 @@ class DetailFragment : Fragment() {
             resources.getIdentifier(coin.shortTitle, "string", context?.packageName)
         )
 
-        binding.topMedia.setImageResource(
-            resources.getIdentifier(coin.imageAddress, "drawable", requireContext().packageName)
-        )
+
+        val imageID:Int = resources.getIdentifier(coin.imageAddress, "drawable", requireContext().packageName)
+        binding.topMedia.setImageResource(imageID)
+
+        binding.topMedia.setOnClickListener { model.navToImageZoom(findNavController(), imageID) }
 
 
         val text: String = getString(resources.getIdentifier(coin.description,"string", requireContext().packageName))
@@ -57,9 +62,6 @@ class DetailFragment : Fragment() {
             val styledText: Spanned = Html.fromHtml(text, FROM_HTML_MODE_LEGACY)
             binding.descriptionText.text = styledText
         }
-
-
-
 
         binding.checkBox.isChecked = coin.checked
 

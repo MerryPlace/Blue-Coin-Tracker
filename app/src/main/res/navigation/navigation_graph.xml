@@ -29,5 +29,14 @@
         android:id="@+id/detailFragment"
         android:name="info.noahortega.bluecointracker.BCDetail.DetailFragment"
         android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail" />
+        tools:layout="@layout/fragment_detail" >
+        <action
+            android:id="@+id/action_detailFragment_to_imageZoomFragment"
+            app:destination="@id/imageZoomFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageZoomFragment"
+        android:name="info.noahortega.bluecointracker.BCDetail.ImageZoomFragment"
+        android:label="fragment_image_zoom"
+        tools:layout="@layout/fragment_image_zoom" />
 </navigation>
