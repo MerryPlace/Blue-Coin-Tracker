@@ -43,12 +43,12 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
 
     private fun generateBCList(): List<BCListItem> {
         val list = ArrayList<BCListItem>()
-        val coins = model.getQueriedCoins()
+        val coins = model.getFetchedCoins()
         if (coins != null) {
             for (n in coins.indices) {
                 val item = BCListItem(
                     coins[n].checked,
-                    getString(resources.getIdentifier(coins[n].shortTitle, "string",  activity?.packageName)!!),
+                    getString(resources.getIdentifier(coins[n].shortTitle, "string",  activity?.packageName)),
                     model.levelIDToNamesMap[coins[n].myLevelId] + " " + coins[n].numInLevel
                 )
                 list += item
@@ -57,20 +57,17 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
         return list
     }
 
-    override fun onItemClick(position: Int, checked: Boolean, viewType: String) {
-
-        val coin = model.getQueriedCoins()!![position]
-
-        if (viewType == "AppCompatCheckBox") { //checkbox //TODO: probably a better way to do this
+    override fun onItemClick(position: Int, checked: Boolean, checkClicked: Boolean) {
+        val coin = model.getFetchedCoins()!![position]
+        if (checkClicked) { //checkbox
             //edit in display
             blueCoinList[position].collected = checked
             adapter.notifyItemChanged(position)
-
             //edit in data
-            model.updateCoin(coin.coinId, checked, false)
+            model.updateCoin(coin.coinId, checked)
+            model.editFetchedCoin(position,checked)
         } else {//any other part of the list item
-            val navController = this.findNavController()
-            model.navToDetailWithCoin(navController, coin.coinId)
+            model.navToDetailWithCoin(findNavController(), coin.coinId, position)
         }
     }
 }

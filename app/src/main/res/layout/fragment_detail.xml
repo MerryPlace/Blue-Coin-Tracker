@@ -56,15 +56,41 @@
             app:layout_constraintStart_toEndOf="@+id/yt_icon"
             app:layout_constraintTop_toTopOf="@+id/yt_icon" />
 
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="38dp"
-            android:layout_height="40dp"
-            android:scaleX="1.20"
-            android:scaleY="1.20"
+        <LinearLayout
+            android:id="@+id/checkBoxContainer"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="@+id/yt_icon"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/yt_icon" />
+            app:layout_constraintTop_toTopOf="@+id/yt_icon">
+
+            <CheckBox
+                android:id="@+id/coin_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:button="@drawable/btn_coin"
+                android:clickable="false"
+                android:focusable="false"
+                android:scaleX=".7"
+                android:scaleY=".7"
+                android:soundEffectsEnabled="false"
+                android:text="" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/coin_divider"
+            android:layout_width="2dp"
+            android:layout_height="44dp"
+            android:background="#D3D3D3"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/yt_icon"
+            app:layout_constraintEnd_toStartOf="@+id/checkBoxContainer"
+            app:layout_constraintTop_toTopOf="@+id/yt_icon"
+            tools:visibility="visible" />
+
 
         <View
             android:id="@+id/divider_2"

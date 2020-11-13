@@ -1,0 +1,18 @@
+<!--button designed by Noah Ortega-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- If being pressed -->
+    <item android:state_checked="true" android:state_pressed="true"
+        android:drawable="@drawable/btn_small_coin_on_pressed_48" />
+    <item android:state_checked="false" android:state_pressed="true"
+        android:drawable="@drawable/btn_small_coin_off_pressed_48" />
+    <!--  If disabled  -->
+    <item android:state_checked="true" android:state_focused="false" android:state_enabled="false"
+        android:drawable="@drawable/btn_small_coin_on_disabled_48" />
+    <item android:state_checked="false" android:state_focused="false" android:state_enabled="false"
+        android:drawable="@drawable/btn_small_coin_off_disabled_48" />
+    <!--  If not disabled or being pressed  -->
+    <item android:state_checked="true" android:drawable="@drawable/btn_small_coin_on_48" />
+    <item android:state_checked="false" android:drawable="@drawable/btn_small_coin_off_48" />
+</selector>

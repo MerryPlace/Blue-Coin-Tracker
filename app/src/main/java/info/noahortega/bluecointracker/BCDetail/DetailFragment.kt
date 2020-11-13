@@ -63,9 +63,12 @@ class DetailFragment : Fragment() {
             binding.descriptionText.text = styledText
         }
 
-        binding.checkBox.isChecked = coin.checked
+        binding.coinCheckbox.isChecked = coin.checked
 
-        binding.checkBox.setOnClickListener { checkClicked() }
+        binding.checkBoxContainer.setOnClickListener {
+            binding.coinCheckbox.performClick()
+            checkClicked()
+        }
 
         binding.creditFullText.text = resources.getString(
             resources.getIdentifier(model.getSelectedCoinLevel()!!.guideAddress,"string", requireContext().packageName)
@@ -74,7 +77,9 @@ class DetailFragment : Fragment() {
 
     private fun checkClicked() {
         //in database
-        model.updateCoin(coin.coinId,binding.checkBox.isChecked, true)
+        model.updateCoin(coin.coinId,binding.coinCheckbox.isChecked)
+        //in model
+        model.editFetchedCoin(model.getFetchedCoinIndex(),binding.coinCheckbox.isChecked)
     }
 
     override fun onDestroyView() {
