@@ -39,29 +39,29 @@ class SharedViewModel(app: Application) : AndroidViewModel(app) {
 
     val liveLevels: LiveData<List<Level>> = database.getLiveOrderedLevels()
 
-    fun updateCoin(coinId: Long, isChecked: Boolean, updateList: Boolean) {
+    fun updateCoin(coinId: Long, isChecked: Boolean) {
         ioScope.launch {
             var coin = database.getCoinById(coinId)
             coin.checked = isChecked
             database.updateBlueCoin(coin)
             updateLevelCompletion(coin.myLevelId)
-
-            if (updateList) {
-                queriedCoins = database.getCoinsByLevelId(queriedCoins!![0].myLevelId)
-            }
         }
     }
 
     var curLevelId = -1
-    private var queriedCoins: List<BlueCoin>? = null
-    fun getQueriedCoins(): List<BlueCoin>? { //getter
-        return queriedCoins
+    private var fetchedCoins: List<BlueCoin>? = null
+    fun getFetchedCoins(): List<BlueCoin>? { //getter
+        return fetchedCoins
     }
+    fun editFetchedCoin(coinIndex: Int, checked: Boolean) {
+        fetchedCoins!![coinIndex].checked = checked
+    }
+
 
     fun navToListWithLevel(navCon: NavController, levelId: Int) {
         ioScope.launch {
             curLevelId = levelId
-            queriedCoins = database.getCoinsByLevelId(levelId)
+            fetchedCoins = database.getCoinsByLevelId(levelId)
             navCon.navigate(R.id.action_homeFragment_to_listFragment)
         }
     }
@@ -75,11 +75,15 @@ class SharedViewModel(app: Application) : AndroidViewModel(app) {
     fun getSelectedCoinLevel(): Level? { //getter
         return coinLevel
     }
-
-    fun navToDetailWithCoin(navCon: NavController, coinId: Long) {
+    private var fetchedIndex: Int = -1
+    fun getFetchedCoinIndex(): Int { //getter
+        return fetchedIndex
+    }
+    fun navToDetailWithCoin(navCon: NavController, coinId: Long, coinIndex: Int) {
         ioScope.launch {
             detailViewCoin = database.getCoinById(coinId)
             coinLevel = database.getLevelById(detailViewCoin!!.myLevelId)
+            fetchedIndex = coinIndex
             navCon.navigate(R.id.action_listFragment_to_detailFragment)
         }
     }

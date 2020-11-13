@@ -5,33 +5,57 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="8dp">
+        android:layout_height="wrap_content">
 
-        <CheckBox
-            android:id="@+id/checkbox_view"
-            android:layout_width="30dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="8dp"
-            android:clickable="false"
-            android:text="" />
+        <LinearLayout
+            android:id="@+id/checkbox_container"
+            android:layout_width="56dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_alignTop="@id/text_container"
+            android:layout_alignBottom="@id/text_container"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/title_text"
-            android:layout_width="wrap_content"
+            <CheckBox
+                android:id="@+id/coin_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:button="@drawable/btn_coin"
+                android:clickable="false"
+                android:focusable="false"
+                android:scaleX=".8"
+                android:scaleY=".8"
+                android:soundEffectsEnabled="false"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/text_container"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@+id/checkbox_view"
-            android:text="Title"
-            android:textColor="@android:color/black"
-            android:textSize="18sp"/>
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/checkbox_container"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/level_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toEndOf="@+id/checkbox_view"
-            android:layout_below="@id/title_text"
-            android:text="Description" />
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/level_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description" />
+        </LinearLayout>
 
     </RelativeLayout>
 
