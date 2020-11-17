@@ -3,123 +3,185 @@
     <string name="guide_link_pv">https://strategywiki.org/wiki/Super_Mario_Sunshine/Pianta_Village_blue_coins</string>
 
     <string name="coin_title_pv_01">West lawn</string>
-    <string name="coin_descr_pv_01">Go left from bridge at the start and follow the path around the corner. There is a grassy area on the left with five wells that take you to the village underside. Check the edge, behind a small tree, to find a coin. &lt;p>&lt;b>Appears all episodes.&lt;/b>&lt;/p></string>
-    <string name="coin_video_pv_01">NA</string>
+    <string name="coin_descr_pv_01">Go left from bridge at the start and follow the path around the corner. There is a grassy area on the left with five wells that take you to the village underside. &lt;br>&lt;br>
+        Check the edge, behind a small tree, to find a coin. &lt;br>&lt;br>
+		&lt;b>Appears all episodes.&lt;/b></string>
+    <string name="coin_video_pv_01">https://www.youtube.com/watch?v=z7Z-buPJTqw</string>
 
     <string name="coin_title_pv_02">East bridge</string>
-    <string name="coin_descr_pv_02">Go right from bridge at the start and follow the path around the corner. Continue until the bridge crosses the stream (night) or dry bed (day), then check under the bridge for a coin. &lt;p>&lt;b>Appears all episodes.&lt;/b>&lt;/p></string>
-    <string name="coin_video_pv_02">NA</string>
+    <string name="coin_descr_pv_02">Go right from bridge at the start and follow the path around the corner. &lt;br>&lt;br>
+        Continue until the bridge crosses the stream (night) or dry bed (day), then check under the bridge for a coin. &lt;br>&lt;br>
+		&lt;b>Appears all episodes.&lt;/b></string>
+    <string name="coin_video_pv_02">https://www.youtube.com/watch?v=-yodaOcFsEo</string>
 
     <string name="coin_title_pv_03">Stream outlet</string>
-    <string name="coin_descr_pv_03">From the \'East bridge\' coin location follow the stream/dry bed left to a small gate where the stream spills out when it\'s flowing. There is coin in front of it. &lt;p>&lt;b>Appears all episodes.&lt;/b>&lt;/p></string>
-    <string name="coin_video_pv_03">NA</string>
+    <string name="coin_descr_pv_03">From the "East bridge" coin location follow the stream/dry bed left to a small gate where the stream spills out when it\'s flowing. &lt;br>&lt;br>
+        You will find a coin in front of that gate. &lt;br>&lt;br>
+		&lt;b>Appears all episodes.&lt;/b></string>
+    <string name="coin_video_pv_03">https://www.youtube.com/watch?v=OCsrNT41b_g</string>
 
     <string name="coin_title_pv_04">Northwest tree</string>
-    <string name="coin_descr_pv_04">Go left from bridge at the start and follow the path to the hot spring. Go up the trunk of the giant tree to the left of it and find a blue coin at the crown. &lt;p>&lt;b>Appears all episodes.&lt;/b>&lt;/p></string>
-    <string name="coin_video_pv_04">NA</string>
+    <string name="coin_descr_pv_04">Go left from bridge at the start and follow the path to the hot spring. Go up the trunk of the giant tree to the left of it and find a blue coin at the crown. &lt;br>&lt;br>
+		&lt;b>Appears all episodes.&lt;/b></string>
+    <string name="coin_video_pv_04">https://www.youtube.com/watch?v=o8M0tqoqs3w</string>
 
     <string name="coin_title_pv_05">Southwest tree</string>
-    <string name="coin_descr_pv_05">Go left from bridge at the start and follow the path to the corner. Go up the trunk of the tree just past it to the crown, then follow the leaf stem on the left to the end of the leaf. There is a blue coin sitting on a little ledge to the right. &lt;p>&lt;b>Appears all episodes.&lt;/b>&lt;/p></string>
-    <string name="coin_video_pv_05">NA</string>
+    <string name="coin_descr_pv_05">Go left from bridge at the start and follow the path to the corner. Go up the trunk of the tree just past it to the crown, then follow the leaf stem on the left to the end of the leaf. &lt;br>&lt;br>
+        There is a blue coin sitting on a little ledge to the right. &lt;br>&lt;br>
+		&lt;b>Appears all episodes.&lt;/b></string>
+    <string name="coin_video_pv_05">https://www.youtube.com/watch?v=EXVR6WZwP4g</string>
 
     <string name="coin_title_pv_06">Start M</string>
-    <string name="coin_descr_pv_06">At the start, immediately turn around to find a graffiti M on the cliff face behind you. Wash it off to get a coin. &lt;p>&lt;b>Appears all episodes.&lt;/b>&lt;/p></string>
-    <string name="coin_video_pv_06">NA</string>
+    <string name="coin_descr_pv_06">At the start, immediately turn around to find a graffiti M on the cliff face behind you. Wash it off to get a coin. &lt;br>&lt;br>
+		&lt;b>Appears all episodes.&lt;/b></string>
+    <string name="coin_video_pv_06">https://www.youtube.com/watch?v=c0jRU2Cb3nc</string>
 
     <string name="coin_title_pv_07">Pond M</string>
-    <string name="coin_descr_pv_07">Bear right from bridge at the start and locate the larger wicker structure behind a red mushroom and in front of the pond (or the dry lake bed daytime). There is a graffiti M on the front side, wash it off to get a coin. &lt;p>&lt;b>Appears all episodes.&lt;/b>&lt;/p></string>
-    <string name="coin_video_pv_07">NA</string>
+    <string name="coin_descr_pv_07">Bear right from bridge at the start and locate the larger wicker structure behind a red mushroom and in front of the pond (or the dry lake bed daytime). &lt;br>&lt;br>
+        There is a graffiti M on the front side, wash it off to get a coin. &lt;br>&lt;br>
+		&lt;b>Appears all episodes.&lt;/b></string>
+    <string name="coin_video_pv_07">https://www.youtube.com/watch?v=eW7todHcavo</string>
 
     <string name="coin_title_pv_08">Fruit tree M</string>
-    <string name="coin_descr_pv_08">Bear left from bridge at the start and locate the plateau with the fruit tree and a red mushroom. There is a graffiti M on the front side, wash it off to get a coin. &lt;p>&lt;b>Appears all episodes.&lt;/b>&lt;/p></string>
-    <string name="coin_video_pv_08">NA</string>
+    <string name="coin_descr_pv_08">Bear left from bridge at the start and locate the plateau with the fruit tree and a red mushroom. &lt;br>&lt;br>
+        There is a graffiti M on the front side, wash it off to get a coin. &lt;br>&lt;br>
+		&lt;b>Appears all episodes.&lt;/b></string>
+    <string name="coin_video_pv_08">https://www.youtube.com/watch?v=KOzPGLX0JUc</string>
 
     <string name="coin_title_pv_09">Underside M</string>
-    <string name="coin_descr_pv_09">Bear right from bridge at the start and locate a well to the underside next to a red mushroom. Ground pound the gate to get through. Look around for a sliding grate, climb onto it and ride to another section. (If you\'ve completed &lt;b>episode 3&lt;/b> then you\'ve already gotten used to doing this kind of thing.) Make a U-turn to the left and follow the grate to a swing, then drop and &lt;i>hover&lt;/i> to a vertical grate in front of you. (Alternatively, drop to the swing and hop from the swing to the vertical grate.) Climb to the top of the grate, immediately turn around and &lt;i>hover&lt;/i> over to the top of the grate you were just under. Hop to the section on the right, this is a ledge around the well you came through at the start. Go around behind the well and adjust the camera to look above you to find a graffiti M. Wash it off to get a coin. To get back to civilization, follow the path until it turns to the left, then &lt;i>hover&lt;/i> straight across to another section. Go right and slowly go over the edge to a vertical grate. Flip the gate to the other side, the go up to the underside of the section you were just on. Ride the sliding grate here to the underside of the section with the well. Get the gate and flip it, then wall jump out the well to end up where you started. Note, the M is there even at night, though it\'s nearly impossible to see, so it\'s better to do this in the daytime episodes. &lt;p>&lt;b>Appears all episodes.&lt;/b>&lt;/p></string>
-    <string name="coin_video_pv_09">NA</string>
+    <string name="coin_descr_pv_09">Bear right from bridge at the start and locate a well to the underside next to a red mushroom. &lt;br>&lt;br>
+        Ground pound the gate to get through. Look around for a sliding grate, climb onto it and ride to another section. (If you\'ve completed &lt;b>episode 3&lt;/b> then you\'ve already gotten used to doing this kind of thing.) &lt;br>&lt;br>
+        Make a U-turn to the left and follow the grate to a swing, then drop and &lt;i>hover&lt;/i> to a vertical grate in front of you. (Alternatively, drop to the swing and hop from the swing to the vertical grate.)&lt;br>&lt;br>
+        Climb to the top of the grate, immediately turn around and &lt;i>hover&lt;/i> over to the top of the grate you were just under. Hop to the section on the right, this is a ledge around the well you came through at the start. Go around behind the well and adjust the camera to look above you to find a graffiti M. Wash it off to get a coin. &lt;br>&lt;br>
+        To get back to civilization, follow the path until it turns to the left, then &lt;i>hover&lt;/i> straight across to another section. Go right and slowly go over the edge to a vertical grate. Flip the gate to the other side, the go up to the underside of the section you were just on. Ride the sliding grate here to the underside of the section with the well. &lt;br>
+        Get the gate and flip it, then wall jump out the well to end up where you started. Note, the M is there even at night, though it\'s nearly impossible to see, so it\'s better to do this in the daytime episodes. &lt;br>&lt;br>
+		&lt;b>Appears all episodes.&lt;/b></string>
+    <string name="coin_video_pv_09">https://www.youtube.com/watch?v=a7P7VYmgiD4</string>
 
     <string name="coin_title_pv_10">Paired triangles (A)</string>
-    <string name="coin_descr_pv_10">Locate the graffiti triangle on the end of the wall in front of the hot spring. Then follow the path right from the hot spring to an area with lots of little yellow mushrooms. Across the path from those locate the corresponding triangle on a cliff face. Wash the graffiti from one triangle to make a coin pop out at the other triangle, then get to the other location before it disappears. The symbols are close enough together so that it should be no problem to reach the coins in time, but using the slip-slide move may help. &lt;p>&lt;b>Appears all episodes.&lt;/b>&lt;/p></string>
-    <string name="coin_video_pv_10">NA</string>
+    <string name="coin_descr_pv_10">Locate the graffiti triangle on the end of the wall in front of the hot spring. &lt;br>
+        Then follow the path right from the hot spring to an area with lots of little yellow mushrooms. Across the path from those locate the corresponding triangle on a cliff face.&lt;br>&lt;br>
+        Wash the graffiti from one triangle to make a coin pop out at the other triangle, then get to the other location before it disappears. The symbols are close enough together so that it should be no problem to reach the coins in time, but using the slip-slide move may help. &lt;br>&lt;br>
+		&lt;b>Appears all episodes.&lt;/b></string>
+    <string name="coin_video_pv_10">https://www.youtube.com/watch?v=IHYhiT_0F8A</string>
 
     <string name="coin_title_pv_11">Paired triangles (B)</string>
-    <string name="coin_descr_pv_11">Locate the graffiti triangle on the end of the wall in front of the hot spring. Then follow the path right from the hot spring to an area with lots of little yellow mushrooms. Across the path from those locate the corresponding triangle on a cliff face. Wash the graffiti from one triangle to make a coin pop out at the other triangle, then get to the other location before it disappears. The symbols are close enough together so that it should be no problem to reach the coins in time, but using the slip-slide move may help. &lt;p>&lt;b>Appears all episodes.&lt;/b>&lt;/p></string>
-    <string name="coin_video_pv_11">NA</string>
+    <string name="coin_descr_pv_11">Locate the graffiti triangle on the end of the wall in front of the hot spring. &lt;br>
+        Then follow the path right from the hot spring to an area with lots of little yellow mushrooms. Across the path from those locate the corresponding triangle on a cliff face.&lt;br>&lt;br>
+        Wash the graffiti from one triangle to make a coin pop out at the other triangle, then get to the other location before it disappears. The symbols are close enough together so that it should be no problem to reach the coins in time, but using the slip-slide move may help. &lt;br>&lt;br>
+		&lt;b>Appears all episodes.&lt;/b></string>
+    <string name="coin_video_pv_11">https://www.youtube.com/watch?v=ImPim2y5hJg</string>
 
     <string name="coin_title_pv_12">M by the Mayor</string>
-    <string name="coin_descr_pv_12">When you recover FLUDD in &lt;b>episode 3&lt;/b> (see the walk-through for that episode), check the platform next to you to find a graffiti M under it. Wash it off to get a coin. &lt;p>Appears &lt;b>episode 3&lt;/b> only.&lt;/p></string>
-    <string name="coin_video_pv_12">NA</string>
+    <string name="coin_descr_pv_12">When you recover FLUDD in &lt;b>episode 3&lt;/b> (see the walk-through for that episode), check the platform next to you to find a graffiti M under it. &lt;br>&lt;br>
+        Wash it off to get a coin. &lt;br>&lt;br>
+		Appears &lt;b>episode 3&lt;/b> only.</string>
+    <string name="coin_video_pv_12">https://www.youtube.com/watch?v=2iOlcsLzdxA</string>
 
     <string name="coin_title_pv_13">M under the goop</string>
-    <string name="coin_descr_pv_13">Once you get FLUDD in &lt;b>episode 3&lt;/b>, make your way back to the bridge near the start. Wash the section of lawn immediately across the path from the bridge to reveal a graffiti M. Wash it off to get a coin. &lt;p>Appears &lt;b>episode 3&lt;/b> only.&lt;/p></string>
-    <string name="coin_video_pv_13">NA</string>
+    <string name="coin_descr_pv_13">Once you get FLUDD in &lt;b>episode 3&lt;/b>, make your way back to the bridge near the start. &lt;br>&lt;br>
+        Wash the section of lawn immediately across the path from the bridge to reveal a graffiti M. Wash it off to get a coin. &lt;br>&lt;br>
+		Appears &lt;b>episode 3&lt;/b> only.</string>
+    <string name="coin_video_pv_13">https://www.youtube.com/watch?v=MWsNR1m5S7A</string>
 
     <string name="coin_title_pv_14">Waterfall</string>
-    <string name="coin_descr_pv_14">Spray the top of the waterfall coming out of the central tree trunk, or spray the hole if it\'s daytime. A coin pops out. &lt;p>&lt;b>Appears all episodes.&lt;/b>&lt;/p></string>
-    <string name="coin_video_pv_14">NA</string>
+    <string name="coin_descr_pv_14">Spray the top of the waterfall coming out of the central tree trunk, or spray the hole if it\'s daytime. A coin pops out. &lt;br>&lt;br>
+		&lt;b>Appears all episodes.&lt;/b></string>
+    <string name="coin_video_pv_14">https://www.youtube.com/watch?v=YV1-FIkkGsQ</string>
 
     <string name="coin_title_pv_15">Wash the sign</string>
-    <string name="coin_descr_pv_15">Wash the sign near the end of the bridge as you enter. The, which tells you about the hot spring, appears only in the daytime. &lt;p>Appears &lt;b>episodes 2, 4, 6 and 8&lt;/b>.&lt;/p></string>
-    <string name="coin_video_pv_15">NA</string>
+    <string name="coin_descr_pv_15">Wash the sign, which is near the end of the bridge as you enter, in order to get this coin. &lt;br>&lt;br>
+        The sign, which tells you about the hot spring, appears only in the daytime. &lt;br>&lt;br>
+		Appears &lt;b>episodes 2, 4, 6 and 8&lt;/b> (day time).</string>
+    <string name="coin_video_pv_15">https://www.youtube.com/watch?v=xQHMRPRzSns</string>
 
     <string name="coin_title_pv_16">Wash the moon</string>
-    <string name="coin_descr_pv_16">Stand on the golden mushroom where the mayor was in &lt;b>episode 3&lt;/b>, switch the camera to over-the-shoulder view, look at the moon and start spraying. When you hit the right spot a coin pops out. This is one the best hidden coins in the game, but there is a rather oblique hint. In &lt;b>episode 8&lt;/b> talk to the Pianta lady in the lavender top, she\'s dancing to the right of the main group. She talks about the mayor\'s wife\'s secret stash, referring to one of the secret shines on this level, and then mentions that the mayor may also have a stash. So if you were able to solve the puzzle for the secret shine maybe you\'re supposed to do something similar with the mayor. Does not appear in the daytime since the moon isn\'t visible. &lt;p>Appears &lt;b>episodes 1, 3, 5 and 7&lt;/b>.&lt;/p></string>
-    <string name="coin_video_pv_16">NA</string>
+    <string name="coin_descr_pv_16">Stand on the golden mushroom where the mayor was in &lt;b>episode 3&lt;/b>. &lt;br>&lt;br>
+        Switch the camera to over-the-shoulder view, look at the moon and start spraying. When you hit the right spot a coin pops out. &lt;br>&lt;br>
+        This is one the best hidden coins in the game, but there is a rather oblique hint. In &lt;b>episode 8&lt;/b> talk to the Pianta lady in the lavender top, she\'s dancing to the right of the main group. &lt;br>
+        She talks about the mayor\'s wife\'s secret stash, referring to one of the secret shines on this level, and then mentions that the mayor may also have a stash. &lt;br>
+        So if you were able to solve the puzzle for the secret shine maybe you\'re supposed to do something similar with the mayor. &lt;br>
+        Does not appear in the daytime since the moon isn\'t visible. &lt;br>&lt;br>
+		Appears &lt;b>episodes 1, 3, 5 and 7&lt;/b> (night time).</string>
+    <string name="coin_video_pv_16">https://www.youtube.com/watch?v=Uy_h2R2-nok</string>
 
     <string name="coin_title_pv_17">Douse the backpack</string>
-    <string name="coin_descr_pv_17">Once you get FLUDD in &lt;b>episode 3&lt;/b>, make your way to the pond then follow the stream until it ends. In the area to the right there is a Pianta whose backpack is on fire. Chase him around with your &lt;i>squirt nozzle&lt;/i> going until you put the fire out, then talk to him to get a blue coin as a reward. &lt;p>Appears &lt;b>episode 3&lt;/b> only.&lt;/p></string>
-    <string name="coin_video_pv_17">NA</string>
+    <string name="coin_descr_pv_17">Once you get FLUDD in &lt;b>episode 3&lt;/b>, make your way to the pond then follow the stream until it ends. In the area to the right there is a Pianta whose backpack is on fire. &lt;br>&lt;br>
+        Chase him around with your &lt;i>squirt nozzle&lt;/i> going until you put the fire out, then talk to him to get a blue coin as a reward. &lt;br>&lt;br>
+		Appears &lt;b>episode 3&lt;/b> only.</string>
+    <string name="coin_video_pv_17">https://www.youtube.com/watch?v=RVBiTTLt6Vw</string>
 
     <string name="coin_title_pv_18">Rescue villager (A)</string>
-    <string name="coin_descr_pv_18">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;p>Appears &lt;b>episode 6 only&lt;/b>.&lt;/p></string>
-    <string name="coin_video_pv_18">NA</string>
+    <string name="coin_descr_pv_18">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;br>&lt;br>
+		Appears &lt;b>episode 6 only&lt;/b>.</string>
+    <string name="coin_video_pv_18">https://www.youtube.com/watch?v=adZc2y2WZyQ</string>
 
     <string name="coin_title_pv_19">Rescue villager (B)</string>
-    <string name="coin_descr_pv_19">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;p>Appears &lt;b>episode 6 only&lt;/b>.&lt;/p></string>
-    <string name="coin_video_pv_19">NA</string>
+    <string name="coin_descr_pv_19">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;br>&lt;br>
+		Appears &lt;b>episode 6 only&lt;/b>.</string>
+    <string name="coin_video_pv_19">https://www.youtube.com/watch?v=Lt0dKzjStXY</string>
 
     <string name="coin_title_pv_20">Rescue villager (C)</string>
-    <string name="coin_descr_pv_20">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;p>Appears &lt;b>episode 6 only&lt;/b>.&lt;/p></string>
-    <string name="coin_video_pv_20">NA</string>
+    <string name="coin_descr_pv_20">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;br>&lt;br>
+		Appears &lt;b>episode 6 only&lt;/b>.</string>
+    <string name="coin_video_pv_20">https://www.youtube.com/watch?v=Lt0dKzjStXY</string>
 
     <string name="coin_title_pv_21">Rescue villager (D)</string>
-    <string name="coin_descr_pv_21">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;p>Appears &lt;b>episode 6 only&lt;/b>.&lt;/p></string>
-    <string name="coin_video_pv_21">NA</string>
+    <string name="coin_descr_pv_21">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;br>&lt;br>
+		Appears &lt;b>episode 6 only&lt;/b>.</string>
+    <string name="coin_video_pv_21">https://www.youtube.com/watch?v=SHPMBQye318</string>
 
     <string name="coin_title_pv_22">Rescue villager (E)</string>
-    <string name="coin_descr_pv_22">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;p>Appears &lt;b>episode 6 only&lt;/b>.&lt;/p></string>
-    <string name="coin_video_pv_22">NA</string>
+    <string name="coin_descr_pv_22">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;br>&lt;br>
+		Appears &lt;b>episode 6 only&lt;/b>.</string>
+    <string name="coin_video_pv_22">https://www.youtube.com/watch?v=0AB7gP5SBLw</string>
 
     <string name="coin_title_pv_23">Rescue villager (F)</string>
-    <string name="coin_descr_pv_23">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;p>Appears &lt;b>episode 6 only&lt;/b>.&lt;/p></string>
-    <string name="coin_video_pv_23">NA</string>
+    <string name="coin_descr_pv_23">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;br>&lt;br>
+		Appears &lt;b>episode 6 only&lt;/b>.</string>
+    <string name="coin_video_pv_23">https://www.youtube.com/watch?v=HhDKp5P9Ja8</string>
 
     <string name="coin_title_pv_24">Rescue villager (G)</string>
-    <string name="coin_descr_pv_24">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;p>Appears &lt;b>episode 6 only&lt;/b>.&lt;/p></string>
-    <string name="coin_video_pv_24">NA</string>
+    <string name="coin_descr_pv_24">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;br>&lt;br>
+		Appears &lt;b>episode 6 only&lt;/b>.</string>
+    <string name="coin_video_pv_24">https://www.youtube.com/watch?v=YtPfGacaBfI</string>
 
     <string name="coin_title_pv_25">Rescue villager (H)</string>
-    <string name="coin_descr_pv_25">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;p>Appears &lt;b>episode 6 only&lt;/b>.&lt;/p></string>
-    <string name="coin_video_pv_25">NA</string>
+    <string name="coin_descr_pv_25">After you rescue the ten villagers from the goop, talk to each one. The two kids just say thanks but the other eight give you a blue coin as a reward. &lt;br>&lt;br>
+		Appears &lt;b>episode 6 only&lt;/b>.</string>
+    <string name="coin_video_pv_25">https://www.youtube.com/watch?v=0r0DSBN65yQ</string>
 
     <string name="coin_title_pv_26">Blue parrot</string>
-    <string name="coin_descr_pv_26">Get to the top level of shelf fungi on the central trunk, the same ledge as the &lt;i>rocket nozzle&lt;/i> crate. There is a blue parrot that occasionally perches there. Spray it every time it comes near until it turns into a blue coin. &lt;p>Appears &lt;b>episode 8&lt;/b> only.&lt;/p></string>
-    <string name="coin_video_pv_26">NA</string>
+    <string name="coin_descr_pv_26">Get to the top level of shelf fungi on the central trunk, the same ledge as the &lt;i>rocket nozzle&lt;/i> crate. &lt;br>&lt;br>
+        There is a blue parrot that occasionally perches there. &lt;br>
+        Spray it every time it comes near until it turns into a blue coin. &lt;br>&lt;br>
+		Appears &lt;b>episode 8&lt;/b> only.</string>
+    <string name="coin_video_pv_26">https://www.youtube.com/watch?v=1gOV8T5LSUk</string>
 
-    <string name="coin_title_pv_27">Punch the Pianta</string>
-    <string name="coin_descr_pv_27">Find the Pianta statue at the back of the hot spring. In the daytime there is water coming out of his nose but at night it\'s not doing anything. Stand on top and do a ground pound to make a blue coin and about a dozen gold coins come out. This is another well hidden coin, unless you like pounding on random objects. &lt;p>Appears &lt;b>episodes 1, 3, 5 and 7&lt;/b>.&lt;/p></string>
-    <string name="coin_video_pv_27">NA</string>
+    <string name="coin_title_pv_27">Pound the Pianta</string>
+    <string name="coin_descr_pv_27">Find the Pianta statue at the back of the hot spring. In the daytime, when there is water coming out of his nose, you cannot get this coin. &lt;br>&lt;br>
+        At night, stand on top and do a ground pound to make a blue coin and about a dozen gold coins come out. This is another well hidden coin, unless you like pounding on random objects. &lt;br>&lt;br>
+		Appears &lt;b>episodes 1, 3, 5 and 7&lt;/b> (night time).</string>
+    <string name="coin_video_pv_27">https://www.youtube.com/watch?v=v_vjNL6Y6PE</string>
 
     <string name="coin_title_pv_28">Beehive (A)</string>
-    <string name="coin_descr_pv_28">There are two beehives on this level, deal with them just like the beehives in Bianco Hills and Gelato beach. One is located over the end of the bridge as you come in and the other is behind the giant tree to the left of the hot spring. These have more bees than the hives in the other levels. Yoshi only appears in &lt;b>episode 5&lt;/b>. Fruit of all types is found growing in a tree on a plateau across the path from the hot spring.</string>
-    <string name="coin_video_pv_28">NA</string>
+    <string name="coin_descr_pv_28">There are two beehives on this level, deal with them just like the beehives in Bianco Hills and Gelato beach. &lt;br>&lt;br>
+        This one is located behind the giant tree to the left of the hot spring. These have more bees than the hives in the other levels. &lt;br>&lt;br>
+        Fruit of all types is found growing in a tree on a plateau across the path from the hot spring.&lt;br>&lt;br>
+        Yoshi only appears in &lt;b>episode 5&lt;/b>.</string>
+    <string name="coin_video_pv_28">https://www.youtube.com/watch?v=LMelMrKFjsg</string>
 
     <string name="coin_title_pv_29">Beehive (B)</string>
-    <string name="coin_descr_pv_29">There are two beehives on this level, deal with them just like the beehives in Bianco Hills and Gelato beach. One is located over the end of the bridge as you come in and the other is behind the giant tree to the left of the hot spring. These have more bees than the hives in the other levels. Yoshi only appears in &lt;b>episode 5&lt;/b>. Fruit of all types is found growing in a tree on a plateau across the path from the hot spring.</string>
-    <string name="coin_video_pv_29">NA</string>
+    <string name="coin_descr_pv_29">There are two beehives on this level, deal with them just like the beehives in Bianco Hills and Gelato beach. &lt;br>&lt;br>
+        This one is located over the end of the bridge. These have more bees than the hives in the other levels. &lt;br>&lt;br>
+        Fruit of all types is found growing in a tree on a plateau across the path from the hot spring.&lt;br>&lt;br>
+        Yoshi only appears in &lt;b>episode 5&lt;/b>.</string>
+    <string name="coin_video_pv_29">https://www.youtube.com/watch?v=TjaxZxpsvzk</string>
 
     <string name="coin_title_pv_30">Butterflies</string>
-    <string name="coin_descr_pv_30">Get Yoshi and go back to the fruit tree, hop on top and from there to the top of the red mushroom next to it. Have Yoshi eat all the blue butterflies and a blue coin appears. Yoshi only appears in &lt;b>episode 5&lt;/b>. Fruit of all types is found growing in a tree on a plateau across the path from the hot spring.</string>
-    <string name="coin_video_pv_30">NA</string>
+    <string name="coin_descr_pv_30">Get Yoshi and go back to the fruit tree, hop on top and from there to the top of the red mushroom next to it.&lt;br>&lt;br>
+        Fruit of all types is found growing in a tree on a plateau across the path from the hot spring. Have Yoshi eat all the blue butterflies and a blue coin appears. &lt;br>&lt;br>
+        Yoshi only appears in &lt;b>episode 5&lt;/b>. </string>
+    <string name="coin_video_pv_30">https://www.youtube.com/watch?v=Gjp7HqXBJok</string>
 </resources>
 

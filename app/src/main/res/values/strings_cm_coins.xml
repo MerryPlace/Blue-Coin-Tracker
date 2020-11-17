@@ -3,43 +3,61 @@
     <string name="guide_link_cm">https://strategywiki.org/wiki/Super_Mario_Sunshine/Corona_Mountain_blue_coins</string>
 
     <string name="coin_title_cm_01">After the 1-Up</string>
-    <string name="coin_descr_cm_01">After the 1-Up mushroom placed on the broken sidewalk, there should be another broken sidewalk with the blue coin in plain sight.</string>
-    <string name="coin_video_cm_01">NA</string>
+    <string name="coin_descr_cm_01">After the 1-Up mushroom placed on the broken sidewalk, there should be another broken sidewalk platform with the blue coin in plain sight.</string>
+    <string name="coin_video_cm_01">https://www.youtube.com/watch?v=Q4RUTEq77vU</string>
 
     <string name="coin_title_cm_02">After Using The Boat (A)</string>
-    <string name="coin_descr_cm_02">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then &lt;i>hover&lt;/i> back.</string>
-    <string name="coin_video_cm_02">NA</string>
+    <string name="coin_descr_cm_02">Using the boat, get to the platform at the end of the volcano area. &lt;br>&lt;br>
+        Get all the outer coins first. If you crash at this point, that\'s OK.&lt;br>&lt;br>
+        Now, get all the coins in the inner area. &lt;i>Hover&lt;/i> but don\'t jump to the blue coins and then &lt;i>hover&lt;/i> back.</string>
+    <string name="coin_video_cm_02">https://www.youtube.com/watch?v=_6h123QYPdk</string>
 
     <string name="coin_title_cm_03">After Using The Boat (B)</string>
-    <string name="coin_descr_cm_03">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then &lt;i>hover&lt;/i> back.</string>
-    <string name="coin_video_cm_03">NA</string>
+    <string name="coin_descr_cm_03">Using the boat, get to the platform at the end of the volcano area. &lt;br>&lt;br>
+        Get all the outer coins first. If you crash at this point, that\'s OK.&lt;br>&lt;br>
+        Now, get all the coins in the inner area. &lt;i>Hover&lt;/i> but don\'t jump to the blue coins and then &lt;i>hover&lt;/i> back.</string>
+    <string name="coin_video_cm_03">https://www.youtube.com/watch?v=XxafbzXC1s4</string>
 
     <string name="coin_title_cm_04">After Using The Boat (C)</string>
-    <string name="coin_descr_cm_04">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then &lt;i>hover&lt;/i> back.</string>
-    <string name="coin_video_cm_04">NA</string>
+    <string name="coin_descr_cm_04">Using the boat, get to the platform at the end of the volcano area. &lt;br>&lt;br>
+        Get all the outer coins first. If you crash at this point, that\'s OK.&lt;br>&lt;br>
+        Now, get all the coins in the inner area. &lt;i>Hover&lt;/i> but don\'t jump to the blue coins and then &lt;i>hover&lt;/i> back.</string>
+    <string name="coin_video_cm_04">https://www.youtube.com/watch?v=PluKabnA0hE</string>
 
     <string name="coin_title_cm_05">After Using The Boat (D)</string>
-    <string name="coin_descr_cm_05">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then &lt;i>hover&lt;/i> back.</string>
-    <string name="coin_video_cm_05">NA</string>
+    <string name="coin_descr_cm_05">Using the boat, get to the platform at the end of the volcano area. &lt;br>&lt;br>
+        Get all the outer coins first. If you crash at this point, that\'s OK.&lt;br>&lt;br>
+        Now, get all the coins in the inner area. &lt;i>Hover&lt;/i> but don\'t jump to the blue coins and then &lt;i>hover&lt;/i> back.</string>
+    <string name="coin_video_cm_05">https://www.youtube.com/watch?v=iexfuJJWZO0</string>
 
     <string name="coin_title_cm_06">After Using The Boat (E)</string>
-    <string name="coin_descr_cm_06">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then &lt;i>hover&lt;/i> back.</string>
-    <string name="coin_video_cm_06">NA</string>
+    <string name="coin_descr_cm_06">Using the boat, get to the platform at the end of the volcano area. &lt;br>&lt;br>
+        Get all the outer coins first. If you crash at this point, that\'s OK.&lt;br>&lt;br>
+        Now, get all the coins in the inner area. &lt;i>Hover&lt;/i> but don\'t jump to the blue coins and then &lt;i>hover&lt;/i> back.</string>
+    <string name="coin_video_cm_06">https://www.youtube.com/watch?v=4MMmDa6W-w4</string>
 
     <string name="coin_title_cm_07">After Using The Boat (F)</string>
-    <string name="coin_descr_cm_07">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then &lt;i>hover&lt;/i> back.</string>
-    <string name="coin_video_cm_07">NA</string>
+    <string name="coin_descr_cm_07">Using the boat, get to the platform at the end of the volcano area. &lt;br>&lt;br>
+        Get all the outer coins first. If you crash at this point, that\'s OK.&lt;br>&lt;br>
+        Now, get all the coins in the inner area. &lt;i>Hover&lt;/i> but don\'t jump to the blue coins and then &lt;i>hover&lt;/i> back.</string>
+    <string name="coin_video_cm_07">https://www.youtube.com/watch?v=x-CJfb87tpk</string>
 
     <string name="coin_title_cm_08">After Using The Boat (G)</string>
-    <string name="coin_descr_cm_08">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then &lt;i>hover&lt;/i> back.</string>
-    <string name="coin_video_cm_08">NA</string>
+    <string name="coin_descr_cm_08">Using the boat, get to the platform at the end of the volcano area. &lt;br>&lt;br>
+        Get all the outer coins first. If you crash at this point, that\'s OK.&lt;br>&lt;br>
+        Now, get all the coins in the inner area. &lt;i>Hover&lt;/i> but don\'t jump to the blue coins and then &lt;i>hover&lt;/i> back.</string>
+    <string name="coin_video_cm_08">https://www.youtube.com/watch?v=yi44YAhS--c</string>
 
     <string name="coin_title_cm_09">After Using The Boat (H)</string>
-    <string name="coin_descr_cm_09">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then &lt;i>hover&lt;/i> back.</string>
-    <string name="coin_video_cm_09">NA</string>
+    <string name="coin_descr_cm_09">Using the boat, get to the platform at the end of the volcano area. &lt;br>&lt;br>
+        Get all the outer coins first. If you crash at this point, that\'s OK.&lt;br>&lt;br>
+        Now, get all the coins in the inner area. &lt;i>Hover&lt;/i> but don\'t jump to the blue coins and then &lt;i>hover&lt;/i> back.</string>
+    <string name="coin_video_cm_09">https://www.youtube.com/watch?v=YUEI4CeV2Hg</string>
 
     <string name="coin_title_cm_10">After Using The Boat (I)</string>
-    <string name="coin_descr_cm_10">Using the boat, get to the end of the mountain, but don\'t crash it. Get all the outer coins first. Now, get all the coins in the inner area. If you crash at this point, that\'s OK. Just go to the platform. Hover-but don\'t jump-to the blue coins and then &lt;i>hover&lt;/i> back.</string>
-    <string name="coin_video_cm_10">NA</string>
+    <string name="coin_descr_cm_10">Using the boat, get to the platform at the end of the volcano area. &lt;br>&lt;br>
+        Get all the outer coins first. If you crash at this point, that\'s OK.&lt;br>&lt;br>
+        Now, get all the coins in the inner area. &lt;i>Hover&lt;/i> but don\'t jump to the blue coins and then &lt;i>hover&lt;/i> back.</string>
+    <string name="coin_video_cm_10">https://www.youtube.com/watch?v=gHVuc_j9A64</string>
 </resources>
 

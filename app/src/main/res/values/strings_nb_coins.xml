@@ -3,134 +3,213 @@
     <string name="guide_link_nb">https://strategywiki.org/wiki/Super_Mario_Sunshine/Noki_Bay_blue_coins</string>
 
     <string name="coin_title_nb_01">Under the falls</string>
-    <string name="coin_descr_nb_01">Look underwater to the left of where the water fall lands. Follow the trail of gold coins to find a blue coin at the end. There is a bubba swimming around down here who should be avoided. Also, don\'t collect all the gold coins on the swim down as you may need them for air on the swim back up. There is a 1-up below the coins but it\'s very difficult to get it and get back to the surface without drowning. &lt;p>Available &lt;b>all episodes except 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_01">NA</string>
+    <string name="coin_descr_nb_01">Look underwater to the left of where the water fall lands. Follow the trail of gold coins to find a blue coin at the end. There is a bubba swimming around down here who should be avoided.&lt;br>&lt;br>
+        You may want to avoid collecting all the gold coins on the swim down as you may need them for air on the swim back up. &lt;br>&lt;br>
+		Available &lt;b>all episodes except 3&lt;/b>.</string>
+    <string name="coin_video_nb_01">https://www.youtube.com/watch?v=M0wO_tWh81M</string>
 
     <string name="coin_title_nb_02">On the water (A)</string>
-    <string name="coin_descr_nb_02">Two coins float just above the water. The first is to the left as you start. For the second, go to the left end of the cliff where it bows out in a semicircle. Then go straight out to sea from there to see the coin. Both coins are much easier to get once the water has been cleaned up starting &lt;b>episode 5&lt;/b>, until then use the boat to reach them. In &lt;b>episode 1&lt;/b> the boat is right next to the first coin instead of at the boathouse where it normally is. &lt;p>Available &lt;b>all episodes except 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_02">NA</string>
+    <string name="coin_descr_nb_02">Two coins float just above the water. This one is to the left as you start. &lt;br>&lt;br>
+        Both coins are much easier to get once the water has been cleaned up starting &lt;b>episode 5&lt;/b>, until then use the boat to reach them.&lt;br>
+        In &lt;b>episode 1&lt;/b> the boat is right next to the first coin instead of at the boathouse where it normally is. &lt;br>&lt;br>
+		Available &lt;b>all episodes except 3&lt;/b>.</string>
+    <string name="coin_video_nb_02">https://www.youtube.com/watch?v=ogAKWALypLo</string>
 
     <string name="coin_title_nb_03">On the water (B)</string>
-    <string name="coin_descr_nb_03">Two coins float just above the water. The first is to the left as you start. For the second, go to the left end of the cliff where it bows out in a semicircle. Then go straight out to sea from there to see the coin. Both coins are much easier to get once the water has been cleaned up starting &lt;b>episode 5&lt;/b>, until then use the boat to reach them. In &lt;b>episode 1&lt;/b> the boat is right next to the first coin instead of at the boathouse where it normally is. &lt;p>Available &lt;b>all episodes except 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_03">NA</string>
+    <string name="coin_descr_nb_03">Two coins float just above the water. For this one, go to the left end of the cliff where it bows out in a semicircle. Then go straight out to sea from there to see the coin. &lt;br>&lt;br>
+        Both coins are much easier to get once the water has been cleaned up starting &lt;b>episode 5&lt;/b>, until then use the boat to reach them. &lt;br>
+        In &lt;b>episode 1&lt;/b> the boat is right next to the first coin instead of at the boathouse where it normally is. &lt;br>&lt;br>
+		Available &lt;b>all episodes except 3&lt;/b>.</string>
+    <string name="coin_video_nb_03">https://www.youtube.com/watch?v=J72Xf6nK__s</string>
 
     <string name="coin_title_nb_04">Upper right cubbyhole</string>
-    <string name="coin_descr_nb_04">Go up the right cliff face and when you reach the next to last ledge, the one where the second pulley drops you off, check on the right for some narrow ledges sticking out of the cliff face. &lt;i>hover&lt;/i> to the first one, then &lt;i>hover&lt;/i> to the one on its right, where there may be a springboard. Use the springboard to get the ledge above, the do a series of back-flip and &lt;i>hover&lt;/i> combinations to reach a ledge with a rocket nozzle crate. Back-flip and &lt;i>hover&lt;/i> to the cubbyhole above to find a coin. In &lt;b>episodes 5 and 7&lt;/b>  the springboard is missing but it\'s still possible, though more difficult, to reach the ledges above it. Instead of stopping at the next to last ledge on the route to the top of the waterfall, go up another ledge, then do a triple jump right and &lt;i>hover&lt;/i>. You can avoid talking to Il Piantissimo in &lt;b>episode 5&lt;/b> by using the tricky ruins and &lt;i>hover&lt;/i>ing right from the ledge where Blooper Glooper was. &lt;p>Available &lt;b>all episodes except 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_04">NA</string>
+    <string name="coin_descr_nb_04">Go up the right cliff face and when you reach the second to last ledge, the one where the second pulley drops you off, check on the right for some narrow ledges sticking out of the cliff face.&lt;br>&lt;br>
+        &lt;i>Hover&lt;/i> to the first one, then &lt;i>hover&lt;/i> to the one on its right, where there may be a springboard. Use the springboard to get the ledge above, the do a series of back-flip and &lt;i>hover&lt;/i> combinations to reach a ledge with a rocket nozzle crate. Back-flip and &lt;i>hover&lt;/i> to the cubbyhole above to find a coin. &lt;br>&lt;br>
+        In &lt;b>episodes 5 and 7&lt;/b>  the springboard is missing but it\'s still possible, though more difficult, to reach the ledges above it. Instead of stopping at the next to last ledge on the route to the top of the waterfall, go up another ledge, then do a triple jump right and &lt;i>hover&lt;/i>.&lt;br>&lt;br>
+		Available &lt;b>all episodes except 3&lt;/b>.</string>
+    <string name="coin_video_nb_04">https://www.youtube.com/watch?v=WUyia1GHtm0</string>
+    <!-- TODO: location of area is unclear    -->
 
     <string name="coin_title_nb_05">Upper right coin stack</string>
-    <string name="coin_descr_nb_05">From the ledge with the upper right cubbyhole coin, get the rocket nozzle and launch to collect gold coins and a blue coin at the top. You may have to hop just before the rocket goes off to get the extra few feet of altitude needed. Visible in all episodes except 3, but not reachable in &lt;b>episode 5, 7 or 8&lt;/b> because the rocket nozzle isn\'t there.</string>
-    <string name="coin_video_nb_05">NA</string>
+    <string name="coin_descr_nb_05">From the ledge with the upper right cubbyhole coin, get the rocket nozzle and launch to collect gold coins and a blue coin at the top. You may have to hop just before the rocket goes off to get the extra few feet of altitude needed. &lt;br>&lt;br>
+        Visible in all episodes except 3, but not reachable in &lt;b>episode 5, 7 or 8&lt;/b> because the rocket nozzle isn\'t there.</string>
+    <string name="coin_video_nb_05">https://www.youtube.com/watch?v=_LoSHXRLcjs</string>
 
     <string name="coin_title_nb_06">Under the diving board</string>
-    <string name="coin_descr_nb_06">Locate the diving board shaped ledge next to the top of the water fall. Go right and drop down to a ledge with a puddle of water, hop left from there and &lt;i>hover&lt;/i> to a hole under the diving board, then collect the coin there. In &lt;b>episode 6&lt;/b> there is a turbo nozzle crate here as well, but in other episodes there is a block of ice with a 1-up inside. &lt;p>Available &lt;b>all episodes except 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_06">NA</string>
+    <string name="coin_descr_nb_06">Locate the diving board shaped ledge next to the top of the water fall. &lt;br>&lt;br>
+        Go right and drop down to a ledge with a puddle of water, hop left from there and &lt;i>hover&lt;/i> to a hole under the diving board, then collect the coin there. &lt;br>&lt;br>
+        In &lt;b>episode 6&lt;/b> there is a turbo nozzle crate here as well, but in other episodes there is a block of ice with a 1-up inside. &lt;br>&lt;br>
+		Available &lt;b>all episodes except 3&lt;/b>.</string>
+    <string name="coin_video_nb_06">https://www.youtube.com/watch?v=KOI3OwBIh5o</string>
 
     <string name="coin_title_nb_07">Hidden wall kicks</string>
-    <string name="coin_descr_nb_07">From the hole under the diving board, drop and &lt;i>hover&lt;/i> to another hole directly below. There is a vertical passage hidden behind a wall above this, though there are some windows to mark its position. Do a series of wall jumps to get to the top and collect the coin that\'s visible through the windows. See below under lower pulley crevice for an alternate and perhaps easier route. &lt;p>Available &lt;b>all episodes except 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_07">NA</string>
+    <string name="coin_descr_nb_07">From the hole under the diving board, drop and &lt;i>hover&lt;/i> to another hole directly below. There is a vertical passage hidden behind a wall above this, though there are some windows to mark its position. &lt;br>&lt;br>
+        Do a series of wall jumps to get to the top and collect the coin that\'s visible through the windows. &lt;br>&lt;br>
+        See the coin "Lower pulley crevice" for an alternate and perhaps easier route. &lt;br>&lt;br>
+		Available &lt;b>all episodes except 3&lt;/b>.</string>
+    <string name="coin_video_nb_07">https://www.youtube.com/watch?v=WtJC5dEWEbQ</string>
 
     <string name="coin_title_nb_08">Upper center cubbyhole</string>
-    <string name="coin_descr_nb_08">Get to the top of the purple shell. This is easiest to do in &lt;b>episode 6&lt;/b> since there are wires you can use to get from tower to tower, follow the walk-through for that episode if in doubt. When you get to the shell entrance do a back-flip to the top. In earlier episodes you can use the rocket to this spot. From the shell, look straight toward the cliff face and notice a cubbyhole. Rocket or &lt;i>hover&lt;/i> toward it to either land inside or grab the ledge, then pick up the coin. For an alternative, see tricky ruins cubbyhole below. &lt;p>Available &lt;b>all episodes except 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_08">NA</string>
+    <string name="coin_descr_nb_08">Get to the top of the purple shell tower. This is easiest to do in &lt;b>episode 6&lt;/b> since there are wires you can use to get from tower to tower.&lt;br>&lt;br>
+        When you get to the shell entrance do a back-flip to the top. In earlier episodes you can use the rocket to this spot. From the shell, look straight toward the cliff face and notice a cubbyhole.&lt;br>&lt;br>
+        Rocket or &lt;i>hover&lt;/i> toward it to either land inside or grab the ledge, then pick up the coin. For an alternative strategy, see the "Tricky ruins cubbyhole" coin. &lt;br>&lt;br>
+		Available &lt;b>all episodes except 3&lt;/b>.</string>
+    <string name="coin_video_nb_08">https://www.youtube.com/watch?v=zz1BBo2Fx_0</string>
 
-    <string name="coin_title_nb_09">Eely\'s domain (A)</string>
-    <string name="coin_descr_nb_09">There are four blue coins in Eely-mouth\'s domain. When you enter the area, swim toward the outer walls and check the tops of the columns. It\'s much easier to do this in &lt;b>episode 8&lt;/b>  because the columns have gold coins as well and you can refresh your air. Also the gold coins surrounding the blue coins make it easier to spot the location from a distance. In &lt;b>episode 8&lt;/b>  there are two additional columns with gold coins only, so keep looking until you\'ve found all six coin columns. Some of the coin columns go almost up to the ceiling so don\'t let yourself sink far when you\'re searching. &lt;p>Available &lt;b>episodes 4 and 8 only&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_09">NA</string>
+    <string name="coin_title_nb_09">Eely\'s domain columns (A)</string>
+    <string name="coin_descr_nb_09">There are four blue coins in Eely-mouth\'s domain. When you enter the area, swim toward the outer walls and check the tops of the columns. &lt;br>&lt;br>
+        It\'s much easier to do this in &lt;b>episode 8&lt;/b>  because the columns have gold coins as well and you can refresh your air. Also the gold coins surrounding the blue coins make it easier to spot the location from a distance. &lt;br>&lt;br>
+        In &lt;b>episode 8&lt;/b>  there are two additional columns with gold coins only, so keep looking until you\'ve found all six coin columns. Some of the coin columns go almost up to the ceiling so don\'t let yourself sink far when you\'re searching. &lt;br>&lt;br>
+		Available &lt;b>episodes 4 and 8 only&lt;/b>.</string>
+    <string name="coin_video_nb_09">https://www.youtube.com/watch?v=BvbKvTLz3Ms</string>
 
-    <string name="coin_title_nb_10">Eely\'s domain (B)</string>
-    <string name="coin_descr_nb_10">There are four blue coins in Eely-mouth\'s domain. When you enter the area, swim toward the outer walls and check the tops of the columns. It\'s much easier to do this in &lt;b>episode 8&lt;/b>  because the columns have gold coins as well and you can refresh your air. Also the gold coins surrounding the blue coins make it easier to spot the location from a distance. In &lt;b>episode 8&lt;/b>  there are two additional columns with gold coins only, so keep looking until you\'ve found all six coin columns. Some of the coin columns go almost up to the ceiling so don\'t let yourself sink far when you\'re searching. &lt;p>Available &lt;b>episodes 4 and 8 only&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_10">NA</string>
+    <string name="coin_title_nb_10">Eely\'s domain columns (B)</string>
+    <string name="coin_descr_nb_10">There are four blue coins in Eely-mouth\'s domain. When you enter the area, swim toward the outer walls and check the tops of the columns. &lt;br>&lt;br>
+        It\'s much easier to do this in &lt;b>episode 8&lt;/b>  because the columns have gold coins as well and you can refresh your air. Also the gold coins surrounding the blue coins make it easier to spot the location from a distance. &lt;br>&lt;br>
+        In &lt;b>episode 8&lt;/b>  there are two additional columns with gold coins only, so keep looking until you\'ve found all six coin columns. Some of the coin columns go almost up to the ceiling so don\'t let yourself sink far when you\'re searching. &lt;br>&lt;br>
+		Available &lt;b>episodes 4 and 8 only&lt;/b>.</string>
+    <string name="coin_video_nb_10">https://www.youtube.com/watch?v=_SJaBvE5oy0</string>
 
-    <string name="coin_title_nb_11">Eely\'s domain (C)</string>
-    <string name="coin_descr_nb_11">There are four blue coins in Eely-mouth\'s domain. When you enter the area, swim toward the outer walls and check the tops of the columns. It\'s much easier to do this in &lt;b>episode 8&lt;/b>  because the columns have gold coins as well and you can refresh your air. Also the gold coins surrounding the blue coins make it easier to spot the location from a distance. In &lt;b>episode 8&lt;/b>  there are two additional columns with gold coins only, so keep looking until you\'ve found all six coin columns. Some of the coin columns go almost up to the ceiling so don\'t let yourself sink far when you\'re searching. &lt;p>Available &lt;b>episodes 4 and 8 only&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_11">NA</string>
+    <string name="coin_title_nb_11">Eely\'s domain columns (C)</string>
+    <string name="coin_descr_nb_11">There are four blue coins in Eely-mouth\'s domain. When you enter the area, swim toward the outer walls and check the tops of the columns. &lt;br>&lt;br>
+        It\'s much easier to do this in &lt;b>episode 8&lt;/b>  because the columns have gold coins as well and you can refresh your air. Also the gold coins surrounding the blue coins make it easier to spot the location from a distance. &lt;br>&lt;br>
+        In &lt;b>episode 8&lt;/b>  there are two additional columns with gold coins only, so keep looking until you\'ve found all six coin columns. Some of the coin columns go almost up to the ceiling so don\'t let yourself sink far when you\'re searching. &lt;br>&lt;br>
+		Available &lt;b>episodes 4 and 8 only&lt;/b>.</string>
+    <string name="coin_video_nb_11">https://www.youtube.com/watch?v=W6-_leL1gyk</string>
 
-    <string name="coin_title_nb_12">Eely\'s domain (D)</string>
-    <string name="coin_descr_nb_12">There are four blue coins in Eely-mouth\'s domain. When you enter the area, swim toward the outer walls and check the tops of the columns. It\'s much easier to do this in &lt;b>episode 8&lt;/b>  because the columns have gold coins as well and you can refresh your air. Also the gold coins surrounding the blue coins make it easier to spot the location from a distance. In &lt;b>episode 8&lt;/b>  there are two additional columns with gold coins only, so keep looking until you\'ve found all six coin columns. Some of the coin columns go almost up to the ceiling so don\'t let yourself sink far when you\'re searching. &lt;p>Available &lt;b>episodes 4 and 8 only&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_12">NA</string>
+    <string name="coin_title_nb_12">Eely\'s domain columns (D)</string>
+    <string name="coin_descr_nb_12">There are four blue coins in Eely-mouth\'s domain. When you enter the area, swim toward the outer walls and check the tops of the columns. &lt;br>&lt;br>
+        It\'s much easier to do this in &lt;b>episode 8&lt;/b>  because the columns have gold coins as well and you can refresh your air. Also the gold coins surrounding the blue coins make it easier to spot the location from a distance. &lt;br>&lt;br>
+        In &lt;b>episode 8&lt;/b>  there are two additional columns with gold coins only, so keep looking until you\'ve found all six coin columns. Some of the coin columns go almost up to the ceiling so don\'t let yourself sink far when you\'re searching. &lt;br>&lt;br>
+		Available &lt;b>episodes 4 and 8 only&lt;/b>.</string>
+    <string name="coin_video_nb_12">https://www.youtube.com/watch?v=Vu3DtyRXGqI</string>
 
     <string name="coin_title_nb_13">Tricky ruins start</string>
-    <string name="coin_descr_nb_13">Spray the stone square to open the first maze in the tricky ruins. Go to the upper left and drop down into the opening below. Hop up to the ledge and collect the coin there. &lt;p>Available &lt;b>all episodes except 1 and 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_13">NA</string>
+    <string name="coin_descr_nb_13">Spray the stone square to open the first maze in the tricky ruins. Go to the upper left and drop down into the opening below. &lt;br>&lt;br>
+        Hop up to the ledge and collect the coin there. &lt;br>&lt;br>
+		Available &lt;b>all episodes except 1 and 3&lt;/b>.</string>
+    <string name="coin_video_nb_13">https://www.youtube.com/watch?v=-gWx9tCFJns</string>
 
     <string name="coin_title_nb_14">Tricky ruins cubbyhole</string>
-    <string name="coin_descr_nb_14">Get to the second maze in the tricky ruins, From the top passage, hop out and &lt;i>hover&lt;/i> up to the cubbyholes above. &lt;i>hover&lt;/i> from hole to hole to reach the second one from the left and get a blue coin. the other three holes as well as the four holes at the bottom of the maze have gold coins. &lt;p>Available &lt;b>all episodes except 1 and 3&lt;/b>.&lt;/p>
-
-Starting from the top passage is an alternate route to the \'Upper center cubbyhole\' coin. Run and hop out of the cliff without hitting your head, then &lt;i>hover&lt;/i> left and you should be able to reach the cubbyhole. This is tricky, but it may be faster.</string>
-    <string name="coin_video_nb_14">NA</string>
+    <string name="coin_descr_nb_14">Get to the second maze in the tricky ruins, From the top passage, hop out and &lt;i>hover&lt;/i> up to the cubbyholes above. &lt;i>hover&lt;/i> from hole to hole to reach the second one from the left and get a blue coin. &lt;br>&lt;br>
+        Starting from the top passage is an alternate route to the \'Upper center cubbyhole\' coin. Run and hop out of the cliff without hitting your head, then &lt;i>hover&lt;/i> left and you should be able to reach the cubbyhole. This is tricky, but it may be faster.&lt;br>&lt;br>
+		Available &lt;b>all episodes except 1 and 3&lt;/b>.</string>
+    <string name="coin_video_nb_14">https://www.youtube.com/watch?v=-mz70-Jp7Hs</string>
 
     <string name="coin_title_nb_15">Hidden ruins lower left</string>
-    <string name="coin_descr_nb_15">Get the ledge between the first and second mazes of the tricky ruins. Now go to the left end of the ledge and drop to the ledge below, it has a doorway behind it. This route doesn\'t work in &lt;b>episode 1&lt;/b> but you can still get to this ledge by bouncing on the floating wicker platform just off-shore. Enter the doorway and follow the hidden passage to a shallow opening further left. Spray the wall here to open a gap between two walls. There are three doorways in the left wall and two in the right wall. Wall jump to the lower doorway on the left, then follow the hidden passage to an opening in the cliff face where it bows out in a semicircle. Spray the squares there to reveal a blue coin in the cubbyhole behind the upper one.</string>
-    <string name="coin_video_nb_15">NA</string>
+    <string name="coin_descr_nb_15">Get the ledge between the first and second mazes of the tricky ruins. Now go to the left end of the ledge and drop to the ledge below, it has a doorway behind it. &lt;br>&lt;br>
+        This route doesn\'t work in &lt;b>episode 1&lt;/b> but you can still get to this ledge by bouncing on the floating wicker platform just off-shore. &lt;br>&lt;br>
+        Enter the doorway and follow the hidden passage to a shallow opening further left. Spray the wall here to open a gap between two walls. There are three doorways in the left wall and two in the right wall. &lt;br>&lt;br>
+        Wall jump to the lower doorway on the left, then follow the hidden passage to an opening in the cliff face where it bows out in a semicircle. Spray the squares there to reveal a blue coin in the cubbyhole behind the upper one.</string>
+    <string name="coin_video_nb_15">https://www.youtube.com/watch?v=tKZhPw_m_tQ</string>
+    <!-- TODO: what episodes?   -->
 
     <string name="coin_title_nb_16">Hidden ruins middle left</string>
-    <string name="coin_descr_nb_16">Open the gap between walls in the hidden ruins and wall jump to the middle doorway on the left, then follow the passage to an opening on the cliff face to the right of where the lower left tunnel opens. Spray the wall on the left and get the blue coin from the upper cubbyhole.</string>
-    <string name="coin_video_nb_16">NA</string>
+    <string name="coin_descr_nb_16">Open the gap between walls in the hidden ruins and wall jump to the middle doorway on the left, then follow the passage to an opening on the cliff face to the right of where the lower left tunnel opens. &lt;br>&lt;br>
+        Spray the wall on the left and get the blue coin from the upper cubbyhole.</string>
+    <string name="coin_video_nb_16">https://www.youtube.com/watch?v=9RGUr0OHZYA</string>
+    <!-- TODO: what episodes?   -->
 
     <string name="coin_title_nb_17">Hidden ruins upper left (A)</string>
-    <string name="coin_descr_nb_17">Open the gap between walls in the hidden ruins and wall jump to the upper doorway on the left, then follow the hidden passage to an opening next to where the middle left tunnel opens. Drop from here to a very small ledge below. Spray the wall next to this ledge to open two cubbyholes with a blue coin in the upper one. Now hop to the ledge just to the right of this and spray the squares to get a blue coin in the cubbyhole on the right.</string>
-    <string name="coin_video_nb_17">NA</string>
+    <string name="coin_descr_nb_17">Open the gap between walls in the hidden ruins and wall jump to the upper doorway on the left, then follow the hidden passage to an opening next to where the middle left tunnel opens. Drop from here to a very small ledge below. &lt;br>&lt;br>
+        Spray the wall next to this ledge to open two cubbyholes with a blue coin in the upper one. Now hop to the ledge just to the right of this and spray the squares to get a blue coin in the cubbyhole on the right.</string>
+    <string name="coin_video_nb_17">https://www.youtube.com/watch?v=geiXqzjwbOM</string>
+    <!-- TODO: what episodes? video could be better   -->
 
     <string name="coin_title_nb_18">Hidden ruins upper left (B)</string>
-    <string name="coin_descr_nb_18">Open the gap between walls in the hidden ruins and wall jump to the upper doorway on the left, then follow the hidden passage to an opening next to where the middle left tunnel opens. Drop from here to a very small ledge below. Spray the wall next to this ledge to open two cubbyholes with a blue coin in the upper one. Now hop to the ledge just to the right of this and spray the squares to get a blue coin in the cubbyhole on the right.</string>
-    <string name="coin_video_nb_18">NA</string>
+    <string name="coin_descr_nb_18">Open the gap between walls in the hidden ruins and wall jump to the upper doorway on the left, then follow the hidden passage to an opening next to where the middle left tunnel opens. Drop from here to a very small ledge below. &lt;br>&lt;br>
+        Spray the wall next to this ledge to open two cubbyholes with a blue coin in the upper one. Now hop to the ledge just to the right of this and spray the squares to get a blue coin in the cubbyhole on the right.</string>
+    <string name="coin_video_nb_18">https://www.youtube.com/watch?v=Z07QLLhLFuc</string>
+    <!-- TODO: what episodes?   -->
 
     <string name="coin_title_nb_19">Hidden ruins lower right</string>
-    <string name="coin_descr_nb_19">Open the gap between walls in the hidden ruins and wall jump to the lower doorway on the right. Follow the short hidden path to an opening to the left of ledge between the two mazes of the tricky ruins. Collect the coin at the exit. you can also &lt;i>hover&lt;/i> to the coin from the ledge nearby. &lt;p>Available &lt;b>all episodes except 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_19">NA</string>
+    <string name="coin_descr_nb_19">Open the gap between walls in the hidden ruins and wall jump to the lower doorway on the right. Follow the short hidden path to an opening to the left of ledge between the two mazes of the tricky ruins. &lt;br>&lt;br>
+        Collect the coin at the exit. you can also &lt;i>hover&lt;/i> to the coin from the ledge nearby. &lt;br>&lt;br>
+		Available &lt;b>all episodes except 3&lt;/b>.</string>
+    <string name="coin_video_nb_19">https://www.youtube.com/watch?v=hf2OaMtWrzo</string>
 
     <string name="coin_title_nb_20">Hidden ruins upper right</string>
-    <string name="coin_descr_nb_20">Open the gap between walls in the hidden ruins and wall jump to the upper doorway on the right. Follow the hidden path to an opening high above the ledge between the two mazes of the tricky ruins. Collect the coin at the exit. Note, this gives a way to reach the ledge between the mazes in &lt;b>episode 1&lt;/b>. You can also reach the coin from the ledge below using the rocket. &lt;p>Available &lt;b>all episodes except 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_20">NA</string>
+    <string name="coin_descr_nb_20">Open the gap between walls in the hidden ruins and wall jump to the upper doorway on the right.&lt;br>&lt;br>
+        Follow the hidden path to an opening high above the ledge between the two mazes of the tricky ruins.&lt;br>&lt;br>
+        Collect the coin at the exit. Note, this gives a way to reach the ledge between the mazes in &lt;b>episode 1&lt;/b>.&lt;br>
+        You can also reach the coin from the ledge below using the rocket or by hovering across from another ruin. &lt;br>&lt;br>
+		Available &lt;b>all episodes except 3&lt;/b>.</string>
+    <string name="coin_video_nb_20">https://www.youtube.com/watch?v=3XoEpEPy-EM</string>
 
     <string name="coin_title_nb_21">Left ruins cubbyhole</string>
-    <string name="coin_descr_nb_21">Go left from the start of the tricky ruins to a gap between two walls at the base of the cliff. This is directly below the hidden ruins. Wall jump to the top and enter the doorway on the left. Follow the hidden passage to a shallow opening in the cliff below where the lower left hidden ruins passage ends. (You can spray to open a cubbyhole here but it\'s empty.) Hop up to the hole and go in, you are bounced upward to the ledge above. take a moment to enjoy the view, then drop off the front of the ledge to land on a ledge above the openings from the hidden tunnels. spray the wall here to open two cubbyholes and get a coin from the one on the left. &lt;p>Available &lt;b>all episodes except 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_21">NA</string>
+    <string name="coin_descr_nb_21">Go left from the start of the tricky ruins to a gap between two walls at the base of the cliff. This is directly below the hidden ruins. &lt;br>&lt;br>
+        Wall jump to the top and enter the doorway on the left. Follow the hidden passage to a shallow opening in the cliff below where the lower left hidden ruins passage ends. (You can spray to open a cubbyhole here but it\'s empty.) &lt;br>&lt;br>
+        Hop up to the hole and go in, you are bounced upward to the ledge above. take a moment to enjoy the view, then drop off the front of the ledge to land on a ledge above the openings from the hidden tunnels. &lt;br>&lt;br>
+        spray the wall here to open two cubbyholes and get a coin from the one on the left. &lt;br>&lt;br>
+		Available &lt;b>all episodes except 3&lt;/b>.</string>
+    <string name="coin_video_nb_21">https://www.youtube.com/watch?v=YeOhz91A46o</string>
 
     <string name="coin_title_nb_22">Hidden ruins top cubbyhole (A)</string>
-    <string name="coin_descr_nb_22">You need to get to the top off the hidden ruins. Do one of the following:
-
-Follow the \'Left ruins cubbyhole\' directions to the high ledge, the hop right and &lt;i>hover&lt;/i> to the top opening.
-Open the gap between walls in the hidden ruins and wall jump all the way to the top. Come out to a ledge and do a series of back-flips to get to the top.
-Now spray the seven squares to open cubbyholes and get a coin each from the upper right and lower left. What looks like a cubbyhole in the center here is actually a hole that ends on a ledge below. &lt;p>Available &lt;b>all episodes except 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_22">NA</string>
+    <string name="coin_descr_nb_22">You need to get to the top of the hidden ruins.&lt;br>&lt;br>
+        Follow the \'Left ruins cubbyhole\' directions to the high ledge, the hop right and &lt;i>hover&lt;/i> to the top opening where the coin is.&lt;br>&lt;br>
+        Alternatively, open the gap between walls in the hidden ruins and wall jump all the way to the top. Come out to a ledge and do a series of back-flips to get to the top.&lt;br>
+        Now spray the seven squares to open cubbyholes and get a coin each from the upper right and lower left (this one). What looks like a cubbyhole in the center here is actually a hole that ends on a ledge below. &lt;br>&lt;br>
+		Available &lt;b>all episodes except 3&lt;/b>.</string>
+    <string name="coin_video_nb_22">https://www.youtube.com/watch?v=LZIzlGxMseg</string>
+    <!-- TODO: no idea what this one is saying   -->
 
     <string name="coin_title_nb_23">Hidden ruins top cubbyhole (B)</string>
-    <string name="coin_descr_nb_23">You need to get to the top off the hidden ruins. Do one of the following:
-
-Follow the \'Left ruins cubbyhole\' directions to the high ledge, the hop right and &lt;i>hover&lt;/i> to the top opening.
-Open the gap between walls in the hidden ruins and wall jump all the way to the top. Come out to a ledge and do a series of back-flips to get to the top.
-Now spray the seven squares to open cubbyholes and get a coin each from the upper right and lower left. What looks like a cubbyhole in the center here is actually a hole that ends on a ledge below. &lt;p>Available &lt;b>all episodes except 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_23">NA</string>
+    <string name="coin_descr_nb_23">You need to get to the top of the hidden ruins.&lt;br>&lt;br>
+        Follow the \'Left ruins cubbyhole\' directions to the high ledge, the hop right and &lt;i>hover&lt;/i> to the top opening where the coin is.&lt;br>&lt;br>
+        Alternatively, open the gap between walls in the hidden ruins and wall jump all the way to the top. Come out to a ledge and do a series of back-flips to get to the top.&lt;br>
+        Now spray the seven squares to open cubbyholes and get a coin each from the upper right (this one) and lower left. What looks like a cubbyhole in the center here is actually a hole that ends on a ledge below. &lt;br>&lt;br>
+		Available &lt;b>all episodes except 3&lt;/b>.</string>
+    <string name="coin_video_nb_23">https://www.youtube.com/watch?v=vIfsL78RMuw</string>
 
     <string name="coin_title_nb_24">Lower pulley crevice</string>
-    <string name="coin_descr_nb_24">Go up the right cliff face as in the &lt;b>episode 1&lt;/b> walk-through. When you reach the second basket, drop from the cliff and sidle along the crevice to the left. At the end of the crevice, spray the wall and part of it will retreat into the cliff leaving an opening you can hop into. Wall jump to collect the coin there. (There is an alternate route to the hidden wall kicks coin here. Keep following the crevice left, down at an angle for a part, to land at the hole below the other coin.) &lt;p>Available &lt;b>all episodes except 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_24">NA</string>
+    <string name="coin_descr_nb_24">Go up the right cliff face as you would in &lt;b>episode 1&lt;/b>. When you reach the second basket, drop from the cliff and sidle along the crevice to the left.&lt;br>&lt;br>
+        At the end of the crevice, spray the wall and part of it will retreat into the cliff leaving an opening you can hop into. Wall jump to collect the coin there. &lt;br>&lt;br>
+        (There is an alternate route to the "Hidden wall kicks" coin here. Keep following the crevice left, down at an angle for a part, to land at the hole below the other coin.) &lt;br>&lt;br>
+		Available &lt;b>all episodes except 3&lt;/b>.</string>
+    <string name="coin_video_nb_24">https://www.youtube.com/watch?v=jEbC4B_mmf4</string>
+    <!-- TODO: video could be better   -->
 
     <string name="coin_title_nb_25">Upper pulley crevice</string>
-    <string name="coin_descr_nb_25">Go up the right cliff face as in the &lt;b>episode 1&lt;/b> walk-through. When you reach the top of the ramp that leads to the upper pulley wheel, drop off to a small ledge behind the wheel. Follow this ledge do an opening in the cliff, then sidle along the crevice to the left. At the end of the crevice, spray the wall and part of it will retreat into the cliff leaving an opening you can hop into. Hop up and drop to the lower part to get the coin. &lt;p>Available &lt;b>all episodes except 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_25">NA</string>
+    <string name="coin_descr_nb_25">Go up the right cliff face as you would in &lt;b>episode 1&lt;/b>. When you reach the top of the ramp that leads to the upper pulley wheel, drop off to a small ledge behind the wheel. &lt;br>&lt;br>
+        Follow this ledge do an opening in the cliff, then sidle along the crevice to the left. At the end of the crevice, spray the wall and part of it will retreat into the cliff leaving an opening you can hop into. &lt;br>&lt;br>
+        Hop up and drop to the lower part to get the coin. &lt;br>&lt;br>
+		Available &lt;b>all episodes except 3&lt;/b>.</string>
+    <string name="coin_video_nb_25">https://www.youtube.com/watch?v=p_Vo1YtP4nM</string>
 
     <string name="coin_title_nb_26">Tricky ruins M</string>
     <string name="coin_descr_nb_26">Go to the ledge between the first and second mazes in the tricky ruins. Locate the graffiti M on the right and wash it off for a blue coin.</string>
-    <string name="coin_video_nb_26">NA</string>
+    <string name="coin_video_nb_26">https://www.youtube.com/watch?v=ocWMyw5DIaA</string>
+    <!-- TODO: what episodes?   -->
 
     <string name="coin_title_nb_27">Paired circles (A)</string>
-    <string name="coin_descr_nb_27">First, follow the directions for the \'Under the diving board\' coin and get the turbo nozzle. Locate the graffiti circle behind and to the left of the boathouse, then locate the corresponding circle at the base of the right cliffs. Wash one circle off to make a blue coin appear at the other circle, then quickly get to the other circle to collect the coin before it disappears. Turbo seems to be required to get the necessary speed. &lt;p>Available &lt;b>episode 6&lt;/b> only.&lt;/p></string>
-    <string name="coin_video_nb_27">NA</string>
+    <string name="coin_descr_nb_27">First, follow the directions for the "Under the diving board" coin and get the turbo nozzle. &lt;br>&lt;br>
+        Locate the graffiti circle at the base of the right cliffs, then locate the corresponding circle behind and to the left of the boathouse. &lt;br>&lt;br>
+        Wash one circle off to make a blue coin appear at the other circle, then quickly get to the other circle to collect the coin before it disappears. &lt;br>
+        Turbo seems to be required to get the necessary speed. &lt;br>&lt;br>
+		Available &lt;b>episode 6&lt;/b> only.</string>
+    <string name="coin_video_nb_27">https://www.youtube.com/watch?v=8sdqn6CXyhI</string>
 
     <string name="coin_title_nb_28">Paired circles (B)</string>
-    <string name="coin_descr_nb_28">First, follow the directions for the \'Under the diving board\' coin and get the turbo nozzle. Locate the graffiti circle behind and to the left of the boathouse, then locate the corresponding circle at the base of the right cliffs. Wash one circle off to make a blue coin appear at the other circle, then quickly get to the other circle to collect the coin before it disappears. Turbo seems to be required to get the necessary speed. &lt;p>Available &lt;b>episode 6&lt;/b> only.&lt;/p></string>
-    <string name="coin_video_nb_28">NA</string>
+    <string name="coin_descr_nb_28">First, follow the directions for the \'Under the diving board\' coin and get the turbo nozzle. &lt;br>&lt;br>
+        Locate the graffiti circle behind and to the left of the boathouse, then locate the corresponding circle at the base of the right cliffs. &lt;br>&lt;br>
+        Wash one circle off to make a blue coin appear at the other circle, then quickly get to the other circle to collect the coin before it disappears. &lt;br>
+        Turbo seems to be required to get the necessary speed. &lt;br>&lt;br>
+		Available &lt;b>episode 6&lt;/b> only.</string>
+    <string name="coin_video_nb_28">https://www.youtube.com/watch?v=ITNIRcUqnZ0</string>
 
     <string name="coin_title_nb_29">Jars in the tomb (A)</string>
-    <string name="coin_descr_nb_29">Enter the kings tomb, see the &lt;b>episode 2&lt;/b>  walk-through. Locate the two large jars stored in the walls and spray them with water to get a blue coin for each. Some of the smaller vases give you gold coins as well. You can exit through the window here to get back to the main area. &lt;p>Available &lt;b>all episodes except 1 and 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_29">NA</string>
+    <string name="coin_descr_nb_29">Enter the kings tomb (see the StrategyWiki\'s &lt;b>episode 2&lt;/b> walk-through).&lt;br>&lt;br>
+        Locate the two large jars stored in the walls and spray them with water to get a blue coin for each. Some of the smaller vases give you gold coins as well. &lt;br>&lt;br>
+        You can exit through the window here to get back to the main area. &lt;br>&lt;br>
+		Available &lt;b>all episodes except 1 and 3&lt;/b>.</string>
+    <string name="coin_video_nb_29">https://www.youtube.com/watch?v=njhk1dLEJb4</string>
 
     <string name="coin_title_nb_30">Jars in the tomb (B)</string>
-    <string name="coin_descr_nb_30">Enter the kings tomb, see the &lt;b>episode 2&lt;/b>  walk-through. Locate the two large jars stored in the walls and spray them with water to get a blue coin for each. Some of the smaller vases give you gold coins as well. You can exit through the window here to get back to the main area. &lt;p>Available &lt;b>all episodes except 1 and 3&lt;/b>.&lt;/p></string>
-    <string name="coin_video_nb_30">NA</string>
+    <string name="coin_descr_nb_30">Enter the kings tomb (see the StrategyWiki\'s &lt;b>episode 2&lt;/b> walk-through).&lt;br>&lt;br>
+        Locate the two large jars stored in the walls and spray them with water to get a blue coin for each. Some of the smaller vases give you gold coins as well. &lt;br>&lt;br>
+        You can exit through the window here to get back to the main area. &lt;br>&lt;br>
+		Available &lt;b>all episodes except 1 and 3&lt;/b>.</string>
+    <string name="coin_video_nb_30">https://www.youtube.com/watch?v=U3cV6YtqtzU</string>
 
 </resources>
 

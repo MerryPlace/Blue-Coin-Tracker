@@ -3,7 +3,8 @@
     <string name="guide_link_bh">https://strategywiki.org/wiki/Super_Mario_Sunshine/Bianco_Hills_blue_coins</string>
 
     <string name="coin_title_bh_01">Stream</string>
-    <string name="coin_descr_bh_01">Go down the path from the start and follow the stream left when you reach it. There is a blue coin in the water by the gate at the end. &lt;br>&lt;br>&lt;b>Appears in all episodes.&lt;/b></string>
+    <string name="coin_descr_bh_01">Go down the path from the start and follow the stream left when you reach it. There is a blue coin in the water by the gate at the end. &lt;br>&lt;br>
+        &lt;b>Appears in all episodes.&lt;/b></string>
     <string name="coin_video_bh_01">https://www.youtube.com/watch?v=SGDKbARMDro</string>
 
     <string name="coin_title_bh_02">North lake</string>
@@ -128,7 +129,8 @@
     <string name="coin_video_bh_21">https://www.youtube.com/watch?v=XpeElHcYTm8</string>
 
     <string name="coin_title_bh_22">Lake spire</string>
-    <string name="coin_descr_bh_22">Follow the ledge around the base of the big windmill and find the spire sticking up out of the lake behind it. Spray the top of it with water and a blue coin pops out. &lt;i>hover&lt;/i> over to reach it.</string>
+    <string name="coin_descr_bh_22">Follow the ledge around the base of the big windmill and find the spire sticking up out of the lake behind it. &lt;br>&lt;br>
+        Spray the top of it with water and a blue coin will pop out. &lt;i>hover&lt;/i> over to reach it.</string>
     <string name="coin_video_bh_22">https://www.youtube.com/watch?v=bR6UjKdYuzI</string>
     <!-- TODO: no mention of what episodes it appears within   -->
 
@@ -141,7 +143,8 @@
 
     <string name="coin_title_bh_24">Blue parrot</string>
     <string name="coin_descr_bh_24">Locate the building with the tall mini-windmill on top.&lt;br>&lt;br>
-        There is a blue parrot which, if left alone, will perch either on this windmill on the wire that connects it to the house with two towers. &lt;br>
+        There is a blue parrot which, if left alone, will perch either on this windmill on the wire that connects it to the house with two towers. &lt;br>&lt;br>
+
         Follow the wire or use the rocket to get to the top of the windmill, then wait for the parrot to fly near and squirt it in mid-air. A few good hits should turn it into a blue coin. &lt;br>&lt;br>
         Appears starting &lt;b>episode 6&lt;/b>.</string>
     <string name="coin_video_bh_24">https://www.youtube.com/watch?v=SmDFcy5K-b4</string>
@@ -179,7 +182,7 @@
     <string name="coin_descr_bh_29">Get Yoshi and hunt for butterflies in the village area. Have Yoshi eat the blue butterfly to get a blue coin.&lt;br>&lt;br>
         &lt;u>Warning:&lt;/u> &lt;br>
         You can reach this episode in the game before unlocking Yoshi, the Yoshi will not appear and you won\'t be able to collect these coins. With Yoshi unlocked, the egg appears in &lt;b>episode 8&lt;/b>.&lt;br>&lt;br>
-        To wake up Yoshi, notice the fruit that appears in Yoshi\'s thought bubble as you pass his egg at the start. Then head for the tree area to collect the fruit and bring it back to Yoshi. &lt;br>
+        To wake up Yoshi, notice the fruit that appears in Yoshi\'s thought bubble as you pass his egg at the start. Then head for the tree area to collect the fruit and bring it back to Yoshi. &lt;br>&lt;br>
         Banana, pineapple, papaya and durian can be found under the trees, and banana and coconut can be found on the bank opposite the river.&lt;br>&lt;br>
     </string>
     <string name="coin_video_bh_29">https://www.youtube.com/watch?v=wq5bWLMEQgs </string>
@@ -189,7 +192,7 @@
         Spray the beehive closer to the lake until it falls down, then have Yoshi eat the bees. Each bee turns into a gold coin except the last one which turns into a blue coin.&lt;br>&lt;br>
         &lt;u>Warning:&lt;/u> &lt;br>
         You can reach this episode in the game before unlocking Yoshi, the Yoshi will not appear and you won\'t be able to collect these coins. With Yoshi unlocked, the egg appears in &lt;b>episode 8&lt;/b>.&lt;br>&lt;br>
-        To wake up Yoshi, notice the fruit that appears in Yoshi\'s thought bubble as you pass his egg at the start. Then head for the tree area to collect the fruit and bring it back to Yoshi. &lt;br>
+        To wake up Yoshi, notice the fruit that appears in Yoshi\'s thought bubble as you pass his egg at the start. Then head for the tree area to collect the fruit and bring it back to Yoshi. &lt;br>&lt;br>
         Banana, pineapple, papaya and durian can be found under the trees, and banana and coconut can be found on the bank opposite the river.
     </string>
     <string name="coin_video_bh_30">https://www.youtube.com/watch?v=xl2oFkCLSJ0</string>
