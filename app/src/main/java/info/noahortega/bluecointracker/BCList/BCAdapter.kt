@@ -9,6 +9,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import info.noahortega.bluecointracker.R
+import android.os.Build
 import kotlinx.android.synthetic.main.list_item.view.*
 
 class BCAdapter(
@@ -43,6 +44,12 @@ class BCAdapter(
         init {
             checkBoxContainer.setOnClickListener(this)
             itemView.setOnClickListener(this)
+
+            if(Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+                val params: ViewGroup.LayoutParams = checkBoxContainer.layoutParams
+                params.height = params.width
+                checkBoxContainer.layoutParams = params
+            }
         }
 
         override fun onClick(v: View?) {
