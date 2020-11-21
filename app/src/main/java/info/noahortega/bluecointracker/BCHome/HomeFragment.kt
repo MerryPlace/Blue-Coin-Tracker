@@ -1,6 +1,7 @@
 package info.noahortega.bluecointracker.BCHome
 
 import android.annotation.SuppressLint
+import android.graphics.Color.parseColor
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,10 +10,11 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import info.noahortega.bluecointracker.R
-
 import info.noahortega.bluecointracker.SharedViewModel
 import info.noahortega.bluecointracker.database.Level
 import info.noahortega.bluecointracker.databinding.FragmentHomeBinding
+import nl.dionsegijn.konfetti.models.Shape
+import nl.dionsegijn.konfetti.models.Size
 
 
 class HomeFragment : Fragment() {
@@ -40,7 +42,6 @@ class HomeFragment : Fragment() {
         })
 
         activity?.title = getString(R.string.app_name)
-
         binding.DPImage.setOnClickListener { levelClicked(LevelCode.dp.code) }
         binding.BHImage.setOnClickListener { levelClicked(LevelCode.bh.code) }
         binding.RHImage.setOnClickListener { levelClicked(LevelCode.rh.code) }
@@ -61,8 +62,9 @@ class HomeFragment : Fragment() {
         _binding = null
     }
 
+    private var totalPercentDone : Int = -1
     @SuppressLint("SetTextI18n")
-    fun refreshPercentages(levels: List<Level>?) {
+    private fun refreshPercentages(levels: List<Level>?) {
         if (levels != null) {
             binding.DPCompletedText.text = "${levels[0].percentDone}%"
             binding.BHCompletedText.text = "${levels[1].percentDone}%"
@@ -79,12 +81,46 @@ class HomeFragment : Fragment() {
                 totalDone += (levels[level].bCoinCount * levels[level].percentDone)
             }
 
-            val totalPercentDone = ((totalDone) / 240.0).toInt()
-            binding.totalCompletionText.text = getString(R.string.home_total_percentage_done, totalPercentDone)
+            totalPercentDone = ((totalDone) / 240.0).toInt()
+            binding.totalCompletionText.text = getString(
+                R.string.home_total_percentage_done,
+                totalPercentDone
+            )
             binding.totalProgressBar.progress = totalPercentDone
+
+            binding.viewKonfetti.post(Runnable {
+                if(totalPercentDone == 100) {
+                    binding.totalCompletionText.text = getString(R.string.completion_text)
+                    confettiTime()
+                }
+                else {
+                    binding.viewKonfetti.reset()
+                }
+            })
+
         }
     }
+
+    private fun confettiTime() {
+        binding.viewKonfetti.build()
+            .setPosition(-100f, binding.viewKonfetti.width + 100f, -50f, -50f)
+            .setDirection(0.0, 359.0)
+            .addShapes(Shape.Circle)
+            .addColors(
+                parseColor("#3e5fd5"),
+                parseColor("#4d53c7"),
+                parseColor("#4770EC"),
+                parseColor("#22268c")
+            )
+            .addSizes(Size(20), Size(20, 3f))
+            .setSpeed(1f, 5f)
+            .setFadeOutEnabled(true)
+            .setTimeToLive(2500L)
+            .streamFor(50, 4000L)
+    }
 }
+
+
 
 enum class LevelCode(val code: Int) {
     na(0),
