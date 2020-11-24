@@ -43,6 +43,17 @@ data class BlueCoin(
     var description: String = "NA",
 )
 
+//one-to-many
+data class LevelWithCoins(
+    @Embedded val level: Level,
+    @Relation(
+        parentColumn = "levelId",
+        entityColumn = "myLevelId"
+    )
+    val blueCoins: List<BlueCoin>
+)
+
+// ENTITIES BELOW ARE FOR FUTURE UPDATES (UNIMPLEMENTED)
 @Entity(tableName = "condition_table")
 data class Condition(
     @PrimaryKey(autoGenerate = true)
@@ -59,34 +70,14 @@ data class CoinCondCrossRef(
     val condId: Long,
 )
 
-//one-to-many
-data class LevelWithCoins(
-    @Embedded val level: Level,
-    @Relation(
-        parentColumn = "levelId",
-        entityColumn = "myLevelId"
-    )
-    val blueCoins: List<BlueCoin>
-)
-
 //many-to-many
 data class CoinWithConditions(
     @Embedded val blueCoin:BlueCoin,
     @Relation(
         parentColumn = "coinId",
         entityColumn = "condId",
-        associateBy = Junction(CoinCondCrossRef::class) //TODO: figure out if necessary
+        associateBy = Junction(CoinCondCrossRef::class)
     )
     val conditions: List<Condition>
 )
 
-//nested one-to-many-to-many //probably shouldn't use
-data class LevelWithCoinsAndCond(
-    @Embedded val level: Level,
-    @Relation(
-        entity = BlueCoin::class,
-        parentColumn = "levelId",
-        entityColumn = "myLevelId",
-    )
-    val blueCoins: List<CoinWithConditions>
-)

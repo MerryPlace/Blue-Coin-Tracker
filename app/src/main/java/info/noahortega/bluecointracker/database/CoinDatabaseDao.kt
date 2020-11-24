@@ -7,18 +7,11 @@ import androidx.room.*
 @Dao
 interface CoinDatabaseDao {
 
-//    @Insert
-//    suspend fun insertLevel(level: Level)
-//
-//    @Insert
-//    suspend fun insertCoin(coin: BlueCoin)
-//
-//    @Insert
-//    suspend fun insertCond(condition: Condition)
-//
-//    @Insert
-//    suspend fun connectCoinCond(connection: CoinCondCrossRef)
+    @Insert
+    suspend fun insertLevel(level: Level)
 
+    @Insert
+    suspend fun insertCoin(coin: BlueCoin)
 
     @Update
     suspend fun updateBlueCoin(blueCoin: BlueCoin)
@@ -45,20 +38,7 @@ interface CoinDatabaseDao {
     @Query("SELECT checked FROM coin_table WHERE myLevelID = :levelId")
     suspend fun getLevelCheckedList(levelId: Int): List<Boolean>
 
-
     @Transaction
     @Query("SELECT * FROM level_table WHERE levelId = :id")
     suspend fun getLevelWithCoins(id: Int): LevelWithCoins
-
-    @Transaction
-    @Query("SELECT * FROM coin_table")
-    suspend fun getCoinsWithConditions(): List<CoinWithConditions>
-
-    @Transaction //probably shouldn't use
-    @Query("SELECT * FROM level_table WHERE nickname = :nickname")
-    suspend fun getLevelsWithCoinsWithSongs(nickname: String): List<LevelWithCoinsAndCond>
-
-    @Query("SELECT COUNT(coinId) FROM coin_table")
-    suspend fun countCoins() : Int
-
 }

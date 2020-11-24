@@ -8,7 +8,6 @@ import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
 
 
-//TODO: update exportSchema to TRUE before release
 @Database(
     entities = [Level::class, BlueCoin::class, Condition::class, CoinCondCrossRef::class],
     version = 1,
@@ -34,8 +33,7 @@ abstract class CoinDatabase : RoomDatabase() {
                         "blue_coin_database"
                     )
                         .createFromAsset("bc_empty.db")
-                        .fallbackToDestructiveMigration() //TODO: bad. implement a migration methodology for upgrading between versions.
-                        .build()
+                        .build() //TODO: Implement a migration methodology for upgrading between versions.
                     INSTANCE = instance
                 }
                 return instance
