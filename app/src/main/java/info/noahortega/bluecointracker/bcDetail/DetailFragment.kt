@@ -1,4 +1,4 @@
-package info.noahortega.bluecointracker.BCDetail
+package info.noahortega.bluecointracker.bcDetail
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -27,7 +27,7 @@ class DetailFragment : Fragment() {
 
     private val model: SharedViewModel by activityViewModels()
 
-    lateinit var coin: BlueCoin
+    private lateinit var myCoin: BlueCoin
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -40,45 +40,58 @@ class DetailFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        coin = model.getSelectedCoin()!!
+        myCoin = model.getSelectedCoin()!!
 
+        //set title
         activity?.title = requireContext().resources.getString(
-            resources.getIdentifier(coin.shortTitle, "string", context?.packageName)
+            resources.getIdentifier(myCoin.shortTitle, "string", context?.packageName)
         )
 
-
+        //load top media resource and set click listener to navigate to zoom
         val imageID:Int = resources.getIdentifier(
-            coin.imageAddress,
+            myCoin.imageAddress,
             "drawable",
             requireContext().packageName
         )
         binding.topMedia.setImageResource(imageID)
-
         binding.topMedia.setOnClickListener { model.navToImageZoom(findNavController(), imageID) }
 
 
-        val text: String = getString(
+        //load description text resource with html formatting and set it
+        val description: String = getString(
             resources.getIdentifier(
-                coin.description,
+                myCoin.description,
                 "string",
                 requireContext().packageName
             )
         )
-
-        if (Build.VERSION.SDK_INT < 24) {
-            binding.descriptionText.text = Html.fromHtml(text)
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.N) {
+            //use depreciated html parse
+            binding.descriptionText.text = Html.fromHtml(description)
         }
         else {
-            val styledText: Spanned = Html.fromHtml(text, FROM_HTML_MODE_LEGACY)
+            val styledText: Spanned = Html.fromHtml(description, FROM_HTML_MODE_LEGACY)
             binding.descriptionText.text = styledText
         }
 
+
+        //load youtube URL and create intent to open it when clicked
         val youtubeURL = getString(resources.getIdentifier(
-            coin.youtubeLink,
+            myCoin.youtubeLink,
             "string",
             requireContext().packageName)
         )
 
+        val youtubeIntent = Intent(Intent.ACTION_VIEW, Uri.parse(youtubeURL))
+        binding.youtubeClickArea.setOnClickListener{
+            try {startActivity(youtubeIntent) }
+            catch (e: ActivityNotFoundException) {
+                println("Error: bad URL $e")
+                Toast.makeText(requireContext(), "Error: could not find video", Toast.LENGTH_SHORT).show()
+            }
+        }
+
+        //load guide URL and create intent to open it when either credit text area is clicked
         val guideURL = resources.getString(
             resources.getIdentifier(
                 model.getSelectedCoinLevel()!!.guideAddress,
@@ -104,17 +117,9 @@ class DetailFragment : Fragment() {
             }
         }
 
-        val youtubeIntent = Intent(Intent.ACTION_VIEW, Uri.parse(youtubeURL))
 
-        binding.youtubeClickArea.setOnClickListener{
-            try {startActivity(youtubeIntent) }
-            catch (e: ActivityNotFoundException) {
-                println("Error: bad URL $e")
-                Toast.makeText(requireContext(), "Error: could not find video", Toast.LENGTH_SHORT).show()
-            }
-        }
-
-        binding.coinCheckbox.isChecked = coin.checked
+        //checkbox setup
+        binding.coinCheckbox.isChecked = myCoin.checked
 
         binding.checkBoxContainer.setOnClickListener {
             binding.coinCheckbox.performClick()
@@ -124,7 +129,7 @@ class DetailFragment : Fragment() {
 
     private fun checkClicked() {
         //in database
-        model.updateCoin(coin.coinId, binding.coinCheckbox.isChecked)
+        model.updateCoinCheck(myCoin.coinId, binding.coinCheckbox.isChecked)
         //in model
         model.editFetchedCoin(model.getFetchedCoinIndex(), binding.coinCheckbox.isChecked)
     }

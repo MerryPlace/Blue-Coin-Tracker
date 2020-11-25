@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <info.noahortega.bluecointracker.BCDetail.ImageZoom
+    <info.noahortega.bluecointracker.bcDetail.ImageZoom
         android:background="@android:color/background_dark"
         android:id="@+id/zoomImage"
         android:layout_width="match_parent"

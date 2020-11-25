@@ -1,4 +1,4 @@
-package info.noahortega.bluecointracker.BCDetail
+package info.noahortega.bluecointracker.bcDetail
 
 import android.content.Context
 import android.graphics.Matrix
@@ -217,7 +217,7 @@ class ImageZoom : AppCompatImageView, View.OnTouchListener,
 
     override fun onDoubleTap(event: MotionEvent): Boolean {
         if(mSaveScale == 1f) {
-            //TODO:zoom on double click
+            //zoom on double click
         }
         else {
             fitToScreen()

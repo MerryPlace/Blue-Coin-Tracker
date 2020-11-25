@@ -11,15 +11,15 @@ import androidx.room.Junction
 data class Level(
     @PrimaryKey()
     var levelId: Int = 0,
-    @ColumnInfo()
+    @ColumnInfo
     var title: String = "NA",
-    @ColumnInfo()
+    @ColumnInfo
     var nickname: String = "NA",
-    @ColumnInfo()
+    @ColumnInfo
     var bCoinCount: Int = -1,
-    @ColumnInfo()
+    @ColumnInfo
     var percentDone: Int = 0,
-    @ColumnInfo()
+    @ColumnInfo
     var guideAddress: String = "home_na",
 )
 
@@ -27,36 +27,20 @@ data class Level(
 data class BlueCoin(
     @PrimaryKey(autoGenerate = true)
     var coinId: Long = 0L,
-    @ColumnInfo()
+    @ColumnInfo
     var myLevelId: Int = 0,
-    @ColumnInfo()
+    @ColumnInfo
     var numInLevel: Int = -1,
-    @ColumnInfo()
+    @ColumnInfo
     var checked: Boolean = false,
-    @ColumnInfo()
+    @ColumnInfo
     var imageAddress: String = "coin_na_00",
-    @ColumnInfo()
+    @ColumnInfo
     var youtubeLink: String = "NA",
-    @ColumnInfo()
+    @ColumnInfo
     var shortTitle: String = "NA",
-    @ColumnInfo()
+    @ColumnInfo
     var description: String = "NA",
-)
-
-@Entity(tableName = "condition_table")
-data class Condition(
-    @PrimaryKey(autoGenerate = true)
-    var condId: Long = 0L,
-    @ColumnInfo()
-    var name: String = "NA",
-    @ColumnInfo()
-    var iconAddress: String = "cond_na",
-)
-
-@Entity(primaryKeys = ["coinId", "condId"])
-data class CoinCondCrossRef(
-    val coinId: Long,
-    val condId: Long,
 )
 
 //one-to-many
@@ -69,24 +53,31 @@ data class LevelWithCoins(
     val blueCoins: List<BlueCoin>
 )
 
+// ENTITIES BELOW ARE FOR FUTURE UPDATES (UNIMPLEMENTED)
+@Entity(tableName = "condition_table")
+data class Condition(
+    @PrimaryKey(autoGenerate = true)
+    var condId: Long = 0L,
+    @ColumnInfo
+    var name: String = "NA",
+    @ColumnInfo
+    var iconAddress: String = "cond_na",
+)
+
+@Entity(primaryKeys = ["coinId", "condId"])
+data class CoinCondCrossRef(
+    val coinId: Long,
+    val condId: Long,
+)
+
 //many-to-many
 data class CoinWithConditions(
     @Embedded val blueCoin:BlueCoin,
     @Relation(
         parentColumn = "coinId",
         entityColumn = "condId",
-        associateBy = Junction(CoinCondCrossRef::class) //TODO: figure out if necessary
+        associateBy = Junction(CoinCondCrossRef::class)
     )
     val conditions: List<Condition>
 )
 
-//nested one-to-many-to-many //probably shouldn't use
-data class LevelWithCoinsAndCond(
-    @Embedded val level: Level,
-    @Relation(
-        entity = BlueCoin::class,
-        parentColumn = "levelId",
-        entityColumn = "myLevelId",
-    )
-    val blueCoins: List<CoinWithConditions>
-)

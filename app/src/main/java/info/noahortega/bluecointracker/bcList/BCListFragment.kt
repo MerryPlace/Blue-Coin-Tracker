@@ -1,4 +1,4 @@
-package info.noahortega.bluecointracker.BCList
+package info.noahortega.bluecointracker.bcList
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -28,7 +28,7 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
         savedInstanceState: Bundle?
     ): View? {
         blueCoinList = generateBCList()
-        adapter = BCAdapter(blueCoinList, this, requireContext())
+        adapter = BCAdapter(blueCoinList, this)
 
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_list, container, false)
@@ -59,14 +59,14 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
 
     override fun onItemClick(position: Int, checked: Boolean, checkClicked: Boolean) {
         val coin = model.getFetchedCoins()!![position]
-        if (checkClicked) { //checkbox
+        if (checkClicked) { //checkbox clicked
             //edit in display
             blueCoinList[position].collected = checked
             adapter.notifyItemChanged(position)
             //edit in data
-            model.updateCoin(coin.coinId, checked)
+            model.updateCoinCheck(coin.coinId, checked)
             model.editFetchedCoin(position,checked)
-        } else {//any other part of the list item
+        } else {//any other part of the list item clicked
             model.navToDetailWithCoin(findNavController(), coin.coinId, position)
         }
     }
