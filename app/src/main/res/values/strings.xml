@@ -1,5 +1,34 @@
 <resources>
     <string name="app_name">Blue Coin Tracker</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_title">Blue Coin Tracker</string>
+    <string name="home_total_percentage_done_dummy">You\'ve Collected %%%</string>
+    <string name="home_total_percentage_done">You\'ve Collected %1$d%%</string>
+    <string name="completion_text">CONGRATS ON 100%</string>
+    <string name="youtube_link">Youtube Clip</string>
+    <string name="coin_conditions_header">Collection Conditions</string>
+    <string name="coin_description_header">Description</string>
+    <string name="text_not_found">N/A</string>
+    <string name="default_coin_image_description">Default Image. There is not a custom image for this coin</string>
+    <string name="youtube_image_description">Youtube logo</string>
+    <string name="empty_percentage">XX%</string>
+    <string name="default_condition_name">Condition</string>
+    <string name="empty_credits">https://strategywiki.org/wiki/Souper_Murio_Sunshine</string>
+    <string name="coin_credit_text">
+        "credit to\n"
+        "StrategyWiki.org"
+    </string>
+    <string-array name="app_credits">
+        <item>Noah Ortega: \nApp Developer / Designer</item>
+        <item>Esteban Huezo: \nResource Acquisition / Support</item>
+        <item>StrategyWiki.org: \nCoin Guide / Usage Permission</item>
+    </string-array>
+    <string-array name="app_credits_links">
+        <item>https://github.com/NoahOrtega</item>
+        <item>https://github.com/EstebanH</item>
+        <item>https://strategywiki.org/wiki/Super_Mario_Sunshine</item>
+    </string-array>
+    <string name="blank_text" />
     <string name="large_text_example">
         "Material is the metaphor.\n\n"
 
@@ -23,42 +52,5 @@
         "interface that immerse the user in the experience.\n"
         "An emphasis on user actions makes core functionality immediately apparent and provides "
         "waypoints for the user.\n\n"
-
-        "Motion provides meaning.\n\n"
-
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
-
-        "3D world.\n\n"
-
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
     </string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="app_title">Blue Coin Tracker</string>
-    <string name="home_total_percentage_done_dummy">You\'ve Collected %%%</string>
-    <string name="home_total_percentage_done">You\'ve Collected %1$d%%</string>
-    <string name="completion_text">CONGRATS ON 100%</string>
-    <string name="youtube_link">Youtube Clip</string>
-    <string name="coin_conditions_header">Collection Conditions</string>
-    <string name="coin_description_header">Description</string>
-    <string name="text_not_found">N/A</string>
-    <string name="default_coin_image_description">Default Image. There is not a custom image for this coin</string>
-    <string name="youtube_image_description">Youtube logo</string>
-    <string name="empty_percentage">XX%</string>
-    <string name="default_condition_name">Condition</string>
-    <string name="coin_credit_text">
-        "credit to\n"
-        "StrategyWiki.org"
-    </string>
-    <string name="empty_credits">https://strategywiki.org/wiki/Super_Mario_Sunshine</string>
-    <string name="blank_text" />
 </resources>
