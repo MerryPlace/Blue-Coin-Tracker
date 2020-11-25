@@ -49,7 +49,7 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
                 val item = BCListItem(
                     coins[n].checked,
                     getString(resources.getIdentifier(coins[n].shortTitle, "string",  activity?.packageName)),
-                    model.levelIDToNamesMap[coins[n].myLevelId] + " " + coins[n].numInLevel
+                    model.levelIDToNamesMap[coins[n].myLevelId] + " #" + coins[n].numInLevel
                 )
                 list += item
             }

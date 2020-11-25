@@ -7,7 +7,7 @@
     <string name="completion_text">CONGRATS ON 100%</string>
     <string name="youtube_link">Youtube Clip</string>
     <string name="coin_conditions_header">Collection Conditions</string>
-    <string name="coin_description_header">Description</string>
+    <string name="coin_description_header">Strategy</string>
     <string name="text_not_found">N/A</string>
     <string name="default_coin_image_description">Default Image. There is not a custom image for this coin</string>
     <string name="youtube_image_description">Youtube logo</string>
