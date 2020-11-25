@@ -45,7 +45,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="app_title">Blue Coin Tracker</string>
     <string name="home_total_percentage_done_dummy">You\'ve Collected %%%</string>
-    <string name="home_total_percentage_done">You\'ve Collected %1$d\%%</string>
+    <string name="home_total_percentage_done">You\'ve Collected %1$d%%</string>
     <string name="completion_text">CONGRATS ON 100%</string>
     <string name="youtube_link">Youtube Clip</string>
     <string name="coin_conditions_header">Collection Conditions</string>

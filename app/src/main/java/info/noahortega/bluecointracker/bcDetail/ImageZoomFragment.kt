@@ -1,4 +1,4 @@
-package info.noahortega.bluecointracker.BCDetail
+package info.noahortega.bluecointracker.bcDetail
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -27,9 +27,4 @@ class ImageZoomFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         zoomImage.setImageResource(model.imageID)
     }
-
-    override fun onDestroy() {
-        super.onDestroy()
-    }
-
 }

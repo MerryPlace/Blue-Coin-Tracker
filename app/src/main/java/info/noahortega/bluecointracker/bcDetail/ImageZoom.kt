@@ -1,4 +1,4 @@
-package info.noahortega.bluecointracker.BCDetail
+package info.noahortega.bluecointracker.bcDetail
 
 import android.content.Context
 import android.graphics.Matrix

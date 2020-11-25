@@ -1,4 +1,4 @@
-package info.noahortega.bluecointracker.BCHome
+package info.noahortega.bluecointracker.bcHome
 
 import android.annotation.SuppressLint
 import android.graphics.Color.parseColor
@@ -88,16 +88,14 @@ class HomeFragment : Fragment() {
             )
             binding.totalProgressBar.progress = totalPercentDone
 
-            binding.viewKonfetti.post(Runnable {
-                if(totalPercentDone == 100) {
+            binding.viewKonfetti.post {
+                if (totalPercentDone == 100) {
                     binding.totalCompletionText.text = getString(R.string.completion_text)
                     confettiTime()
-                }
-                else {
+                } else {
                     binding.viewKonfetti.reset()
                 }
-            })
-
+            }
         }
     }
 

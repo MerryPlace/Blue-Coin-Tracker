@@ -1,12 +1,9 @@
 package info.noahortega.bluecointracker.database
 
 import android.content.Context
-import android.util.Log
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import androidx.sqlite.db.SupportSQLiteDatabase
-
 
 @Database(
     entities = [Level::class, BlueCoin::class, Condition::class, CoinCondCrossRef::class],

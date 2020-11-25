@@ -22,8 +22,6 @@ class SharedViewModel(app: Application) : AndroidViewModel(app) {
 
     private var ioJob = Job()
     private val ioScope = CoroutineScope(Dispatchers.IO + ioJob)
-    private var uiJob = Job()
-    private val uiScope = CoroutineScope(Dispatchers.Main + uiJob)
 
     val levelIDToNamesMap = mapOf(
         1 to app.getString(R.string.delfino_plaza),
@@ -39,55 +37,17 @@ class SharedViewModel(app: Application) : AndroidViewModel(app) {
 
     val liveLevels: LiveData<List<Level>> = database.getLiveOrderedLevels()
 
-    fun updateCoin(coinId: Long, isChecked: Boolean) {
+    //For updating a coin's checked status in the database
+    fun updateCoinCheck(coinId: Long, isChecked: Boolean) {
         ioScope.launch {
-            var coin = database.getCoinById(coinId)
+            val coin = database.getCoinById(coinId)
             coin.checked = isChecked
             database.updateBlueCoin(coin)
             updateLevelCompletion(coin.myLevelId)
         }
     }
 
-    var curLevelId = -1
-    private var fetchedCoins: List<BlueCoin>? = null
-    fun getFetchedCoins(): List<BlueCoin>? { //getter
-        return fetchedCoins
-    }
-    fun editFetchedCoin(coinIndex: Int, checked: Boolean) {
-        fetchedCoins!![coinIndex].checked = checked
-    }
-
-
-    fun navToListWithLevel(navCon: NavController, levelId: Int) {
-        ioScope.launch {
-            curLevelId = levelId
-            fetchedCoins = database.getCoinsByLevelId(levelId)
-            navCon.navigate(R.id.action_homeFragment_to_listFragment)
-        }
-    }
-
-    private var detailViewCoin: BlueCoin? = null
-    fun getSelectedCoin(): BlueCoin? { //getter
-        return detailViewCoin
-    }
-
-    private var coinLevel: Level? = null
-    fun getSelectedCoinLevel(): Level? { //getter
-        return coinLevel
-    }
-    private var fetchedIndex: Int = -1
-    fun getFetchedCoinIndex(): Int { //getter
-        return fetchedIndex
-    }
-    fun navToDetailWithCoin(navCon: NavController, coinId: Long, coinIndex: Int) {
-        ioScope.launch {
-            detailViewCoin = database.getCoinById(coinId)
-            coinLevel = database.getLevelById(detailViewCoin!!.myLevelId)
-            fetchedIndex = coinIndex
-            navCon.navigate(R.id.action_listFragment_to_detailFragment)
-        }
-    }
-
+    //For updating a level's percentage of coins collected
     private fun updateLevelCompletion(levelId: Int) {
         ioScope.launch {
             var completed = 0.0
@@ -104,6 +64,46 @@ class SharedViewModel(app: Application) : AndroidViewModel(app) {
         }
     }
 
+    //For use in the list fragment to avoid unnecessary fetches from the database
+    private var fetchedCoins: List<BlueCoin>? = null
+    var curLevelId = -1
+    fun navToListWithLevel(navCon: NavController, levelId: Int) {
+        ioScope.launch {
+            curLevelId = levelId
+            fetchedCoins = database.getCoinsByLevelId(levelId)
+            navCon.navigate(R.id.action_homeFragment_to_listFragment)
+        }
+    }
+    fun getFetchedCoins(): List<BlueCoin>? { //getter
+        return fetchedCoins
+    }
+    fun editFetchedCoin(coinIndex: Int, checked: Boolean) { //setter
+        fetchedCoins!![coinIndex].checked = checked
+    }
+
+    //For use in the detail fragment
+    private var detailViewCoin: BlueCoin? = null
+    private var detailCoinLevel: Level? = null
+    private var fetchedIndex: Int = -1 //future proofing, in case fetched coins are sorted
+    fun navToDetailWithCoin(navCon: NavController, coinId: Long, coinIndex: Int) {
+        ioScope.launch {
+            detailViewCoin = database.getCoinById(coinId)
+            detailCoinLevel = database.getLevelById(detailViewCoin!!.myLevelId)
+            fetchedIndex = coinIndex
+            navCon.navigate(R.id.action_listFragment_to_detailFragment)
+        }
+    }
+    fun getSelectedCoin(): BlueCoin? { //getter
+        return detailViewCoin
+    }
+    fun getSelectedCoinLevel(): Level? { //getter
+        return detailCoinLevel
+    }
+    fun getFetchedCoinIndex(): Int { //getter
+        return fetchedIndex
+    }
+
+    //For use in the image zoom fragment
     var imageID = -1
     fun navToImageZoom(navCon: NavController, resourceID: Int) {
         imageID = resourceID
@@ -111,7 +111,7 @@ class SharedViewModel(app: Application) : AndroidViewModel(app) {
     }
 
 
-    /*public fun initDatabase() {
+    /*public fun populateDatabase() {
         ioScope.launch {
             database.insertLevel(Level(1, "Delfino Plaza", "dp", 20, 0,"guide_link_dp"))
             database.insertLevel(Level(2, "Bianco Hills", "bh", 30, 0,"guide_link_bh"))

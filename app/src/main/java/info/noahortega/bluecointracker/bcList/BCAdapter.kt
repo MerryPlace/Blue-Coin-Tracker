@@ -1,4 +1,4 @@
-package info.noahortega.bluecointracker.BCList
+package info.noahortega.bluecointracker.bcList
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -15,7 +15,6 @@ import kotlinx.android.synthetic.main.list_item.view.*
 class BCAdapter(
     private val bcList: List<BCListItem>,
     private val listener: OnItemClickListener,
-    private val context:Context
 ) : RecyclerView.Adapter<BCAdapter.BCViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BCViewHolder {
@@ -55,12 +54,12 @@ class BCAdapter(
         override fun onClick(v: View?) {
             val position:Int = adapterPosition
             if (position != RecyclerView.NO_POSITION && v != null) {
-                if(v == checkBoxContainer) {
+                if(v == checkBoxContainer) { //checkbox was clicked
                     checkBox.performClick()
                     val checked = checkBox.isChecked
                     listener.onItemClick(position, checked, checkClicked = true)
                 }
-                else {
+                else { //something else was clicked
                     listener.onItemClick(position, checked = false, checkClicked = false)
                 }
             }

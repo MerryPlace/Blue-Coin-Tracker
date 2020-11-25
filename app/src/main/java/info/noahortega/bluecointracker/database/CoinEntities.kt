@@ -11,15 +11,15 @@ import androidx.room.Junction
 data class Level(
     @PrimaryKey()
     var levelId: Int = 0,
-    @ColumnInfo()
+    @ColumnInfo
     var title: String = "NA",
-    @ColumnInfo()
+    @ColumnInfo
     var nickname: String = "NA",
-    @ColumnInfo()
+    @ColumnInfo
     var bCoinCount: Int = -1,
-    @ColumnInfo()
+    @ColumnInfo
     var percentDone: Int = 0,
-    @ColumnInfo()
+    @ColumnInfo
     var guideAddress: String = "home_na",
 )
 
@@ -27,19 +27,19 @@ data class Level(
 data class BlueCoin(
     @PrimaryKey(autoGenerate = true)
     var coinId: Long = 0L,
-    @ColumnInfo()
+    @ColumnInfo
     var myLevelId: Int = 0,
-    @ColumnInfo()
+    @ColumnInfo
     var numInLevel: Int = -1,
-    @ColumnInfo()
+    @ColumnInfo
     var checked: Boolean = false,
-    @ColumnInfo()
+    @ColumnInfo
     var imageAddress: String = "coin_na_00",
-    @ColumnInfo()
+    @ColumnInfo
     var youtubeLink: String = "NA",
-    @ColumnInfo()
+    @ColumnInfo
     var shortTitle: String = "NA",
-    @ColumnInfo()
+    @ColumnInfo
     var description: String = "NA",
 )
 
@@ -58,9 +58,9 @@ data class LevelWithCoins(
 data class Condition(
     @PrimaryKey(autoGenerate = true)
     var condId: Long = 0L,
-    @ColumnInfo()
+    @ColumnInfo
     var name: String = "NA",
-    @ColumnInfo()
+    @ColumnInfo
     var iconAddress: String = "cond_na",
 )
 
