@@ -6,7 +6,7 @@ Blue Coin Tracker is an unofficial Super Mario Sunshine companion app. The app i
 
 ## Check it out here:
 
-[![Link to google play page](https://i.imgur.com/AywEqVv.png)](https://play.google.com/store/apps/details?id=info.noahortega.bluecointracker)
+[![Link to google play page](https://i.imgur.com/ile0wqH.png)](https://play.google.com/store/apps/details?id=info.noahortega.bluecointracker)
 
 ## Features:
 - Level separated checklists to track your own completion
