@@ -6,4 +6,8 @@
         android:id="@+id/credits_item"
         android:title="Credits"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/themes_item"
+        android:title="Theme"
+        app:showAsAction="never" />
 </menu>
