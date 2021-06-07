@@ -14,10 +14,7 @@
     <string name="empty_percentage">XX%</string>
     <string name="default_condition_name">Condition</string>
     <string name="empty_credits">https://strategywiki.org/wiki/Souper_Murio_Sunshine</string>
-    <string name="coin_credit_text">
-        "credit to\n"
-        "StrategyWiki.org"
-    </string>
+    <string name="coin_credit_text">credit to\nStrategyWiki.org</string>
     <string-array name="app_credits">
         <item>Noah Ortega: \nApp Developer / Designer</item>
         <item>Esteban Huezo: \nResource Acquisition / Support</item>
@@ -37,7 +34,7 @@
         "technologically advanced and open to imagination and magic.\n"
         "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
         "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
+        "flexibility of the material creates new affordances that supersede those in the physical "
         "world, without breaking the rules of physics.\n"
         "The fundamentals of light, surface, and movement are key to conveying how objects move, "
         "interact, and exist in space and in relation to each other. Realistic lighting shows "
