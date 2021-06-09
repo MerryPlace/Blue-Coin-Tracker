@@ -1,6 +1,7 @@
 package info.noahortega.bluecointracker
 
 import android.app.Application
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.navigation.NavController

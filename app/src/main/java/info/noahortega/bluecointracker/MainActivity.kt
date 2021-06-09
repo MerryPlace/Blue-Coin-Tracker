@@ -1,84 +1,58 @@
 package info.noahortega.bluecointracker
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Context
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_UNSPECIFIED
-import androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM
-import androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_YES
-import androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_NO
-
-
+import info.noahortega.bluecointracker.menuDialogs.CreditsDialog
+import info.noahortega.bluecointracker.menuDialogs.ThemeDialog
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var myMenu: Menu
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setContentView(R.layout.activity_main)
 
-        if(AppCompatDelegate.getDefaultNightMode() == MODE_NIGHT_UNSPECIFIED) {
-            AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_FOLLOW_SYSTEM)
+        //TODO: maybe create a failsafe if a sharedpreference can't be created for some reason
+        val sharedPref = getSharedPreferences(getString(R.string.shared_preferences_identifier),Context.MODE_PRIVATE)
+        val prefNOTFOUND = -64 //default value if pref not found, isn't a dark mode code
+        var themePref = sharedPref.getInt(getString(R.string.preference_key_theme), prefNOTFOUND)
+
+        if(themePref == prefNOTFOUND) {
+            val prefEditor: SharedPreferences.Editor = sharedPref.edit()
+            prefEditor.putInt(getString(R.string.preference_key_theme), AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
+            prefEditor.apply();
+
+            themePref = sharedPref.getInt(getString(R.string.preference_key_theme), prefNOTFOUND)
         }
+        AppCompatDelegate.setDefaultNightMode(themePref)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_items, menu)
-        myMenu = menu!!
-        setThemeText();
         return super.onCreateOptionsMenu(menu)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item.itemId) {
-            R.id.credits_item -> creditsDialog()
+        when (item.itemId) {
+            R.id.credits_item -> creditsTapped()
             R.id.themes_item -> themeTapped()
             else -> Toast.makeText(this, "Error: invalid menu item", Toast.LENGTH_SHORT).show()
         }
         return super.onOptionsItemSelected(item)
     }
 
-    private fun creditsDialog() {
-        val dialog = CreditsDialogue()
-        dialog.show(supportFragmentManager, "wazoo")
+    private fun creditsTapped() {
+        val dialog = CreditsDialog()
+        dialog.show(supportFragmentManager, "credits")
     }
 
     private fun themeTapped() {
-        when(val theme = AppCompatDelegate.getDefaultNightMode()) {
-            MODE_NIGHT_FOLLOW_SYSTEM -> {
-                AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_NO)
-            }
-            MODE_NIGHT_NO -> {
-                AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_YES)
-            }
-            MODE_NIGHT_YES -> {
-                AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_FOLLOW_SYSTEM)
-            }
-            else -> {
-                Toast.makeText(this, "Error: invalid theme state ($theme)", Toast.LENGTH_SHORT).show()
-            }
-        }
-        setThemeText()
-    }
-
-    private fun setThemeText() {
-        val themeItem: MenuItem = myMenu.findItem(R.id.themes_item)
-
-        when(AppCompatDelegate.getDefaultNightMode()) {
-            MODE_NIGHT_FOLLOW_SYSTEM -> {
-                themeItem.title = "Theme: System Default"
-            }
-            MODE_NIGHT_NO -> {
-                themeItem.title = "Theme: Light"
-            }
-            MODE_NIGHT_YES -> {
-                themeItem.title = "Theme: Dark"
-            }
-        }
+        val dialog = ThemeDialog()
+        dialog.show(supportFragmentManager, "theme")
     }
 }

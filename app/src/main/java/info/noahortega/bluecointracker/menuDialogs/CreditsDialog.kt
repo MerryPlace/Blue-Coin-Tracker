@@ -1,16 +1,16 @@
-package info.noahortega.bluecointracker
+package info.noahortega.bluecointracker.menuDialogs
 
 import android.app.AlertDialog
 import android.app.Dialog
 import android.content.ActivityNotFoundException
-import android.content.DialogInterface
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatDialogFragment
+import info.noahortega.bluecointracker.R
 
-class CreditsDialogue : AppCompatDialogFragment() {
+class CreditsDialog : AppCompatDialogFragment() {
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         return activity?.let {
@@ -37,5 +37,4 @@ class CreditsDialogue : AppCompatDialogFragment() {
             builder.create()
         } ?: throw IllegalStateException("Activity cannot be null")
     }
-
 }
