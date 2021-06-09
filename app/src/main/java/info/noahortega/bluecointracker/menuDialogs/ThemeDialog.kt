@@ -3,7 +3,6 @@ package info.noahortega.bluecointracker.menuDialogs
 import android.app.AlertDialog
 import android.app.Dialog
 import android.content.Context
-import android.content.DialogInterface
 import android.content.SharedPreferences
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatDelegate
@@ -18,10 +17,9 @@ class ThemeDialog : AppCompatDialogFragment() {
     )
 
     private fun getSelectionFromThemeCode(chosenCode: Int): Int {
-        println(chosenCode.toString() + "AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH")
         for ((selection,themeCode) in selectionToThemeCode) {
             if(themeCode == chosenCode) {
-                return selection;
+                return selection
             }
         }
         return 0;
@@ -35,9 +33,9 @@ class ThemeDialog : AppCompatDialogFragment() {
             val prefNOTFOUND = -64 //default value if pref not found, isn't a dark mode code
             var selection = getSelectionFromThemeCode(sharedPref.getInt(getString(R.string.preference_key_theme), prefNOTFOUND))
             val builder = AlertDialog.Builder(activity)
-            builder.setTitle("Theme")
+            builder.setTitle(getString(R.string.menu_item_theme_title))
                 .setSingleChoiceItems(R.array.theme_options, selection) { _, which -> selection = which }
-                .setPositiveButton("Apply")
+                .setPositiveButton(getString(R.string.dialog_apply))
                 { _, _ ->
                     val prefEditor: SharedPreferences.Editor = sharedPref.edit()
                     prefEditor.putInt(getString(R.string.preference_key_theme), selectionToThemeCode[selection]!!)
@@ -45,10 +43,10 @@ class ThemeDialog : AppCompatDialogFragment() {
                     dialog?.dismiss()
                     AppCompatDelegate.setDefaultNightMode(selectionToThemeCode[selection]!!)
                 }
-                .setNegativeButton("Cancel", null)
+                .setNegativeButton(getString(R.string.dialog_cancel), null)
 
             builder.create()
-        } ?: throw IllegalStateException("Activity cannot be null")
+        } ?: throw IllegalStateException("Theme Dialog: Activity cannot be null")
     }
 }
 

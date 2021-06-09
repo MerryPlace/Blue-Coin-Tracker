@@ -4,10 +4,10 @@
 
     <item
         android:id="@+id/credits_item"
-        android:title="Credits"
+        android:title="@string/menu_item_credits_title"
         app:showAsAction="never" />
     <item
         android:id="@+id/themes_item"
-        android:title="Theme"
+        android:title="@string/menu_item_theme_title"
         app:showAsAction="never" />
 </menu>

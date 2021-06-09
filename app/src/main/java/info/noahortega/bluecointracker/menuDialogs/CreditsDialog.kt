@@ -15,7 +15,7 @@ class CreditsDialog : AppCompatDialogFragment() {
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         return activity?.let {
             val builder = AlertDialog.Builder(activity)
-            builder.setTitle("Credits")
+            builder.setTitle(getString(R.string.menu_item_credits_title))
                 .setItems(R.array.app_credits) { _, which ->
                     val array = resources.getStringArray(R.array.app_credits_links)
 
@@ -32,9 +32,9 @@ class CreditsDialog : AppCompatDialogFragment() {
                         ).show()
                     }
                 }
-                .setNeutralButton("Close") { _, _ -> }
+                .setNeutralButton(getString(R.string.dialog_close)) { _, _ -> }
 
             builder.create()
-        } ?: throw IllegalStateException("Activity cannot be null")
+        } ?: throw IllegalStateException("Credits Dialog: Activity cannot be null")
     }
 }

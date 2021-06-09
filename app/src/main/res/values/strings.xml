@@ -22,16 +22,22 @@
         <item>Esteban Huezo: \nResource Acquisition / Support</item>
         <item>StrategyWiki.org: \nCoin Guide / Usage Permission</item>
     </string-array>
+    <string name="menu_item_credits_title">Credits</string>
     <string-array name="app_credits_links">
         <item>https://github.com/NoahOrtega</item>
         <item>https://github.com/EstebanH</item>
         <item>https://strategywiki.org/wiki/Super_Mario_Sunshine</item>
     </string-array>
+    <string name="dialog_close">Close</string>
+    <string name="menu_item_theme_title">Theme</string>
     <string-array name="theme_options">
         <item>System Default</item>
         <item>Light Theme</item>
         <item>Dark Theme</item>
     </string-array>
+    <string name="dialog_apply">Apply</string>
+    <string name="dialog_cancel">Cancel</string>
+
     <string name="blank_text" />
     <string name="large_text_example">
         "Material is the metaphor.\n\n"
