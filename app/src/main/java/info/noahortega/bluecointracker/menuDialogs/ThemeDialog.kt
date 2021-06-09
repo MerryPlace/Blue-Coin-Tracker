@@ -22,7 +22,7 @@ class ThemeDialog : AppCompatDialogFragment() {
                 return selection
             }
         }
-        return 0;
+        return 0
     }
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {

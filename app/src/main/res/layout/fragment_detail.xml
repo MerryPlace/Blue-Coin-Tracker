@@ -41,7 +41,7 @@
             android:id="@+id/divider_1"
             android:layout_width="match_parent"
             android:layout_height="2dp"
-            android:background="@android:color/darker_gray"
+            android:background="@color/dividerImpactful"
             app:layout_constraintTop_toBottomOf="@+id/top_media"
             tools:layout_editor_absoluteX="-16dp" />
 
@@ -97,7 +97,7 @@
             android:id="@+id/coin_divider"
             android:layout_width="2dp"
             android:layout_height="44dp"
-            android:background="#D3D3D3"
+            android:background="@color/dividerSubtle"
             android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="@+id/yt_icon"
             app:layout_constraintEnd_toStartOf="@+id/checkBoxContainer"
@@ -111,7 +111,7 @@
             android:layout_width="match_parent"
             android:layout_height="2dp"
             android:layout_marginTop="8dp"
-            android:background="@android:color/darker_gray"
+            android:background="@color/dividerImpactful"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
