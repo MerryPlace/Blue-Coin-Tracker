@@ -2,7 +2,7 @@
     <string name="app_name">Blue Coin Tracker</string>
     <string name="shared_preferences_identifier">info.noahortega.bluecointracker.PREFS</string>
     <string name="preference_key_theme">DARK_THEME_KEY</string>
-    <string name="preference_key_default_checkbox">CHECKBOX_TYPE_KEY</string>
+    <string name="preference_key_use_coin_checkbox">CHECKBOX_TYPE_KEY</string>
     <string name="app_title">Blue Coin Tracker</string>
     <string name="home_total_percentage_done_dummy">You\'ve Collected %%%</string>
     <string name="home_total_percentage_done">You\'ve Collected %1$d%%</string>
@@ -35,6 +35,12 @@
         <item>Light Theme</item>
         <item>Dark Theme</item>
     </string-array>
+    <string name="menu_item_checkbox_title">Checkbox Style</string>
+    <string-array name="checkbox_options">
+        <item>Blue Coin</item>
+        <item>Default (accessibility)</item>
+    </string-array>
+    <string name="older_version_checkbox_warning">Unavailable on older android versions</string>
     <string name="dialog_apply">Apply</string>
     <string name="dialog_cancel">Cancel</string>
 

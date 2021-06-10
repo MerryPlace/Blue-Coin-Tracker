@@ -1,6 +1,7 @@
 package info.noahortega.bluecointracker.bcDetail
 
 import android.content.ActivityNotFoundException
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
@@ -12,9 +13,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
+import info.noahortega.bluecointracker.R
 import info.noahortega.bluecointracker.SharedViewModel
 import info.noahortega.bluecointracker.database.BlueCoin
 import info.noahortega.bluecointracker.databinding.FragmentDetailBinding
@@ -32,7 +35,7 @@ class DetailFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentDetailBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -46,6 +49,14 @@ class DetailFragment : Fragment() {
         activity?.title = requireContext().resources.getString(
             resources.getIdentifier(myCoin.shortTitle, "string", context?.packageName)
         )
+
+        //check pref and set checkbox accordingly
+        val sharedPref = activity?.getSharedPreferences(getString(R.string.shared_preferences_identifier), Context.MODE_PRIVATE)
+        if (sharedPref != null) {
+            if(sharedPref.getBoolean(getString(R.string.preference_key_use_coin_checkbox), true)) {
+                binding.coinCheckbox.buttonDrawable = ContextCompat.getDrawable(requireActivity(), R.drawable.btn_coin);
+            }
+        }
 
         //load top media resource and set click listener to navigate to zoom
         val imageID:Int = resources.getIdentifier(
@@ -90,6 +101,7 @@ class DetailFragment : Fragment() {
                 Toast.makeText(requireContext(), "Error: could not find video", Toast.LENGTH_SHORT).show()
             }
         }
+
 
         //load guide URL and create intent to open it when either credit text area is clicked
         val guideURL = resources.getString(

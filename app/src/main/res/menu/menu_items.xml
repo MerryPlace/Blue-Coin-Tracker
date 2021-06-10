@@ -10,4 +10,8 @@
         android:id="@+id/themes_item"
         android:title="@string/menu_item_theme_title"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/checkbox_item"
+        android:title="@string/menu_item_checkbox_title"
+        app:showAsAction="never" />
 </menu>
