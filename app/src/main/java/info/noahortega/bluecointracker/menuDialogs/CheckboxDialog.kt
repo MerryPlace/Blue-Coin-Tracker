@@ -14,12 +14,9 @@ class CheckboxDialog : AppCompatDialogFragment(){
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         return activity?.let {
-            //TODO: maybe create a failsafe if a sharedpreference can't be created for some reason
             val sharedPref = requireActivity().getSharedPreferences(getString(R.string.shared_preferences_identifier),
                 Context.MODE_PRIVATE)
-
             var selection = if (sharedPref.getBoolean(getString(R.string.preference_key_use_coin_checkbox), true)) 0 else 1
-
             val builder = AlertDialog.Builder(activity)
             builder.setTitle(getString(R.string.menu_item_checkbox_title))
                 .setSingleChoiceItems(R.array.checkbox_options, selection) { _, which -> selection = which }
@@ -28,7 +25,6 @@ class CheckboxDialog : AppCompatDialogFragment(){
                     val prefEditor: SharedPreferences.Editor = sharedPref.edit()
                     prefEditor.putBoolean(getString(R.string.preference_key_use_coin_checkbox), (selection == 0))
                     prefEditor.apply()
-                    dialog?.dismiss()
                 }
                 .setNegativeButton(getString(R.string.dialog_cancel), null)
 

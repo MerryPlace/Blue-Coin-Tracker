@@ -40,7 +40,8 @@
         <item>Blue Coin</item>
         <item>Default (accessibility)</item>
     </string-array>
-    <string name="older_version_checkbox_warning">Unavailable on older android versions</string>
+    <string name="warning_older_version_checkbox">Unavailable on older android versions</string>
+    <string name="warning_preference_error">Unable to load user preferences</string>
     <string name="dialog_apply">Apply</string>
     <string name="dialog_cancel">Cancel</string>
     <string name="blank_text"/>

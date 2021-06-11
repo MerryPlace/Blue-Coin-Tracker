@@ -27,11 +27,9 @@ class ThemeDialog : AppCompatDialogFragment() {
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         return activity?.let {
-            //TODO: maybe create a failsafe if a sharedpreference can't be created for some reason
             val sharedPref = requireActivity().getSharedPreferences(getString(R.string.shared_preferences_identifier),
                 Context.MODE_PRIVATE)
-            val prefNOTFOUND = -64 //default value if pref not found, isn't a dark mode code
-            var selection = getSelectionFromThemeCode(sharedPref.getInt(getString(R.string.preference_key_theme), prefNOTFOUND))
+            var selection = getSelectionFromThemeCode(sharedPref.getInt(getString(R.string.preference_key_theme), selectionToThemeCode[0]!!))
             val builder = AlertDialog.Builder(activity)
             builder.setTitle(getString(R.string.menu_item_theme_title))
                 .setSingleChoiceItems(R.array.theme_options, selection) { _, which -> selection = which }

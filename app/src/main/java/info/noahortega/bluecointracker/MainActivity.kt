@@ -15,33 +15,38 @@ import info.noahortega.bluecointracker.menuDialogs.ThemeDialog
 
 class MainActivity : AppCompatActivity() {
 
+    private var preferenceError = false
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //TODO: maybe create a failsafe if a theme sharedpreference can't be created for some reason
         val sharedPref = getSharedPreferences(getString(R.string.shared_preferences_identifier),Context.MODE_PRIVATE)
+        if(sharedPref != null) {
+            //initialize theme pref and set
+            val themePrefNOTFOUND = -64 //default value if pref not found, isn't a dark mode code
+            var themePref = sharedPref.getInt(getString(R.string.preference_key_theme), themePrefNOTFOUND)
 
-        //initialize theme pref and set
-        val themePrefNOTFOUND = -64 //default value if pref not found, isn't a dark mode code
-        var themePref = sharedPref.getInt(getString(R.string.preference_key_theme), themePrefNOTFOUND)
+            if(themePref == themePrefNOTFOUND) {
+                val prefEditor: SharedPreferences.Editor = sharedPref.edit()
+                prefEditor.putInt(getString(R.string.preference_key_theme), AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
+                prefEditor.apply()
 
-        if(themePref == themePrefNOTFOUND) {
-            val prefEditor: SharedPreferences.Editor = sharedPref.edit()
-            prefEditor.putInt(getString(R.string.preference_key_theme), AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
-            prefEditor.apply();
+                themePref = sharedPref.getInt(getString(R.string.preference_key_theme), themePrefNOTFOUND)
+            }
+            AppCompatDelegate.setDefaultNightMode(themePref)
 
-            themePref = sharedPref.getInt(getString(R.string.preference_key_theme), themePrefNOTFOUND)
+            //initialize checkbox pref
+            if(!sharedPref.contains(getString(R.string.preference_key_use_coin_checkbox))) {
+                val prefEditor: SharedPreferences.Editor = sharedPref.edit()
+                prefEditor.putBoolean(getString(R.string.preference_key_use_coin_checkbox), true)
+                prefEditor.apply()
+            }
         }
-        AppCompatDelegate.setDefaultNightMode(themePref)
-
-        //initialize checkbox pref
-        if(!sharedPref.contains(getString(R.string.preference_key_use_coin_checkbox))) {
-            val prefEditor: SharedPreferences.Editor = sharedPref.edit()
-            prefEditor.putBoolean(getString(R.string.preference_key_use_coin_checkbox), false)
-            //TODO: should be set to true by default
-            prefEditor.apply();
+        else {
+            preferenceError = true
         }
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -60,23 +65,34 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun creditsTapped() {
+
         val dialog = CreditsDialog()
         dialog.show(supportFragmentManager, "credits")
+
     }
 
     private fun themeTapped() {
-        val dialog = ThemeDialog()
-        dialog.show(supportFragmentManager, "theme")
+        if(preferenceError) {
+            Toast.makeText(this, getString(R.string.warning_preference_error), Toast.LENGTH_SHORT).show()
+        }
+        else {
+            val dialog = ThemeDialog()
+            dialog.show(supportFragmentManager, "theme")
+        }
     }
 
     private fun checkboxTapped() {
-
-        if(Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-            Toast.makeText(this, getString(R.string.older_version_checkbox_warning), Toast.LENGTH_LONG).show()
+        if(preferenceError) {
+            Toast.makeText(this, getString(R.string.warning_preference_error), Toast.LENGTH_SHORT).show()
         }
-        else {
-            val dialog = CheckboxDialog()
-            dialog.show(supportFragmentManager, "theme")
+        else  {
+            if(Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+                Toast.makeText(this, getString(R.string.warning_older_version_checkbox), Toast.LENGTH_SHORT).show()
+            }
+            else {
+                val dialog = CheckboxDialog()
+                dialog.show(supportFragmentManager, "theme")
+            }
         }
     }
 }
