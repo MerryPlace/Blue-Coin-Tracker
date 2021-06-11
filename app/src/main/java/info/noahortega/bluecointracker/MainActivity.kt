@@ -85,14 +85,9 @@ class MainActivity : AppCompatActivity() {
         if(preferenceError) {
             Toast.makeText(this, getString(R.string.warning_preference_error), Toast.LENGTH_SHORT).show()
         }
-        else  {
-            if(Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-                Toast.makeText(this, getString(R.string.warning_older_version_checkbox), Toast.LENGTH_SHORT).show()
-            }
-            else {
-                val dialog = CheckboxDialog()
-                dialog.show(supportFragmentManager, "theme")
-            }
+        else {
+            val dialog = CheckboxDialog()
+            dialog.show(supportFragmentManager, "theme")
         }
     }
 }

@@ -16,6 +16,7 @@ import kotlinx.android.synthetic.main.list_item.view.*
 class BCAdapter(
     private val bcList: List<BCListItem>,
     private val listener: OnItemClickListener,
+    private val useCustomCheckbox: Boolean
 ) : RecyclerView.Adapter<BCAdapter.BCViewHolder>() {
 
     private lateinit var customCheckBoxDrawable: Drawable
@@ -25,6 +26,14 @@ class BCAdapter(
         val itemView = LayoutInflater.from(parent.context).inflate(
             R.layout.list_item, parent, false
         )
+
+        if(useCustomCheckbox) {
+            itemView.coin_checkbox.buttonDrawable = customCheckBoxDrawable
+        }
+        val params: ViewGroup.LayoutParams = itemView.checkbox_container.layoutParams
+        params.height = params.width
+        itemView.checkbox_container.layoutParams = params
+
         return BCViewHolder(itemView)
     }
 
@@ -34,21 +43,12 @@ class BCAdapter(
         holder.checkBox.isChecked = currentItem.collected
         holder.title.text = currentItem.title_text
         holder.level.text = currentItem.level_text
-
-        if(currentItem.useCustomCheckbox) {
-            holder.checkBox.buttonDrawable = customCheckBoxDrawable
-        }
-        else {
-            val params: ViewGroup.LayoutParams = holder.checkBoxContainer.layoutParams
-            params.height = params.width
-            holder.checkBoxContainer.layoutParams = params
-        }
     }
 
     override fun getItemCount() = bcList.size
 
     inner class BCViewHolder(itemView: View): RecyclerView.ViewHolder(itemView), View.OnClickListener {
-        val checkBoxContainer: LinearLayout = itemView.checkbox_container
+        private val checkBoxContainer: LinearLayout = itemView.checkbox_container
         val checkBox: CheckBox = itemView.coin_checkbox
         val title: TextView = itemView.title_text
         val level: TextView = itemView.level_text
