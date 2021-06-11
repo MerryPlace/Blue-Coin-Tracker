@@ -43,8 +43,7 @@
     <string name="older_version_checkbox_warning">Unavailable on older android versions</string>
     <string name="dialog_apply">Apply</string>
     <string name="dialog_cancel">Cancel</string>
-
-    <string name="blank_text" />
+    <string name="blank_text"/>
     <string name="large_text_example">
         "Material is the metaphor.\n\n"
 

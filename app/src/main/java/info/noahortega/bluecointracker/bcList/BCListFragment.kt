@@ -1,5 +1,7 @@
 package info.noahortega.bluecointracker.bcList
 
+import android.content.Context
+import android.os.Build
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -42,12 +44,24 @@ class BCListFragment : Fragment(), BCAdapter.OnItemClickListener {
     }
 
     private fun generateBCList(): List<BCListItem> {
+        var useCustomCheckBox = false
+        val sharedPref = activity?.getSharedPreferences(getString(R.string.shared_preferences_identifier), Context.MODE_PRIVATE)
+        if (sharedPref != null) {
+            if(sharedPref.getBoolean(getString(R.string.preference_key_use_coin_checkbox), false)) {
+                if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    useCustomCheckBox = true
+                }
+            }
+        }
+
+
         val list = ArrayList<BCListItem>()
         val coins = model.getFetchedCoins()
         if (coins != null) {
             for (n in coins.indices) {
                 val item = BCListItem(
                     coins[n].checked,
+                    useCustomCheckBox,
                     getString(resources.getIdentifier(coins[n].shortTitle, "string",  activity?.packageName)),
                     model.levelIDToNamesMap[coins[n].myLevelId] + " #" + coins[n].numInLevel
                 )

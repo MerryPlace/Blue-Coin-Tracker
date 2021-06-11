@@ -1,6 +1,7 @@
 package info.noahortega.bluecointracker.bcList
 
-import android.content.Context
+
+import android.graphics.drawable.Drawable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,7 +10,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import info.noahortega.bluecointracker.R
-import android.os.Build
+import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.list_item.view.*
 
 class BCAdapter(
@@ -17,7 +18,10 @@ class BCAdapter(
     private val listener: OnItemClickListener,
 ) : RecyclerView.Adapter<BCAdapter.BCViewHolder>() {
 
+    private lateinit var customCheckBoxDrawable: Drawable
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BCViewHolder {
+        customCheckBoxDrawable = ContextCompat.getDrawable(parent.context,R.drawable.btn_coin)!!
         val itemView = LayoutInflater.from(parent.context).inflate(
             R.layout.list_item, parent, false
         )
@@ -30,12 +34,21 @@ class BCAdapter(
         holder.checkBox.isChecked = currentItem.collected
         holder.title.text = currentItem.title_text
         holder.level.text = currentItem.level_text
+
+        if(currentItem.useCustomCheckbox) {
+            holder.checkBox.buttonDrawable = customCheckBoxDrawable
+        }
+        else {
+            val params: ViewGroup.LayoutParams = holder.checkBoxContainer.layoutParams
+            params.height = params.width
+            holder.checkBoxContainer.layoutParams = params
+        }
     }
 
     override fun getItemCount() = bcList.size
 
     inner class BCViewHolder(itemView: View): RecyclerView.ViewHolder(itemView), View.OnClickListener {
-        private val checkBoxContainer: LinearLayout = itemView.checkbox_container
+        val checkBoxContainer: LinearLayout = itemView.checkbox_container
         val checkBox: CheckBox = itemView.coin_checkbox
         val title: TextView = itemView.title_text
         val level: TextView = itemView.level_text
@@ -43,12 +56,6 @@ class BCAdapter(
         init {
             checkBoxContainer.setOnClickListener(this)
             itemView.setOnClickListener(this)
-
-            if(Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-                val params: ViewGroup.LayoutParams = checkBoxContainer.layoutParams
-                params.height = params.width
-                checkBoxContainer.layoutParams = params
-            }
         }
 
         override fun onClick(v: View?) {

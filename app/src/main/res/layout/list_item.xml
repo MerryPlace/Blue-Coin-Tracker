@@ -22,7 +22,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:button="@drawable/btn_coin"
                 android:clickable="false"
                 android:focusable="false"
                 android:scaleX=".8"

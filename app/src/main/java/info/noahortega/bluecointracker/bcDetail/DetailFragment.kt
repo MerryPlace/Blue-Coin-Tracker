@@ -53,8 +53,8 @@ class DetailFragment : Fragment() {
         //check pref and set checkbox accordingly
         val sharedPref = activity?.getSharedPreferences(getString(R.string.shared_preferences_identifier), Context.MODE_PRIVATE)
         if (sharedPref != null) {
-            if(sharedPref.getBoolean(getString(R.string.preference_key_use_coin_checkbox), true)) {
-                binding.coinCheckbox.buttonDrawable = ContextCompat.getDrawable(requireActivity(), R.drawable.btn_coin);
+            if(sharedPref.getBoolean(getString(R.string.preference_key_use_coin_checkbox), false)) {
+                binding.coinCheckbox.buttonDrawable = ContextCompat.getDrawable(requireActivity(), R.drawable.btn_coin)
             }
         }
 
