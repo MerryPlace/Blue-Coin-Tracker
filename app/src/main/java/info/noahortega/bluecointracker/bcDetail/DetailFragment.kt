@@ -24,7 +24,6 @@ import info.noahortega.bluecointracker.databinding.FragmentDetailBinding
 
 
 class DetailFragment : Fragment() {
-
     private var _binding: FragmentDetailBinding? = null
     private val binding get() = _binding!!
 
@@ -43,8 +42,19 @@ class DetailFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        myCoin = model.getSelectedCoin()!!
+        try {
+            myCoin = model.getSelectedCoin()!!
+        }
+        catch (e: NullPointerException) { //
+            println("$e: detailFrag couldn't load coin from view model")
+            this.findNavController().navigate(R.id.detail_panic_home)
+            return
+        }
 
+        populateView()
+    }
+
+    private fun populateView() {
         //set title
         activity?.title = requireContext().resources.getString(
             resources.getIdentifier(myCoin.shortTitle, "string", context?.packageName)
@@ -138,6 +148,7 @@ class DetailFragment : Fragment() {
             checkClicked()
         }
     }
+
 
     private fun checkClicked() {
         //in database

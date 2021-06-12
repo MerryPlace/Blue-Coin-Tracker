@@ -33,6 +33,11 @@
         <action
             android:id="@+id/action_detailFragment_to_imageZoomFragment"
             app:destination="@id/imageZoomFragment" />
+        <action
+            android:id="@+id/detail_panic_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/imageZoomFragment"
