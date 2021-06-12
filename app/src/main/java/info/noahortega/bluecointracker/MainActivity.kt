@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.os.Build
 import android.os.Bundle
+import android.os.PersistableBundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
@@ -18,9 +19,6 @@ class MainActivity : AppCompatActivity() {
     private var preferenceError = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
         val sharedPref = getSharedPreferences(getString(R.string.shared_preferences_identifier),Context.MODE_PRIVATE)
         if(sharedPref != null) {
             //initialize theme pref and set
@@ -46,7 +44,9 @@ class MainActivity : AppCompatActivity() {
         else {
             preferenceError = true
         }
-
+        
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
