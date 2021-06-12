@@ -48,6 +48,7 @@ class DetailFragment : Fragment() {
         catch (e: NullPointerException) { //
             println("$e: detailFrag couldn't load coin from view model")
             this.findNavController().navigate(R.id.detail_panic_home)
+            Toast.makeText(requireContext(), getString(R.string.panic_to_home), Toast.LENGTH_SHORT).show()
             return
         }
 

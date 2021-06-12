@@ -69,4 +69,5 @@
         "An emphasis on user actions makes core functionality immediately apparent and provides "
         "waypoints for the user.\n\n"
     </string>
+    <string name="panic_to_home">Welcome back</string>
 </resources>
