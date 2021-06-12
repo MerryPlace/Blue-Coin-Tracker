@@ -4,7 +4,7 @@
     <string name="preference_key_theme">DARK_THEME_KEY</string>
     <string name="preference_key_use_coin_checkbox">CHECKBOX_TYPE_KEY</string>
     <string name="app_title">Blue Coin Tracker</string>
-    <string name="home_total_percentage_done_dummy">You\'ve Collected %%%</string>
+    <string name="home_total_percentage_done_dummy">Loading...</string>
     <string name="home_total_percentage_done">You\'ve Collected %1$d%%</string>
     <string name="completion_text">CONGRATS ON 100%</string>
     <string name="youtube_link">Youtube Clip</string>
@@ -13,7 +13,7 @@
     <string name="text_not_found">N/A</string>
     <string name="default_coin_image_description">Default Image. There is not a custom image for this coin</string>
     <string name="youtube_image_description">Youtube logo</string>
-    <string name="empty_percentage">XX%</string>
+    <string name="empty_percentage">...%</string>
     <string name="default_condition_name">Condition</string>
     <string name="empty_credits">https://strategywiki.org/wiki/Souper_Murio_Sunshine</string>
     <string name="coin_credit_text">credit to\nStrategyWiki.org</string>
