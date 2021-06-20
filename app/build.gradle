@@ -13,8 +13,8 @@ android {
         applicationId "info.noahortega.bluecointracker"
         minSdkVersion 19
         targetSdkVersion 30
-        versionCode 3
-        versionName "1.11"
+        versionCode 4
+        versionName "1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
