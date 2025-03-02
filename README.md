@@ -4,6 +4,9 @@ Since there's no ingame tool for keeping track of blue coins, they're notoriousl
 
 Blue Coin Tracker is an unofficial Super Mario Sunshine companion app. The app is intended to assist players in keeping track of their blue coin progress while also providing a helpful guide and videos right at their fingertips.
 
+# New webapp for non-android users:
+iOS and PC users felt left out so I made yall a React app so you can use it right in your browser, [You can find it here](https://github.com/MerryPlace/blue-coin-tracker-webapp?tab=readme-ov-file). Hope you enjoy!
+
 ## Check it out here:
 
 [![Link to google play page](https://i.imgur.com/ile0wqH.png)](https://play.google.com/store/apps/details?id=info.noahortega.bluecointracker)
